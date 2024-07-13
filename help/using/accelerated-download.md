@@ -12,7 +12,7 @@ discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
 source-git-commit: ce765700aaecba4bfff7b55effb05f981b94bdec
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '949'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Med Adobe Experience Manager Assets Brand Portal kan du förbättra hämtningspr
 >
 >Nedladdningshastigheten varierar för användarna eftersom den beror på t.ex. nätverkets bandbredd, serverns latens och klienternas geografiska placering.
 
-The **[!UICONTROL Fast Download]** är som standard aktiverat, vilket avsevärt minskar tiden det tar att hämta önskade resursfiler från Brand Portal.
+Konfigurationen **[!UICONTROL Fast Download]** är som standard aktiverad, vilket minskar hämtningstiden avsevärt från Brand Portal.
 
 ![](assets/download-settings-new.png)
 
@@ -35,9 +35,9 @@ The **[!UICONTROL Fast Download]** är som standard aktiverat, vilket avsevärt 
 
 Om du vill hämta filerna snabbare bör du göra följande:
 
-* Navigera till **[!UICONTROL Tools]** > **[!UICONTROL Download]** och verifiera att **[!UICONTROL Fast Download]** konfigurationen är aktiverad i **[!UICONTROL Download Settings]**.
+* Navigera till **[!UICONTROL Tools]** > **[!UICONTROL Download]** och verifiera att konfigurationen **[!UICONTROL Fast Download]** är aktiverad i **[!UICONTROL Download Settings]**.
 * Kontrollera att port 33001 (både TCP och UDP) är öppen i brandväggen.
-* **Installera IBM® Aspera Connect 3.9.9** i webbläsarens tillägg med administratörsbehörighet ([IBM® Aspera Connect Downloads](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all)).
+* **Installera IBM® Aspera Connect 3.9.9** i webbläsartillägget med administratörsbehörighet ([IBM® Aspera Connect Downloads](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all)).
 
 >[!NOTE]
 >
@@ -58,7 +58,7 @@ Nedan följer hämtningsdomänerna för olika platser:
 
 I följande tabell visas hämtningsprestanda för en fil som är 2 GB med filhämtningsacceleratorn Aspera Connect:
 
-*Resultatet som observeras varierar beroende på faktorer som nätverksbandbredd, serverfördröjning och klientplacering, eftersom Brand Portal-servern är i Oregon (USA).*
+*Resultatet som observeras varierar beroende på faktorer som nätverksbandbredd, serverfördröjning och klientplats, med tanke på att Brand Portal-servern är på Oregon (USA).*
 
 | Klientplats | Latens mellan klient och server (millisekunder) | Snabba upp med Aspera Connect File Transfer Accelerator (MBps) | Det tar tid att hämta en fil som är 2 GB med Aspera File Transfer Accelerator (sekunder) |
 |---------------------------|-----------------------------------|---------------------------------------------|-------------------------------------------------------------------------|
@@ -66,7 +66,7 @@ I följande tabell visas hämtningsprestanda för en fil som är 2 GB med filhä
 | Västra USA (Oregon) | 42 | 36 | 57 |
 | USA (N. Virginia) | 85 | 35 | 58 |
 | APAC (Tokyo) | 124 | 36 | 57 |
-| Noida (Indien) | 275 | 13.36 | 153 |
+| Noida (Indien) | 275 | 13,36 | 153 |
 | Sydney | 175 | 29 | 70 |
 | London | 179 | 35 | 58 |
 | Singapore | 196 | 34 | 60 |
@@ -75,27 +75,27 @@ I följande tabell visas hämtningsprestanda för en fil som är 2 GB med filhä
 
 Så här hämtar du resurser snabbare från Brand Portal:
 
-1. Logga in på din Brand Portal-klient. Som standard är **[!UICONTROL Files]** öppnas som innehåller alla publicerade resurser och mappar.
+1. Logga in på din Brand Portal-klient. Som standard öppnas vyn **[!UICONTROL Files]** som innehåller alla publicerade resurser och mappar.
 
    Gör något av följande:
 
-   * Markera de resurser eller mappar som du vill hämta. Klicka på knappen **[!UICONTROL Download]** -ikon.
+   * Markera de resurser eller mappar som du vill hämta. Klicka på ikonen **[!UICONTROL Download]** i verktygsfältet högst upp.
 
      ![select-multiple-assets](assets/select-assets-new.png)
 
-   * Om du vill hämta särskilda återgivningar av en resurs håller du pekaren över resursen och klickar på **[!UICONTROL Download]** -ikonen finns i miniatyrbilderna för snabbåtgärder.
+   * Om du vill hämta särskilda återgivningar av en resurs håller du pekaren över resursen och klickar på ikonen **[!UICONTROL Download]** som finns i miniatyrbilderna för snabbåtgärden.
 
      ![select-asset](assets/select-asset.png)
 
-1. The **[!UICONTROL Download]** öppnas en dialogruta där alla markerade resurser visas.
+1. Dialogrutan **[!UICONTROL Download]** där alla markerade resurser visas.
 
-   Om du vill bevara mapphierarkin i Brand Portal när du hämtar resurser väljer du **[!UICONTROL Create separate folder for each asset]** kryssruta.
+   Markera kryssrutan **[!UICONTROL Create separate folder for each asset]** om du vill bevara mapphierarkin i Brand Portal när du hämtar resurser.
 
-   Nedladdningsknappen visar antalet markerade objekt. När du är klar med reglerna klickar du på **[!UICONTROL Download items]**. Mer information om hur du använder regler finns i [ladda ned resurser](../using/brand-portal-download-assets.md#download-assets).
+   Nedladdningsknappen visar antalet markerade objekt. När du är klar med att tillämpa reglerna klickar du på **[!UICONTROL Download items]**. Mer information om hur du använder regler finns i [Hämta resurser](../using/brand-portal-download-assets.md#download-assets).
 
    ![download-dialog](assets/download-dialog-box-new.png)
 
-1. Som standard är **[!UICONTROL Fast Download]** inställningen är aktiverad i **[!UICONTROL Download Settings]**. Därför visas en bekräftelseruta där du kan hämta resurser med IBM® Aspera Connect.
+1. Som standard är inställningen **[!UICONTROL Fast Download]** aktiverad i **[!UICONTROL Download Settings]**. Därför visas en bekräftelseruta där du kan hämta resurser med IBM® Aspera Connect.
 
    Om du hämtar resurserna för första gången och inte har IBM® Aspera Connect installerat i webbläsaren, eller om den befintliga versionen är inaktuell, uppmanas du att installera Aspera Download Accelerator (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
 
@@ -109,17 +109,17 @@ Så här hämtar du resurser snabbare från Brand Portal:
 
 1. När klienten har installerats uppdaterar du webbläsarsidan och startar hämtningsstegen igen.
 
-1. För att fortsätta använda **[!UICONTROL Fast Download]**, klicka **[!UICONTROL Allow]**. Alla valda återgivningar hämtas i en zip-mapp med IBM® Aspera Connect.
+1. Klicka på **[!UICONTROL Allow]** om du vill fortsätta använda **[!UICONTROL Fast Download]**. Alla valda återgivningar hämtas i en zip-mapp med IBM® Aspera Connect.
 
    När hämtningen är klar visas en dialogruta där resurserna hämtas till användarens system.
 
    ![](assets/aspera-download-2.png)
 
-   Om du inte vill använda IBM® Aspera Connect klickar du på **[!UICONTROL Deny]**. If **[!UICONTROL Fast Download]** nekas eller misslyckas fyller systemet i ett felmeddelande. Klicka på **[!UICONTROL Normal Download]** om du vill fortsätta hämta resurserna.
+   Om du inte vill använda IBM® Aspera Connect klickar du på **[!UICONTROL Deny]**. Om **[!UICONTROL Fast Download]** nekas eller misslyckas fyller systemet i ett felmeddelande. Klicka på knappen **[!UICONTROL Normal Download]** om du vill fortsätta hämta resurserna.
 
 >[!NOTE]
 >
-Om **[!UICONTROL Fast Download]** inställningen är inaktiverad av administratören. De valda återgivningarna hämtas direkt till en zip-mapp utan att IBM® Aspera Connect används.
+>Om inställningen **[!UICONTROL Fast Download]** är inaktiverad av administratören hämtas de valda återgivningarna direkt till en ZIP-mapp utan att IBM® Aspera Connect används.
 
 <!-- 
 On successful completion of the download, a dialog box shows the location where assets are downloaded onto the user's system. If there is a failure, it shows error.
@@ -178,17 +178,17 @@ On successful completion of the download, a dialog box shows the location where 
    >There is a known limitation in Aspera Connect client application that no prompt to select download location appears if **[!UICONTROL Always ask me where to save downloaded files]** is enabled under the tab **[!UICONTROL Transfers]** within **[!UICONTROL Preferences]**. Before any download begins, provide the location in the text box **[!UICONTROL Save downloaded files to]**.
 -->
 
-## Använda filacceleratorn i webbläsaren Microsoft® Edge {#using-file-accelerator-on-microsoft-edge-browser}
+## Använda filacceleration i webbläsaren Microsoft® Edge {#using-file-accelerator-on-microsoft-edge-browser}
 
-Microsoft® Edge körs i EPM (Enhanced Protected Mode) som förhindrar kommunikation med Aspera Connect-servern, samtidigt som den finns i samma privata nätverk eller med en betrodd plats. Därför visas ett popup-fönster varje gång en anslutning till servern upprättas.
+Microsoft® Edge körs i EPM (Enhanced Protected Mode) som förhindrar kommunikation med Aspera Connect-servern när den befinner sig i samma privata nätverk eller med en betrodd plats. Därför visas ett popup-fönster varje gång en anslutning till servern upprättas.
 
 ![](assets/switchapps-msedge.png)
 
-Om du vill använda accelererad nedladdningsfunktion på Microsoft® Edge tar du bort Brand Portal webbplats från listan över tillförlitliga webbplatser.
+Om du vill använda accelererade nedladdningsfunktioner i Microsoft® Edge tar du bort Brand Portal webbplats från listan över tillförlitliga webbplatser.
 
-1. Öppna Kontrollpanelen (**[!UICONTROL Window key + X]** väljer **[!UICONTROL Control Panel]**).
-1. Gå till **[!UICONTROL Network and Internet]** > **[!UICONTROL Internet Options]**. Klicka på **[!UICONTROL Security]** -fliken.
-1. Klicka på **[!UICONTROL Trusted sites zone]** och sedan klicka **[!UICONTROL Sites]**.
+1. Öppna Kontrollpanelen (**[!UICONTROL Window key + X]** och välj sedan **[!UICONTROL Control Panel]**).
+1. Gå till **[!UICONTROL Network and Internet]** > **[!UICONTROL Internet Options]**. Klicka på fliken **[!UICONTROL Security]**.
+1. Klicka på **[!UICONTROL Trusted sites zone]** och sedan på **[!UICONTROL Sites]**.
 1. Ta bort Brand Portal webbplats från listan.
 
 ## Inställningar för Aspera Connect-klient {#aspera-connect-client-preferences}
@@ -213,7 +213,7 @@ Om det inte går att hämta acceleration kan du prova med följande förslag:
 
    Om portarna inte fungerar som de ska ska du kontakta ditt nätverksteam och se till att porterna 33001 (både TCP och UDP) inte blockeras i brandväggen.
 
-1. Om portarna är OK kontrollerar du om nätverket inte är långsamt genom att mäta tillgänglig bandbredd med [https://www.speedtest.net/](https://www.speedtest.net/).
+1. Om portarna är OK kontrollerar du om nätverket inte är långsamt genom att mäta den tillgängliga bandbredden med [https://www.speedtest.net/](https://www.speedtest.net/).
 
    Om bandbredden är några få (1-10 Mbit/s) eller i kbit/s använder du inställningarna för Aspera och försöker begränsa bandbredden till den tillgängliga bandbredden.
 

@@ -19,9 +19,9 @@ ht-degree: 0%
 
 # Konfigurera bidragsmappen i Experience Manager Assets {#configure-contribution-folder}
 
-För samverkansbaserad resurskälla kan Experience Manager Assets-användare (administratörer och icke-adminanvändare med behörighet) skapa nya mappar av typen **Resursbidrag**, och se till att den nya mappen som skapas är öppen för att skickas in av Brand Portal-användare.  Detta utlöser automatiskt ett arbetsflöde som skapar ytterligare två undermappar, som kallas **DELAD** och **NYHET** i den nya **Bidrag** mapp.
+För samverkansbaserad resurskälla kan Experience Manager Assets-användare (administratörer och icke-adminanvändare med behörighet) skapa nya mappar av typen **Resursbidrag**, så att den nya mappen som skapas är öppen för att skickas av Brand Portal-användare.  Detta utlöser automatiskt ett arbetsflöde som skapar ytterligare två undermappar, som kallas **DELAD** och **NY**, i den nya **Contribute** -mappen.
 
-Experience Manager Assets-användare definierar sedan tillgångskraven genom att ladda upp en översikt över vilka typer av resurser som ska läggas till i bidragsmappen samt en uppsättning baslinjeresurser till **DELAD** för att säkerställa att Brand Portal-användare har den information de behöver. Administratören kan sedan ge aktiva Brand Portal-användare åtkomst till bidragsmappen innan den nya Contribute-mappen publiceras på Brand Portal.
+Experience Manager Assets-användare definierar sedan tillgångskraven genom att ladda upp en översikt över vilka typer av resurser som ska läggas till i bidragsmappen, samt en uppsättning baslinjeresurser, till mappen **SHARED** så att Brand Portal-användare har den information de behöver. Administratören kan sedan ge aktiva Brand Portal-användare åtkomst till bidragsmappen innan den nya Contribute-mappen publiceras på Brand Portal.
 
 I följande video visas hur du konfigurerar en Contribute-mapp i Experience Manager Assets:
 
@@ -32,7 +32,7 @@ Experience Manager Assets-användare utför följande åtgärder när de konfigu
 * [Skapa avgiftsmapp](#create-contribution-folder)
 * [Överför tillgångskrav och tilldela medverkande](#configure-contribution-folder-properties)
 * [Överför baslinjeresurser](#uplad-new-assets-to-contribution-folder)
-* [Publicera en mapp för bidrag från Experience Manager Assets till Brand Portal](#publish-contribution-folder-to-brand-portal)
+* [Publish avgiftsmapp från Experience Manager Assets till Brand Portal](#publish-contribution-folder-to-brand-portal)
 
 ## Skapa avgiftsmapp {#create-contribution-folder}
 
@@ -56,9 +56,9 @@ Du kan konfigurera bidragsmappens egenskaper separat och samtidigt som du skapar
 
 1. Navigera till **[!UICONTROL Assets]** > **[!UICONTROL Files]**. Den visar alla befintliga mappar i Experience Manager Assets-databasen.
 
-1. Klicka **[!UICONTROL Create]** för att skapa en ny mapp. **[!UICONTROL Create Folder]** öppnas.
+1. Klicka på **[!UICONTROL Create]** om du vill skapa en ny mapp. Dialogrutan **[!UICONTROL Create Folder]** öppnas.
 
-1. Retur **[!UICONTROL Title]** och **[!UICONTROL Name]** i mappen och välj **[!UICONTROL Asset Contribution]** kryssruta.
+1. Ange **[!UICONTROL Title]** och **[!UICONTROL Name]** för mappen och markera kryssrutan **[!UICONTROL Asset Contribution]**.
 Vi rekommenderar att du använder gemener utan blanksteg för att namnge mappen.
 
 1. Klicka på **[!UICONTROL Create]**. Du kan se bidragsmappen i Experience Manager Assets-databasen.
@@ -70,7 +70,7 @@ Vi rekommenderar att du använder gemener utan blanksteg för att namnge mappen.
 
    ![](assets/create-contribution-folder.png)
 
-1. Klicka för att öppna mappen för bidrag, du kan se två undermappar **[!UICONTROL SHARED]** och **[!UICONTROL NEW]** skapas automatiskt i avgiftsmappen.
+1. Klicka för att öppna mappen för bidrag, du kan se två undermappar - **[!UICONTROL SHARED]** - och **[!UICONTROL NEW]** skapas automatiskt i mappen för bidrag.
 
    ![](assets/contribution-folder.png)
 
@@ -79,70 +79,70 @@ Vi rekommenderar att du använder gemener utan blanksteg för att namnge mappen.
 
 Experience Manager Assets-administratören utför följande åtgärder när egenskaperna för en avgiftsmapp konfigureras.
 
-* **Lägg till beskrivning**: Ange en beskrivning av bidragsmappen på hög nivå.
-* **Överför i korthet**: Överför tillgångskravsdokument som innehåller resursrelaterad information.
+* **Lägg till beskrivning**: Ange en beskrivning på hög nivå av mappen för bidrag.
+* **Överför i korthet**: Dokumentet Överför tillgångskrav innehåller resursrelaterad information.
 * **Lägg till medverkande**: Lägg till Brand Portal-användare för att ge dem åtkomst till mappen för bidrag.
 
-Resurskravet avser den information som administratörer tillhandahåller för att hjälpa medverkande (Brand Portal-användare) att förstå behovet och kraven av bidragsmappen. Administratören överför ett tillgångskravsdokument som innehåller en sammanfattning om vilken typ av resurser som ska läggas till i avgiftsmappen och resursrelaterad information, till exempel syfte, typ av bilder, maxstorlek osv.
+Resurskravet avser den information som administratörer tillhandahåller för att hjälpa medverkande (Brand Portal-användare) att förstå behovet och kraven av avgiftsmappen. Administratören överför ett tillgångskravsdokument som innehåller en sammanfattning om vilken typ av resurser som ska läggas till i avgiftsmappen och resursrelaterad information, till exempel syfte, typ av bilder, maxstorlek osv.
 
 **Så här konfigurerar du bidragsmappens egenskaper:**
 
 1. Logga in på din Experience Manager Assets-instans.
 
-1. Navigera till **[!UICONTROL Assets > Files]** och hitta mappen för bidrag.
+1. Navigera till **[!UICONTROL Assets > Files]** och leta upp mappen för bidrag.
 1. Välj mapp för bidrag och klicka på **[!UICONTROL Properties]** för att öppna fönstret Mappegenskaper.
 
    ![](assets/properties.png)
 
    ![](assets/contribution-folder-property1.png)
 
-1. Navigera till **[!UICONTROL Asset Contribution]** -fliken.
-1. Ange hög nivå **[!UICONTROL Description]** av mappen för bidrag.
-1. Klicka **[!UICONTROL Upload Brief]** för att bläddra från din lokala dator och överföra en **Dokument för tillgångskrav**.
+1. Navigera till fliken **[!UICONTROL Asset Contribution]**.
+1. Ange **[!UICONTROL Description]** på hög nivå i mappen för bidrag.
+1. Klicka på **[!UICONTROL Upload Brief]** om du vill bläddra från den lokala datorn och överföra ett **resurskravsdokument**.
 
    ![](assets/upload.png)
 
-1. I **[!UICONTROL Add User]** lägger du till Brand Portal-användare som du vill dela mappen för bidrag med. Dessa användare kan komma åt och överföra innehåll till bidragsmappen via Brand Portal gränssnitt.
+1. I fältet **[!UICONTROL Add User]** lägger du till Brand Portal-användare som du vill dela bidragsmappen med. De här användarna kan komma åt och överföra innehåll till bidragsmappen via Brand Portal-gränssnittet.
 1. Klicka på **[!UICONTROL Save]**.
 
    ![](assets/contribution-folder-property3.png)
 
 >[!NOTE]
 >
->Sökresultaten baseras på Brand Portal användarlista som konfigurerats i Experience Manager Assets. Kontrollera att du har den uppdaterade Brand Portal-användarlistan.
+>Sökresultaten baseras på Brand Portal användarlista som konfigurerats i Experience Manager Assets. Se till att du har den uppdaterade användarlistan för Brand Portal.
 
-Administratörerna kan hämta `user.csv` fil från [!DNL Admin Console] och använda den som basmall för att lägga till Brand Portal-användare. Gå till [!UICONTROL Users] och klicka på [!UICONTROL Export users list to csv] möjlighet att ladda ned `users.csv` -fil. Följande exempelanvändare visar vilka attribut som krävs för att lägga till användarna. Det enda obligatoriska attributet för en användarpost är `Email` och alla andra attribut är valfria.
+Administratörerna kan hämta filen `user.csv` från [!DNL Admin Console] och använda den som basmall för att lägga till Brand Portal-användare. Gå till [!UICONTROL Users] och klicka på alternativet [!UICONTROL Export users list to csv] för att hämta filen `users.csv`. Följande exempelanvändare visar vilka attribut som krävs för att lägga till användarna. Det enda obligatoriska attributet för en användarpost är `Email` och alla andra attribut är valfria.
 
 [Hämta fil](assets/users.csv)
 
 ## Överför resurser till mappen för bidrag {#uplad-new-assets-to-contribution-folder}
 
-Experience Manager Assets-användare överför en uppsättning baslinjeresurser till **DELAD** för att säkerställa att Brand Portal-användare har den information de behöver.
+Experience Manager Assets-användare överför en uppsättning baslinjeresurser till mappen **SHARED** för att säkerställa att Brand Portal-användare har den information de behöver.
 
 **Så här överför du baslinjeresurser:**
 
 1. Logga in på din Experience Manager Assets-instans.
 
-1. Navigera till **[!UICONTROL Assets > Files]** och hitta mappen för bidrag.
+1. Navigera till **[!UICONTROL Assets > Files]** och leta upp mappen för bidrag.
 
 1. Markera mappen för bidrag och klicka för att öppna den.
 
-1. Klicka på **[!UICONTROL NEW]** mapp.
+1. Klicka på mappen **[!UICONTROL NEW]**.
 
    ![](assets/upload-new-assets1.png)
 
-1. Klicka **[!UICONTROL Create]** > **[!UICONTROL Files]** om du vill överföra enskilda filer eller mappar (.zip) som innehåller flera resurser.
+1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Files]** om du vill överföra enskilda filer eller mappar (.zip) som innehåller flera resurser.
 
    ![](assets/upload-new-assets2.png)
 
-1. Bläddra och överföra resurser (filer eller mappar) till **[!UICONTROL NEW]** mapp.
+1. Bläddra och överför resurser (filer eller mappar) till mappen **[!UICONTROL NEW]**.
 
    ![](assets/upload-asset4.png)
 
 När du har överfört alla resurser eller mappar till mappen NEW publicerar du mappen för bidrag till Experience Manager Assets.
 
 
-## Publicera bidragsmapp till Brand Portal {#publish-contribution-folder-to-brand-portal}
+## Publish-mapp för bidrag till Brand Portal {#publish-contribution-folder-to-brand-portal}
 
 När bidragsmappen har konfigurerats kan Experience Manager Assets-användare (administratör/icke-admin-användare) publicera bidragsmappen från Experience Manager Assets till Brand Portal. Brand Portal-användare som har behörighet att komma åt bidragsmappen får ett meddelande via e-post/puls när publiceringsåtgärden har slutförts.
 
@@ -151,11 +151,11 @@ När bidragsmappen har konfigurerats kan Experience Manager Assets-användare (a
 
 1. Logga in på din Experience Manager Assets-instans.
 
-1. Navigera till **[!UICONTROL Assets > Files]** och hitta den mapp där du vill publicera ditt bidrag till Brand Portal.
-1. Välj mapp för bidrag och klicka på **[!UICONTROL Quick Publish]** > **[!UICONTROL Publish to Brand Portal]**.
+1. Navigera till **[!UICONTROL Assets > Files]** och leta upp den mapp där du vill publicera till Brand Portal.
+1. Välj bidragsmapp och klicka på **[!UICONTROL Quick Publish]** > **[!UICONTROL Publish to Brand Portal]**.
 
    ![](assets/publish-contribution-folder-to-bp.png)
 
    Du får ett meddelande när bidragsmappen har publicerats till Brand Portal.
 
-Ett e-post-/pulsmeddelande skickas till de Brand Portal-användare som är tilldelade bidragsmappen. Brand Portal-användare har åtkomst till mappen för bidrag och kan börja bidra. Se, [Överför resurser till bidragsmappen och publicera till Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
+Ett e-post-/pulsmeddelande skickas till de Brand Portal-användare som är tilldelade bidragsmappen. Brand Portal-användare har åtkomst till mappen för bidrag och kan börja bidra. Se [Överför resurser till mappen för bidrag och publicera till Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).

@@ -13,7 +13,7 @@ role: Admin
 exl-id: 27a9cd26-9bb3-473b-b1ac-37f77975c912
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,9 @@ Adobe Experience Manager Assets Brand Portal 6.4.2 och senare ger administratör
 
 ![](assets/access-configs.png)
 
-**A**   Konfiguration för att tillåta gäståtkomst på Brand Portal med **[!UICONTROL Guest Access?]** på Brand Portal välkomstskärm. (Standard är inaktiverat)
+**A**   Konfiguration som tillåter gäståtkomst på Brand Portal med hjälp av länken **[!UICONTROL Guest Access?]** på Brand Portal välkomstskärm. (Standard är inaktiverat)
 
-**B**   Konfiguration som tillåter användare att begära åtkomst till Brand Portal med **[!UICONTROL Need access?]** på Brand Portal välkomstskärm. (Standard är inaktiverat)
+**B**   Konfiguration som tillåter användare att begära åtkomst till Brand Portal via länken **[!UICONTROL Need access?]** på Brand Portal välkomstskärm. (Standard är inaktiverat)
 
 ## Tillåt gäståtkomst {#allow-guest-access}
 
@@ -34,8 +34,8 @@ Genom att tillåta gäståtkomst kan användarna få åtkomst till offentliga re
 Administratören måste utföra följande steg för att tillåta gäståtkomst:
 
 1. Välj AEM logotyp för att öppna administrationsverktygen i verktygsfältet högst upp.
-1. Välj **[!UICONTROL Access]** att öppna **[!UICONTROL Access Settings]** sida.
-1. Aktivera **[!UICONTROL Allow Guest Access]** konfiguration.
+1. På panelen Administrationsverktyg väljer du **[!UICONTROL Access]** för att öppna sidan **[!UICONTROL Access Settings]**.
+1. Aktivera **[!UICONTROL Allow Guest Access]**-konfigurationen.
 1. **[!UICONTROL Save]** ändringarna.
 1. Logga ut för att ändringarna ska börja gälla.
 
@@ -43,12 +43,12 @@ Administratören måste utföra följande steg för att tillåta gäståtkomst:
 
 ## Tillåt användare att begära åtkomst {#allow-users-to-request-access}
 
-Administratörer kan tillåta användare i organisationen att begära åtkomst till Brand Portal från välkomstskärmen. Administratörer måste dock aktivera **[!UICONTROL Allow Users to Request Access]** så att länken för åtkomstbegäran visas på välkomstskärmen.
+Administratörer kan tillåta användare i organisationen att begära åtkomst till Brand Portal från välkomstskärmen. Administratörer måste dock aktivera konfigurationen **[!UICONTROL Allow Users to Request Access]** så att länken för åtkomstbegäran visas på välkomstskärmen.
 
 För att organisationsanvändare ska kunna begära åtkomst från Brand Portal måste administratörerna:
 
 1. Välj AEM logotyp för att öppna administrationsverktygen i verktygsfältet högst upp.
-1. Välj **[!UICONTROL Access]** att öppna **[!UICONTROL Access Settings]** sida.
-1. Aktivera **[!UICONTROL Allow Users to Request Access]** konfiguration.
+1. På panelen Administrationsverktyg väljer du **[!UICONTROL Access]** för att öppna sidan **[!UICONTROL Access Settings]**.
+1. Aktivera **[!UICONTROL Allow Users to Request Access]**-konfigurationen.
 1. **[!UICONTROL Save]** ändringarna.
 1. Logga ut för att ändringarna ska börja gälla.

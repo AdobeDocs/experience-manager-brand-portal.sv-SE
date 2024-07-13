@@ -29,35 +29,35 @@ Om det inte finns någon anpassad bakgrundsbild visas ett standardskrivbordsunde
 
    ![](assets/aemlogo.png)
 
-1. På panelen Administrationsverktyg klickar du på **[!UICONTROL Branding]**.
+1. Klicka på **[!UICONTROL Branding]** på panelen Administrationsverktyg.
 
 
    ![](assets/admin-tools-panel-10.png)
 
-1. På vänster sida **[!UICONTROL Configure Branding]** sida, **[!UICONTROL Wallpaper]** är markerat som standard. Standardbakgrundsbilden som visas på inloggningssidan visas.
+1. **[!UICONTROL Wallpaper]** är markerat som standard i den vänstra listen på sidan **[!UICONTROL Configure Branding]**. Standardbakgrundsbilden som visas på inloggningssidan visas.
 
    ![](assets/default_wallpaper.png)
 
-1. Om du vill lägga till en ny bakgrundsbild klickar du på **[!UICONTROL Choose Image]** ikonen i verktygsfältet överst.
+1. Om du vill lägga till en ny bakgrundsbild klickar du på ikonen **[!UICONTROL Choose Image]** i verktygsfältet högst upp.
 
    ![](assets/choose_wallpaperimage.png)
 
    Gör något av följande:
 
-   * Om du vill överföra en bild från datorn klickar du på **[!UICONTROL Upload]**. Navigera till önskad bild och överför den.
+   * Klicka på **[!UICONTROL Upload]** om du vill överföra en bild från datorn. Navigera till önskad bild och överför den.
    * Om du vill använda en befintlig Brand Portal-bild klickar du på **[!UICONTROL Select from existing]**. Välj en bild med resursväljaren.
 
    ![](assets/asset-picker.png)
 
-1. Ange en rubriktext och beskrivning för bakgrundsbilden. Spara ändringarna genom att klicka på **[!UICONTROL Save]** i verktygsfältet högst upp.
+1. Ange en rubriktext och beskrivning för bakgrundsbilden. Om du vill spara ändringarna klickar du på **[!UICONTROL Save]** i verktygsfältet högst upp.
 
-1. Klicka på knappen **[!UICONTROL Preview]** om du vill generera en förhandsvisning av Brand Portal-gränssnittet med bilden.
+1. Klicka på ikonen **[!UICONTROL Preview]** i verktygsfältet högst upp för att generera en förhandsvisning av Brand Portal-gränssnittet med bilden.
 
    ![](assets/chlimage_1.png)
 
    ![](assets/custom-wallpaper-preview.png)
 
-1. Så här aktiverar eller inaktiverar du standardskrivbordsunderlägget: **[!UICONTROL Configure Branding > Wallpaper]** sida:
+1. Gör följande på sidan **[!UICONTROL Configure Branding > Wallpaper]** om du vill aktivera eller inaktivera standardskrivbordsunderlägget:
 
    * Om du vill visa standardbilden för skrivbordsunderlägg på Brand Portal inloggningssida klickar du på **[!UICONTROL Deactivate Wallpaper]** i verktygsfältet högst upp. Ett meddelande bekräftar att den anpassade bilden är inaktiverad.
 
@@ -67,9 +67,7 @@ Om det inte finns någon anpassad bakgrundsbild visas ett standardskrivbordsunde
 
    ![](assets/chlimage_1-2.png)
 
-   * Klicka **[!UICONTROL Save]** för att spara ändringarna.
-
-
+   * Klicka på **[!UICONTROL Save]** om du vill spara ändringarna.
 
 ## Anpassa rubriken {#customize-the-header}
 
@@ -79,15 +77,15 @@ Sidhuvudet visas på olika Brand Portal-sidor när du har loggat in på Brand Po
 
    ![](assets/aemlogo.png)
 
-1. På panelen Administrationsverktyg klickar du på **[!UICONTROL Branding]**.
+1. Klicka på **[!UICONTROL Branding]** på panelen Administrationsverktyg.
 
    ![](assets/admin-tools-panel-11.png)
 
-1. Anpassa sidhuvudet för Brand Portal-gränssnittet på **[!UICONTROL Configure Branding]** sida, markera **[!UICONTROL Header Image]** från den vänstra listen. Standardbilden för sidhuvud visas.
+1. Om du vill anpassa sidhuvudet för Brand Portal-gränssnittet väljer du **[!UICONTROL Header Image]** i den vänstra listen på sidan **[!UICONTROL Configure Branding]**. Standardbilden för sidhuvud visas.
 
    ![](assets/default-header.png)
 
-1. Om du vill överföra en rubrikbild klickar du på **[!UICONTROL Choose Image]** ikon och välj **[!UICONTROL Upload]**.
+1. Om du vill överföra en rubrikbild klickar du på ikonen **[!UICONTROL Choose Image]** och väljer **[!UICONTROL Upload]**.
 
    Om du vill använda en befintlig Brand Portal-bild väljer du **[!UICONTROL Select from existing]**.
 
@@ -97,31 +95,29 @@ Sidhuvudet visas på olika Brand Portal-sidor när du har loggat in på Brand Po
 
    ![](assets/asset-picker-header.png)
 
-1. Om du vill ta med en URL-adress i rubrikbilden anger du den i dialogrutan **[!UICONTROL Image URL]** box. Du kan ange externa eller interna URL-adresser. Interna länkar kan också vara relativa länkar, till exempel
+1. Om du vill ta med en URL-adress i rubrikbilden anger du den i rutan **[!UICONTROL Image URL]**. Du kan ange externa eller interna URL-adresser. Interna länkar kan också vara relativa länkar, till exempel
    [!UICONTROL `/mediaportal.html/content/dam/mac/tenant_id/tags`].
 Den här länken dirigerar användare till mappen taggar.
-Spara ändringarna genom att klicka på **[!UICONTROL Save]** i verktygsfältet högst upp.
+Om du vill spara ändringarna klickar du på **[!UICONTROL Save]** i verktygsfältet högst upp.
 
    ![](assets/configure_brandingheaderimageurl.png)
 
-1. Klicka på knappen **[!UICONTROL Preview]** om du vill generera en förhandsvisning av Brand Portal-gränssnittet med rubrikbilden.
+1. Klicka på ikonen **[!UICONTROL Preview]** i verktygsfältet högst upp för att generera en förhandsvisning av Brand Portal-gränssnittet med rubrikbilden.
 
    ![](assets/chlimage_1-3.png)
    ![](assets/custom_header_preview.png)
 
-1. Så här aktiverar eller inaktiverar du rubrikbilden: **[!UICONTROL Configure Branding > Header Image]** sida:
+1. Gör följande på sidan **[!UICONTROL Configure Branding > Header Image]** om du vill aktivera eller inaktivera rubrikbilden:
 
-   * Om du vill förhindra att en rubrikbild visas på Brand Portal sidor klickar du på **[!UICONTROL Deactivate Header]** i verktygsfältet högst upp. Ett meddelande bekräftar att bilden är inaktiverad.
+   * Om du vill förhindra att en rubrikbild visas på Brand Portal-sidor klickar du på **[!UICONTROL Deactivate Header]** i verktygsfältet högst upp. Ett meddelande bekräftar att bilden är inaktiverad.
 
    ![](assets/chlimage_1-4.png)
 
-   * Om du vill att sidhuvudsbilden ska visas igen på Brand Portal-sidor klickar du på **[!UICONTROL Activate Header]** i verktygsfältet högst upp. Ett meddelande bekräftar att bilden är aktiverad.
+   * Om du vill att rubrikbilden ska visas igen på Brand Portal-sidor klickar du på **[!UICONTROL Activate Header]** i verktygsfältet högst upp. Ett meddelande bekräftar att bilden är aktiverad.
 
    ![](assets/chlimage_1-5.png)
 
-   * Klicka **[!UICONTROL Save]** för att spara ändringarna.
-
-
+   * Klicka på **[!UICONTROL Save]** om du vill spara ändringarna.
 
 ## Anpassa e-postmeddelanden {#customize-the-email-messaging}
 
@@ -131,17 +127,17 @@ När resurser delas som en länk får användarna ett e-postmeddelande med länk
 
    ![](assets/aemlogo.png)
 
-1. På panelen Administrationsverktyg klickar du på **[!UICONTROL Branding]**.
+1. Klicka på **[!UICONTROL Branding]** på panelen Administrationsverktyg.
 
    ![](assets/admin-tools-panel-12.png)
 
-1. När resurser delas som länkar eller hämtas via e-post och när  **[!UICONTROL collections]** delas, e-postmeddelanden skickas till användarna. Anpassa e-postmeddelandet på **[!UICONTROL Configure Branding]** sida, markera **[!UICONTROL Email Message]** från den vänstra listen.
+1. När resurser delas som länkar eller hämtas via e-post, och när **[!UICONTROL collections]** delas, skickas e-postmeddelanden till användarna. Om du vill anpassa e-postmeddelandet väljer du **[!UICONTROL Email Message]** från den vänstra listen på sidan **[!UICONTROL Configure Branding]**.
 
    ![](assets/configure-branding-page-email.png)
 
 1. Om du vill lägga till en logotyp i utgående e-postmeddelanden klickar du på **[!UICONTROL Upload]** i verktygsfältet högst upp.
 
-1. I **[!UICONTROL Description]** anger du sidhuvud och sidfot för e-post. Spara ändringarna genom att klicka på **[!UICONTROL Save]** i verktygsfältet högst upp.
+1. I avsnittet **[!UICONTROL Description]** anger du sidhuvud och sidfot för e-post. Om du vill spara ändringarna klickar du på **[!UICONTROL Save]** i verktygsfältet högst upp.
 
    >[!NOTE]
    >

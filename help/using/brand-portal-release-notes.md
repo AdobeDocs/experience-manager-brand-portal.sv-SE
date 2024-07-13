@@ -32,7 +32,7 @@ Få en inblick i de nya funktionerna, förbättringarna, de allvarliga problemen
 
 Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa, styra och på ett säkert sätt distribuera godkänt material till externa parter och interna användare på olika enheter. Det bidrar till att effektivisera delning av tillgångar, kortar time-to-market för tillgångar och minskar risken för bristande efterlevnad och obehörig åtkomst. Med Brand Portal kan man bläddra bland, söka, förhandsgranska, ladda ned och exportera material i företagsgodkända format - när som helst, var som helst.
 
-## Nyheter 2024.02.0 {#whats-new-in-2024.02.0}
+## Nyheter i 2024.02.0 {#whats-new-in-2024.02.0}
 
 ### Allvarliga problem har åtgärdats {#critical-issues-fixed}
 
@@ -42,9 +42,9 @@ Den här versionen innehåller följande felkorrigeringar:
 
 * Det går inte att hämta digitala resurser som skyddas av DRM på turkiska språk.
 * Det går inte att öppna och hämta befintliga rapporter som innehåller resurser med flerradsrubrik.
-* När du hämtar resurser med [!UICONTROL Download] från åtgärdsfältet hämtas maximalt 1 000 resurser.
+* När du hämtar resurser med knappen [!UICONTROL Download] från åtgärdsfältet hämtas maximalt 1 000 resurser.
 * Felaktigt namn på resurser av PSD-typ vid visning i innehållsträdet.
-* [!UICONTROL Delete Rendition] alternativet på sidan med resursinformation fungerar inte.
+* Alternativet [!UICONTROL Delete Rendition] på sidan med resursinformation fungerar inte.
 * Feljusterad rubrik och storlek för resurser i hämtningsfönstret.
 * När du skapar en rapport lokaliseras inte etiketter.
 * Supportadministratörer kallades administratörer i Brand Portal.
@@ -56,19 +56,19 @@ Den här versionen innehåller följande felkorrigeringar:
 **Felkorrigeringar och förbättringar**
 Den här versionen innehåller följande förbättringar:
 
-* Prestandaförbättringar vid bläddring [!UICONTROL Collections].
+* Prestandaförbättringar vid bläddring genom [!UICONTROL Collections].
 
 * Förbättringar av sökresultat när en del av sökningen utförs med OmniSearch-fältet.
 
 Den här versionen innehåller följande felkorrigeringar:
 
-* Det går inte att spara [!UICONTROL Date] och [!UICONTROL Options] till [!UICONTROL Smart Collection].
+* Det går inte att spara [!UICONTROL Date]- och [!UICONTROL Options]-predikat till [!UICONTROL Smart Collection].
 
-* The [!UICONTROL Date and Time] formatet är inkonsekvent när du arbetar på andra språk än engelska.
+* Formatet [!UICONTROL Date and Time] är inkonsekvent när du arbetar på andra språk än engelska.
 
-* När du söker efter resurser [!UICONTROL Delete] saknas.
+* Knappen [!UICONTROL Delete] saknas när du söker efter resurser.
 
-* Om [!UICONTROL Title] fältet innehåller multibytesymboler i [!UICONTROL Link Share], kan rapporten inte hämtas.
+* Om fältet [!UICONTROL Title] innehåller multibytesymboler i [!UICONTROL Link Share] kan rapporten inte hämtas.
 
 * När du visar ett dokument av PDF-typ är etiketterna och verktygstipsen inte lokaliserade.
 
@@ -77,7 +77,7 @@ Den här versionen innehåller följande felkorrigeringar:
 **Felkorrigeringar och förbättringar**
 Den här versionen innehåller följande förbättringar:
 
-* Prestandaförbättringar vid inläsning av resurser på [!UICONTROL Download] popup.
+* Prestandaförbättringar vid inläsning av resurser på popup-fönstret [!UICONTROL Download].
 * När du hämtar en resurs eller en återgivning av en resurs hämtas den nu i det ursprungliga filformatet i stället för i en zip-fil.
 
 Den här versionen innehåller följande felkorrigeringar:
@@ -91,8 +91,8 @@ Den här versionen innehåller följande felkorrigeringar:
 **Felkorrigeringar**
 Den här versionen innehåller korrigeringar av följande allvarliga problem:
 
-* Om ett fel inträffar när en resurs hämtas från en delad länk visas `Notice` och `Close` -etiketter i felmeddelandet är inte lokaliserade.
-* Brand Portal visar **Begär för stora rubrikfält** fel vid åtkomst av sökfilter med `Filter` fönster.
+* Om ett fel inträffar när en resurs hämtas från en delad länk är etiketterna `Notice` och `Close` i felmeddelandet inte lokaliserade.
+* Brand Portal visar **Request Header-fälten för stora**-fel vid åtkomst av sökfilter i rutan `Filter`.
 
 **Kända fel**
 Den här versionen innehåller följande kända fel:
@@ -116,9 +116,9 @@ Den här versionen innehåller korrigeringar av följande allvarliga problem:
 Den här versionen innehåller följande förbättringar:
 
 * Det finns nu ett nytt modernt visningsprogram för PDF för en förbättrad förhandsvisning av resurserna i PDF.
-* Du kan nu välja att aktivera eller inaktivera meddelanden om resurskälla för administratörer. Navigera till [!UICONTROL General Settings] och sedan aktivera eller inaktivera [!UICONTROL `Notify Administrator of asset contribution`].
+* Du kan nu välja att aktivera eller inaktivera meddelanden om resurskälla för administratörer. Navigera till [!UICONTROL General Settings] och aktivera eller inaktivera sedan [!UICONTROL `Notify Administrator of asset contribution`].
 
-  ![Meddela administratören om tillgångsbidrag](assets/notify-admin.png)
+  ![Meddela administratören om resursbidrag](assets/notify-admin.png)
 
 * En obehörig användare kan inte begära åtkomst till Brand Portal om åtkomstbegäran är inaktiverad.
 * Endast de organisationer som har etablerats för Brand Portal visas i listan med profilväljare.
@@ -132,7 +132,7 @@ Den här versionen innehåller följande kända fel:
 
 ### Oktober 2022-versionen {#oct-2022}
 
-**Allvarliga problem har åtgärdats**
+**Allvarliga fel har åtgärdats**
 
 Den här versionen innehåller korrigeringar av följande allvarliga problem:
 
@@ -152,14 +152,14 @@ Den här versionen innehåller korrigeringar av följande allvarliga problem:
 
 ### Version från augusti 2022 {#aug-2022}
 
-**Allvarliga problem har åtgärdats**
+**Allvarliga fel har åtgärdats**
 
 Den här versionen innehåller korrigeringar av följande allvarliga problem:
 
 * När NUI inte kan bearbeta en resurs i Experience Manager visas en felaktig status för resursimportering i Brand Portal.
 * När förhandsgranskningsåtgärden misslyckas finns det inget meddelande om att meddela felet.
 * Felaktigt värde för egenskapen totalUploadedSize för varje resurs är fast.
-* När du klickar **Hämta alla objekt** och det finns ett stort antal renderingar tillgängliga för en mediefil, så hämtar Brand Portal en ogiltig ZIP-fil.
+* När du klickar på **Hämta alla objekt** och det finns ett stort antal tillgängliga återgivningar för en resurs hämtar Brand Portal en ogiltig ZIP-fil.
 * Översättningen av vissa strängar trunkeras i Brand Portal användargränssnitt.
 
 ### Version från maj 2022 {#may-2022}
@@ -168,7 +168,7 @@ Den här versionen innehåller korrigeringar av följande allvarliga problem:
 
 Brand Portal kör nu automatiska jobb var tolfte timme för att ta bort alla Brand Portal-resurser som publicerats till AEM. Därför behöver du inte ta bort resurserna i Contribute-mappen manuellt för att mappstorleken ska hållas under tröskelvärdet.
 
-**Allvarliga problem har åtgärdats**
+**Allvarliga fel har åtgärdats**
 
 Den här versionen innehåller korrigeringar av följande allvarliga problem:
 
@@ -184,14 +184,14 @@ Den här versionen innehåller korrigeringar av följande allvarliga problem:
 **Nya funktioner**
 
 * Tröskelvärdet för sessionstimeout för gästanvändare har reducerats från 2 timmar till 15 minuter.
-* Ytterligare **[!UICONTROL View pages]** för flersidig PDF har tagits bort eftersom användaren nu kan visa PDF-sidorna från Adobe Document Cloud Viewer.
+* Det extra alternativet **[!UICONTROL View pages]** har tagits bort för flersidig PDF eftersom användaren nu kan visa PDF-sidorna från Adobe Document Cloud Viewer.
 * Användarna kan inte söka i, navigera i eller öppna mappar. Användargränssnittet visar felmeddelandet: `Failed to load data`.
-* The **[!UICONTROL Renditions]** Panelen innehåller inte alla statiska återgivningar av resurserna som publiceras till Brand Portal.
-* The **[!UICONTROL Renditions]** på panelen visas de smarta beskärningsåtergivningarna av resursen, men användaren kan inte förhandsgranska eller hämta de smarta beskärningsåtergivningarna.
+* Panelen **[!UICONTROL Renditions]** innehåller inte alla statiska återgivningar av resurserna som publiceras till Brand Portal.
+* På panelen **[!UICONTROL Renditions]** visas de smarta beskärningsåtergivningarna för resursen, men användaren kan inte förhandsvisa eller hämta de smarta beskärningsåtergivningarna.
 * I hämtningsdialogrutan visas smarta beskärningsåtergivningar för den valda resursen, men användaren kan inte hämta smarta beskärningsåtergivningar.
 * En icke-admin-användare får bara den ursprungliga resursåtergivningen när en resurs hämtas. Återgivningarna för systemet och anpassade versioner hämtas inte.
-* När du använder sökfilter för att hämta en resurs, `Download` knappen är inaktiverad i hämtningsdialogrutan och tillåter inte användaren att hämta resursen.
-* If `Smart Tags` och (eller) `Color Tags` är aktiverade visas en lista i hämtningsdialogrutan med `json` filer som återgivningar och hämtar dessa `json` filer i den arkiverade zip-mappen.
+* När du använder sökfilter för att hämta en resurs inaktiveras knappen `Download` i hämtningsdialogrutan och användaren kan inte hämta resursen.
+* Om `Smart Tags` och (eller) `Color Tags` är aktiverade visas `json`-filerna som återgivningar i hämtningsdialogrutan och dessa `json`-filer hämtas till den arkiverade zip-mappen.
 * De anonyma användarna kan inte hämta resurser via en delad länk eftersom länken dirigerar om till Brand Portal inloggningssida.
 * Systemet återspeglar inte rätt värde för antalet aktiva samtidiga användare.
 
@@ -374,12 +374,12 @@ Brand Portal användargränssnitt finns på följande språk:
 
 ## Certifierade plattformar {#certified-platforms}
 
-Information om vilka plattformar som är certifierade för att köras med den här versionen av Brand Portal finns i **Stöd för pekoptimerat användargränssnitt** kolumnen i tabellen i **Webbläsare som stöds för redigeringsgränssnittet** avsnitt i [Tekniska krav](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
+Om du vill ta reda på vilka plattformar som är certifierade att köras med den här versionen av Brand Portal kan du läsa kolumnen **Stöd för pekoptimerat användargränssnitt** i tabellen i avsnittet **Webbläsare som stöds för redigeringsanvändargränssnittet** i [Tekniska krav](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html) .
 
 ## Länkar {#links}
 
 * [Adobe Experience Manager produktsida på adobe.com](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
-* [Assets Brand Portal Documentation](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+* [Assets Brand Portal-dokumentation](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
 
 ## Produktåtkomst och support (begränsade platser) {#product-access-and-support-restricted-sites}
 

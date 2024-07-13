@@ -11,7 +11,7 @@ discoiquuid: e8d06818-29c7-4810-bff1-40b3e2818114
 exl-id: 1f52045b-afb1-4501-878d-c327d394e258
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -31,12 +31,12 @@ Följande steg ska utföras för användare som loggar in på Brand Portal för 
 
    >[!NOTE]
    >
-   >Om din organisation använder Enterprise ID:n dirigeras du i stället för att visa den här registreringssidan till inloggningssidan för företag. Mer information finns i [Hjälp med Enterprise ID, inloggning och konton](https://helpx.adobe.com/in/enterprise/kb/enterprise-id-faq.html).
+   >Om din organisation använder Enterprise ID:n dirigeras du i stället för att visa den här registreringssidan till inloggningssidan för företag. Mer information finns i [Hjälp om Enterprise ID, inloggning och konto](https://helpx.adobe.com/in/enterprise/kb/enterprise-id-faq.html).
 
-1. Klicka **[!UICONTROL Continue]** för att gå vidare till din organisations Brand Portal-sida.
-1. På inloggningssidan för Brand Portal klickar du på **[!UICONTROL Sign In]** för att logga in på Brand Portal.
+1. Klicka på **[!UICONTROL Continue]** om du vill fortsätta till din organisations Brand Portal-sida.
+1. Klicka på **[!UICONTROL Sign In]** på inloggningssidan för Brand Portal för att logga in på Brand Portal.
 
-   ![Inloggningssida för Brand Portal](assets/signin-onboarding.png)
+   ![Brand Portal Sign-sida](assets/signin-onboarding.png)
 
    >[!NOTE]
    >

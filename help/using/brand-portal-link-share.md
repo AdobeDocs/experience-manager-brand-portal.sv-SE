@@ -12,7 +12,7 @@ discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
 source-git-commit: e3e35ad4be5c082ad7bac7bed8ea20a186d245ad
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -31,32 +31,32 @@ Mer information finns i [Hantera användare, grupper och användarroller](../usi
 
 Så här delar du resurser som en länk:
 
-1. Logga in på din Brand Portal-klient. Som standard är **[!UICONTROL Files]** öppnas som innehåller alla publicerade resurser och mappar.
+1. Logga in på din Brand Portal-klient. Som standard öppnas vyn **[!UICONTROL Files]** som innehåller alla publicerade resurser och mappar.
 
-1. Välj de resurser eller mappar som du vill dela, eller navigera till **[!UICONTROL Collections]** för att dela de samlingar du har skapat.
+1. Markera de resurser eller mappar som du vill dela, eller navigera till vyn **[!UICONTROL Collections]** för att dela de samlingar som du har skapat.
 
    ![select-multiple-assets](assets/select-assets-new.png)
 
-1. Klicka på knappen **[!UICONTROL Share Link]** ikon.
+1. Klicka på ikonen **[!UICONTROL Share Link]** i verktygsfältet högst upp.
 
-   The **[!UICONTROL Link Sharing]** visas.
+   Dialogrutan **[!UICONTROL Link Sharing]** visas.
 
    ![](assets/link-sharing.png)
 
-   * I rutan E-postadress skriver du e-post-ID för den användare som du vill dela länken med. Du kan dela länken med flera användare. Om användaren är medlem i din organisation väljer du användarens e-post-ID bland förslagen som visas i listrutan. Om användaren är extern skriver du det fullständiga e-post-ID:t och trycker på **[!UICONTROL Enter]**; e-post-ID:t läggs till i listan över användare.
+   * I rutan E-postadress skriver du e-post-ID för den användare som du vill dela länken med. Du kan dela länken med flera användare. Om användaren är medlem i din organisation väljer du användarens e-post-ID bland förslagen som visas i listrutan. Om användaren är extern skriver du det fullständiga e-post-ID:t och trycker på **[!UICONTROL Enter]**. E-post-ID:t läggs till i listan över användare.
 
-      ![](assets/link-sharing-text.png)
+     ![](assets/link-sharing-text.png)
 
-   * I **[!UICONTROL Subject]** anger du ett ämne för resursen som du vill dela.
-   * I **[!UICONTROL Message]** skriver du ett meddelande om det behövs.
-   * I **[!UICONTROL Expiration]** använder du datumväljaren för att ange ett förfallodatum och en förfallotid för länken. Som standard är förfallodatumet 7 dagar från det datum då du delar länken.
-   * Aktivera **[!UICONTROL Allow downlod of original file]** om du vill tillåta mottagarna att hämta den ursprungliga återgivningen.
+   * I rutan **[!UICONTROL Subject]** anger du ett ämne för resursen som du vill dela.
+   * Skriv ett meddelande i rutan **[!UICONTROL Message]** om det behövs.
+   * I fältet **[!UICONTROL Expiration]** använder du datumväljaren för att ange ett förfallodatum och en förfallotid för länken. Som standard är förfallodatumet 7 dagar från det datum då du delar länken.
+   * Aktivera kryssrutan **[!UICONTROL Allow downlod of original file]** om du vill tillåta mottagarna att hämta den ursprungliga återgivningen.
 
-   Resurserna som delas via länken går ut efter att ha passerat det datum och den tid som anges i **[!UICONTROL Expiration]** fält. Mer information om beteendet för utgångna mediefiler och förändringar i tillåtna aktiviteter baserat på användarroller i Brand Portal finns i [Hantera digitala rättigheter för resurser](../using/manage-digital-rights-of-assets.md#asset-expiration).
+   Resurserna som delas via länken går ut när det datum och den tid som anges i fältet **[!UICONTROL Expiration]** har passerats. Mer information om beteendet för utgångna resurser och ändringar i tillåtna aktiviteter baserat på användarroller i Brand Portal finns i [Hantera digitala rättigheter för resurser](../using/manage-digital-rights-of-assets.md#asset-expiration).
 
    >[!NOTE]
    >
-   >Länkens standardförfallotid är 7 dagar. Länken måste skickas med e-post till användarna som använder **[!UICONTROL Link Sharing]** ska du inte kopiera och dela länken separat.
+   >Länkens standardförfallotid är 7 dagar. Länken måste skickas med e-post till användarna med dialogrutan **[!UICONTROL Link Sharing]**. Kopiera inte länken och dela den inte separat.
 
 1. Klicka på **[!UICONTROL Share]**. Ett meddelande bekräftar att länken delas med användarna. Användarna får ett e-postmeddelande med den delade länken.
 
@@ -64,7 +64,7 @@ Så här delar du resurser som en länk:
 
    >[!NOTE]
    >
-   >Administratörer kan anpassa e-postmeddelanden, som bland annat anpassar logotyp, beskrivning och sidfot med [Varumärke](../using/brand-portal-branding.md) -funktion.
+   >Administratörer kan anpassa e-postmeddelanden, som bland annat anpassar logotyp, beskrivning och sidfot med funktionen [Varumärkning](../using/brand-portal-branding.md) .
 
 ## Hämta resurser från delade länkar {#download-assets-from-shared-links}
 
@@ -72,7 +72,7 @@ Klicka på länken i e-postmeddelandet för att komma åt den delade resursen. S
 
 Så här hämtar du de delade resurserna:
 
-1. Klicka på resurserna eller mapparna och klicka sedan på **[!UICONTROL Download]** -ikonen i verktygsfältet.
+1. Klicka på resurserna eller mapparna och klicka sedan på ikonen **[!UICONTROL Download]** i verktygsfältet.
 
    ![](assets/download-share-link.png)
 
@@ -80,13 +80,13 @@ Så här hämtar du de delade resurserna:
    >
    >För närvarande kan du bara generera en förhandsvisning och en miniatyrbild för vissa resurser, beroende på filformatet. Mer information om vilka filformat som stöds finns i [Stöd för förhandsgranskning och miniatyrbilder för resursformat](#preview-thumbnail-support).
 
-1. The **[!UICONTROL Download]** visas.
+1. Dialogrutan **[!UICONTROL Download]** visas.
 
    ![download-dialog](assets/download-dialog-box-new.png)
 
-1. Som standard är **[!UICONTROL Fast Download]** inställningen är aktiverad i **[!UICONTROL Download Settings]**. Därför visas en bekräftelseruta där hämtningen med IBM Aspera Connect kan fortsätta.
+1. Som standard är inställningen **[!UICONTROL Fast Download]** aktiverad i **[!UICONTROL Download Settings]**. Därför visas en bekräftelseruta där hämtningen med IBM Aspera Connect kan fortsätta.
 
-   För att fortsätta använda **[!UICONTROL Fast Download]**, klicka **[!UICONTROL Allow]**.
+   Klicka på **[!UICONTROL Allow]** om du vill fortsätta använda **[!UICONTROL Fast Download]**.
 
    Alla valda återgivningar hämtas i en ZIP-mapp som innehåller en separat mapp för varje resurs.
 
@@ -94,11 +94,11 @@ Så här hämtar du de delade resurserna:
    >
    >En separat mapp skapas för varje resurs när resurserna hämtas från en delad länk.
    >
-   >Om en mapp, en samling eller fler än 20 resurser har valts för nedladdning visas **[!UICONTROL Download]** dialogrutan hoppas över och alla resursåtergivningar som är tillgängliga för användaren, förutom de dynamiska återgivningarna, hämtas i en zip-mapp som innehåller en separat mapp för varje resurs.
+   >Om en mapp, en samling eller fler än 20 resurser har valts för hämtning hoppas dialogrutan **[!UICONTROL Download]** över och alla resursåtergivningar som är tillgängliga för användaren, förutom de dynamiska återgivningarna, hämtas i en ZIP-mapp som innehåller en separat mapp för varje resurs.
 
    >[!NOTE]
    >
-   >Ursprungliga återgivningar hämtas inte med den delade länken om användaren som delade resurserna som en länk inte är det [som administratören har behörighet att ha tillgång till de ursprungliga återgivningarna](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges).
+   >Originalåtergivningar hämtas inte med den delade länken om användaren som delade resurserna som en länk inte [har behörighet av administratören att ha åtkomst till de ursprungliga återgivningarna](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges).
 
 
 >[!NOTE]
@@ -156,7 +156,7 @@ I följande matris visas de resursformat som Brand Portal stöder miniatyrbilder
 | RTF | ✕ | ✕ |
 | TXT | ✓ | ✕ |
 | XLS | ✕ | ✕ |
-| XLSX | ✕ | ✕ |
+| XSX | ✕ | ✕ |
 | ODS | ✕ | ✕ |
 | PPT | ✓ | ✕ |
 | PPTX | ✕ | ✕ |
@@ -164,7 +164,7 @@ I följande matris visas de resursformat som Brand Portal stöder miniatyrbilder
 | INDD | ✓ | ✕ |
 | PS | ✕ | ✕ |
 | QXP | ✕ | ✕ |
-| ePub | ✓ | ✕ |
+| EPUB | ✓ | ✕ |
 | AAC | ✕ | ✕ |
 | MIDI | ✕ | ✕ |
 | 3GP | ✕ | ✕ |
@@ -202,13 +202,13 @@ I följande förklaring förklaras symbolerna som används i matrisen:
 
 Så här tar du bort delning av tidigare delade resurser som en länk:
 
-1. När du loggar in på Brand Portal **[!UICONTROL File]** visas som standard. Om du vill visa de resurser du har delat som länkar går du till **[!UICONTROL Shared Links]** vy.
+1. När du loggar in på Brand Portal öppnas vyn **[!UICONTROL File]** som standard. Om du vill visa de resurser du har delat som länkar går du till vyn **[!UICONTROL Shared Links]**.
 
 1. Granska länkarna som du delade från den lista som visas.
 
    ![](assets/shared-links.png)
 
-1. Om du vill ta bort delningen av en länk från listan markerar du den och klickar på knappen **[!UICONTROL Unshare]** ikonen i verktygsfältet överst.
+1. Om du vill ta bort delningen av en länk från listan markerar du den och klickar på ikonen **[!UICONTROL Unshare]** i verktygsfältet högst upp.
 
    ![](assets/unshare-asset.png)
 
@@ -216,4 +216,4 @@ Så här tar du bort delning av tidigare delade resurser som en länk:
    >
    >Visningen av delade länkar är användarspecifik. Den här funktionen visar inte alla länkar som delas av alla användare av en klientorganisation.
 
-1. Klicka på **[!UICONTROL Continue]** för att bekräfta att du inte vill dela. Posten för länken tas bort från listan med delade länkar.
+1. Klicka på **[!UICONTROL Continue]** i varningsmeddelanderutan för att bekräfta att du inte vill dela. Posten för länken tas bort från listan med delade länkar.

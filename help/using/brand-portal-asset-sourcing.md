@@ -19,14 +19,14 @@ kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
 
-# Resurskälla - översikt {#overview-asset-sourcing-in-bp}
+# Översikt över resurskälla {#overview-asset-sourcing-in-bp}
 
-**Resurskälla** ger Experience Manager Assets-användare (administratörer/icke-admin-användare) möjlighet att skapa nya mappar med ytterligare **Resursbidrag** egenskapen, vilket säkerställer att den nya mappen som skapas är öppen för överföring av mediefiler från Brand Portal-användare. Detta utlöser automatiskt ett arbetsflöde som skapar ytterligare två undermappar, som kallas **DELAD** och **NYHET** i den nya **Bidrag** mapp. Administratören definierar sedan behovet genom att ladda upp en översikt över de typer av resurser som ska läggas till i bidragsmappen samt en uppsättning baslinjeresurser till **DELAD** för att säkerställa att BP-användarna har den referensinformation de behöver. Administratören kan sedan ge aktiva Brand Portal-användare åtkomst till bidragsmappen innan den nyskapade **Bidrag** till Brand Portal. När användaren är klar lägger du till innehåll i **NYHET** kan de publicera bidragsmappen i Experience Manager-redigeringsmiljön. Observera att det kan ta några minuter att slutföra importen och återspegla det nya publicerade innehållet i Experience Manager Assets.
+Med **Resurshantering** kan Experience Manager Assets-användare (administratörer/icke-admin-användare) skapa nya mappar med en extra **Resursbidrag** -egenskap, vilket garanterar att den nya mappen som skapas är öppen för resursöverföring av Brand Portal-användare. Detta utlöser automatiskt ett arbetsflöde som skapar ytterligare två undermappar, som kallas **DELAD** och **NY**, i den nya **Contribute** -mappen. Administratören definierar sedan behovet genom att ladda upp en översikt över de typer av resurser som ska läggas till i bidragsmappen, samt en uppsättning baslinjeresurser, till mappen **SHARED** för att säkerställa att BP-användarna har den referensinformation de behöver. Administratören kan sedan ge aktiva Brand Portal-användare åtkomst till mappen för bidrag innan den nyligen skapade **Contribute**-mappen publiceras på Brand Portal. När användaren är klar med att lägga till innehåll i mappen **NEW** kan de publicera bidragsmappen i Experience Manager-redigeringsmiljön. Observera att det kan ta några minuter att slutföra importen och återspegla det nya publicerade innehållet i Experience Manager Assets.
 
 Dessutom ändras inte alla befintliga funktioner. Brand Portal-användare kan visa, söka efter och hämta resurser från bidragsmappen samt från andra tillåtna mappar. Administratörer kan dessutom dela mappen för bidrag ytterligare, ändra egenskaper och lägga till resurser i samlingar.
 
@@ -36,8 +36,8 @@ Dessutom ändras inte alla befintliga funktioner. Brand Portal-användare kan vi
 
 ## Förutsättningar {#prerequisites}
 
-* Experience Manager Assets as a Cloud Service instance, Experience Manager Assets 6.5.2 eller senare.
-* Kontrollera att din Experience Manager Assets-instans är konfigurerad med Brand Portal. Se, [Konfigurera Experience Manager Assets med Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+* Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.5.2 eller senare.
+* Kontrollera att din Experience Manager Assets-instans är konfigurerad med Brand Portal. Se [Konfigurera Experience Manager Assets med Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 <!--
 * Ensure that your Brand Portal tenant is configured with one AEM Assets author instance.
@@ -45,7 +45,7 @@ Dessutom ändras inte alla befintliga funktioner. Brand Portal-användare kan vi
 
 >[!NOTE]
 >
->Funktionen Resurshantering är som standard aktiverad på Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.5.9 och senare.
+>Funktionen Resurshantering är som standard aktiverad i Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.5.9 och senare.
 >
 >De befintliga konfigurationerna fortsätter att fungera med de tidigare versionerna.
 
@@ -108,21 +108,21 @@ En mapp för bidrag kan bara delas med de aktiva Brand Portal-användare som är
 
 >[!NOTE]
 >
->Kontrollera att din Experience Manager Assets-instans är konfigurerad med Brand Portal. Se, [Konfigurera Experience Manager Assets med Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+>Kontrollera att din Experience Manager Assets-instans är konfigurerad med Brand Portal. Se [Konfigurera Experience Manager Assets med Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 >[!NOTE]
 >
 >CSV-filens format är detsamma som det som stöds i Admin Console för bulkanvändarimport. E-post, förnamn och efternamn är obligatoriska.
 
-Administratörerna kan lägga till nya användare i Admin Console, se [Hantera användare](brand-portal-adding-users.md) för detaljerad information. När du har lagt till användare i Admin Console kan dessa användare läggas till i Brand Portal användarkonfigurationsfil och sedan tilldelas behörighet att komma åt mappen för bidrag.
+Administratörerna kan lägga till nya användare i Admin Console. Mer information finns i [Hantera användare](brand-portal-adding-users.md). När du har lagt till användare i Admin Console kan dessa användare läggas till i Brand Portal användarkonfigurationsfil och sedan tilldelas behörighet att komma åt mappen för bidrag.
 
 **Så här överför du Brand Portal-användarlista:**
 
 1. Logga in på din Experience Manager Assets-instans.
-1. Från **verktyg**  panel, navigera till **[!UICONTROL Assets]** > **[!UICONTROL Brand Portal Users]**.
+1. Navigera till **[!UICONTROL Assets]** > **[!UICONTROL Brand Portal Users]** från panelen **Verktyg**.
 
 1. Fönstret Brand Portal Upload Contributors öppnas.
-Bläddra från den lokala datorn och ladda upp **konfigurationsfil (.csv)** som innehåller den aktiva Brand Portal-användarlistan.
+Bläddra från den lokala datorn och överför **konfigurationsfilen (.csv)** som innehåller den aktiva Brand Portal-användarlistan.
 1. Klicka på **[!UICONTROL Save]**.
 
    ![](assets/upload-user-list2.png)
@@ -134,4 +134,4 @@ Administratörer kan ge åtkomst till specifika användare från den här använ
 
 * [Konfigurera och publicera avgiftsbelagda mappar i Brand Portal](brand-portal-publish-contribution-folder-to-brand-portal.md)
 
-* [Publicera bidragsmapp till Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
+* [Publish-mapp för bidrag till Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)

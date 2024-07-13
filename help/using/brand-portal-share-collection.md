@@ -12,62 +12,62 @@ discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
 source-git-commit: 26c16668224d22f133419c13ea5fe4e24335a22f
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
 
 # Dela samlingar {#share-collections}
 
-En samling representerar en grupp relaterade resurser som lagras tillsammans i Adobe Experience Manager Assets Brand Portal. Användarna kan skapa smarta samlingar med [använda sökning eller ansiktssökning för att filtrera bort relaterade resurser](brand-portal-searching.md) och lagra dem tillsammans så att de blir lätta att komma åt och dela dem med andra Brand Portal-användare.
+En samling representerar en grupp relaterade resurser som lagras tillsammans i Adobe Experience Manager Assets Brand Portal. Användarna kan skapa smarta samlingar genom att [använda sökning eller ansiktssökning för att filtrera bort relaterade resurser](brand-portal-searching.md) och lagra dem tillsammans för enkel åtkomst och dela dem ytterligare med andra Brand Portal-användare.
 
 <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-Samlingar delas som länkar via e-post. Alla som har åtkomst till länken för delning kan öppna samlingen, medan delade e-postmeddelanden kan vidarebefordras till alla. Dessutom [delade länkar](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/share/brand-portal-link-share.html?lang=en) är tillfälliga och endast tillgängliga under begränsad tid. Alternativt kan användare bjudas in som permanenta medlemmar i samlingar. Det finns följande typer av användare för samlingarna:
+Samlingar delas som länkar via e-post. Alla som har åtkomst till länken för delning kan öppna samlingen, medan delade e-postmeddelanden kan vidarebefordras till alla. Dessutom är [delade länkar](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/share/brand-portal-link-share.html?lang=en) temporära och tillgängliga endast under en begränsad tid. Alternativt kan användare bjudas in som permanenta medlemmar i samlingar. Det finns följande typer av användare för samlingarna:
 
 * **Administratörer** kan dela eller ta bort delning av en samling med behöriga Brand Portal-användare. De kan bjuda in andra användare till en viss samling och definiera deras roll för den samlingen. Dessutom kan administratörer skapa offentliga samlingar.
 
 * **Redigerare** kan skapa och dela samlingar. De kan bjuda in andra användare till en viss samling och definiera deras roll för den samlingen. Dessutom kan de dela samlingar, om de har bjudits in till samlingen som redigerare eller ägare.
 
-* **Tittare** kan bara skapa privata samlingar. De får inte dela en samling även när de har bjudits in som ägare.
+* **Visare** kan bara skapa privata samlingar. De får inte dela en samling även när de har bjudits in som ägare.
 
 >[!NOTE]
 >
->Redigerare kan inte ändra en offentlig samling till en icke-offentlig samling och har därför inte **[!UICONTROL Public Collection]** kryssruta tillgänglig i **[!UICONTROL Collection Settings]** -dialogrutan.
+>Redigerare kan inte ändra en offentlig samling till en icke-offentlig samling och har därför inte kryssrutan **[!UICONTROL Public Collection]** tillgänglig i dialogrutan **[!UICONTROL Collection Settings]**.
 
 ## Dela en samling {#share-collection}
 
 Så här delar du en samling med behöriga Brand Portal-användare:
 
-1. Logga in på din Brand Portal-klient. Som standard är **[!UICONTROL Files]** öppnas som innehåller alla publicerade resurser och mappar.
+1. Logga in på din Brand Portal-klient. Som standard öppnas vyn **[!UICONTROL Files]** som innehåller alla publicerade resurser och mappar.
 
-1. Klicka på snabbnavigeringen högst upp **[!UICONTROL Collections]**.
+1. Klicka på **[!UICONTROL Collections]** i snabbnavigeringen högst upp.
 
-1. Från **[!UICONTROL Collections]** gör du något av följande:
+1. Gör något av följande från konsolen **[!UICONTROL Collections]**:
 
-   * Håll pekaren över den samling som du vill dela. Klicka på miniatyrbilderna för snabbåtgärder som är tillgängliga för samlingen **[!UICONTROL Settings]** -ikon.
+   * Håll pekaren över den samling som du vill dela. Klicka på ikonen **[!UICONTROL Settings]** i miniatyrbilderna för snabbåtgärder som är tillgängliga för samlingen.
 
      ![](assets/settings-icon.png)
 
-   * Markera den samling som du vill dela. Klicka på i verktygsfältet högst upp **[!UICONTROL Settings]**.
+   * Markera den samling som du vill dela. Klicka på **[!UICONTROL Settings]** i verktygsfältet överst.
 
      ![](assets/collection-console.png)
 
-1. I **[!UICONTROL Collection Settings]** väljer du de användare som du vill dela samlingen med och väljer den roll som användaren ska ha för att matcha den globala rollen. Tilldela till exempel redigerarrollen till en global redigerare, visningsprogramrollen till ett globalt visningsprogram.
+1. I dialogrutan **[!UICONTROL Collection Settings]** väljer du de användare som du vill dela samlingen med och väljer rollen som användaren ska matcha sin globala roll. Tilldela till exempel redigerarrollen till en global redigerare, visningsprogramrollen till ett globalt visningsprogram.
 
-   Du kan även göra samlingen tillgänglig för alla användare, oavsett deras gruppmedlemskap och roll, genom att välja **[!UICONTROL Public Collection]** kryssruta.
+   Du kan även göra samlingen tillgänglig för alla användare oavsett deras gruppmedlemskap och roll genom att markera kryssrutan **[!UICONTROL Public Collection]**.
 
    >[!NOTE]
    >
-   >Användare som inte är administratörer kan dock hindras från att skapa offentliga samlingar, så att du slipper ha flera offentliga samlingar så att systemutrymmet kan sparas. Organisationer kan inaktivera **[!UICONTROL Allow public collections creation]** konfiguration från **[!UICONTROL General]** inställningar som är tillgängliga på panelen Administrationsverktyg.
+   >Användare som inte är administratörer kan dock hindras från att skapa offentliga samlingar, så att du slipper ha flera offentliga samlingar så att systemutrymmet kan sparas. Organisationer kan inaktivera **[!UICONTROL Allow public collections creation]**-konfigurationen från **[!UICONTROL General]**-inställningarna som är tillgängliga på panelen Administrationsverktyg.
 
    ![](assets/collection_sharingadduser.png)
 
-   Redigerarna kan inte ändra en offentlig samling till en icke-offentlig samling och har därför inte **[!UICONTROL Public Collection]** kryssruta tillgänglig i **[!UICONTROL Collection Settings]** -dialogrutan.
+   Redigerarna kan inte ändra en offentlig samling till en icke-offentlig samling och har därför inte kryssrutan **[!UICONTROL Public Collection]** tillgänglig i dialogrutan **[!UICONTROL Collection Settings]**.
 
    ![](assets/collection-setting-editor.png)
 
-1. Klicka på **[!UICONTROL Add]** för att lägga till användaren och klicka sedan på **[!UICONTROL Save]**. Samlingen delas med användarna.
+1. Klicka på knappen **[!UICONTROL Add]** för att lägga till användaren och klicka sedan på **[!UICONTROL Save]**. Samlingen delas med användarna.
 
    >[!NOTE]
    >
@@ -77,21 +77,21 @@ Så här delar du en samling med behöriga Brand Portal-användare:
 
 Så här tar du bort delningen av en tidigare delad samling:
 
-1. Från **[!UICONTROL Collections]** väljer du den samling du vill ta bort delningen från.
+1. Välj den samling du vill ta bort delningen från konsolen **[!UICONTROL Collections]**.
 
-   Klicka på i verktygsfältet högst upp **[!UICONTROL Settings]**.
+   Klicka på **[!UICONTROL Settings]** i verktygsfältet överst.
 
    ![](assets/collection_settings.png)
 
-1. I **[!UICONTROL Collection Settings]** dialogrutan, under **[!UICONTROL Members]** klickar du på **[!UICONTROL x]** -symbol bredvid användare för att ta bort dem från listan över användare som har åtkomst till samlingen.
+1. I dialogrutan **[!UICONTROL Collection Settings]**, under avsnittet **[!UICONTROL Members]**, klickar du på symbolen **[!UICONTROL x]** bredvid användare för att ta bort dem från listan över användare som har åtkomst till samlingen.
 
    ![](assets/unshare_collection.png)
 
-1. Ett varningsmeddelande visas. Klicka **[!UICONTROL Confirm]** för att ta bort delning av samlingen.
+1. Ett varningsmeddelande visas. Klicka på **[!UICONTROL Confirm]** om du vill ta bort delningen av samlingen.
 
-1. Klicka **[!UICONTROL Save]** för att tillämpa ändringarna.
+1. Klicka på **[!UICONTROL Save]** för att tillämpa ändringarna.
 
-   När användaren har tagits bort från den delade listan tas den odelade samlingen bort från användarens **[!UICONTROL Collections]** konsol.
+   När användaren har tagits bort från den delade listan tas den odelade samlingen bort från användarens **[!UICONTROL Collections]**-konsol.
 
 <!--
 1. Click the overlay icon on the left, and choose **[!UICONTROL Navigation]**.
