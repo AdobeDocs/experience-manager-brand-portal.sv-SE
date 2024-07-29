@@ -1,29 +1,25 @@
 ---
 title: Använda bildförinställningar eller dynamiska återgivningar
-seo-title: Apply image presets or dynamic renditions
-description: Precis som ett makro är en bildförinställning en fördefinierad samling kommandon för storleksändring och formatering som sparats under ett namn. Med bildförinställningar kan Experience Manager Assets Brand Portal dynamiskt leverera bilder i olika storlekar, format och egenskaper.
-seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable Experience Manager Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
-uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
+description: Precis som ett makro är en bildförinställning en fördefinierad samling kommandon för storleksändring och formatering som sparats under ett namn. Med bildförinställningar kan Experience Manager Assets Brand Portal leverera bilder i olika storlekar, format och egenskaper dynamiskt.
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 1a3e51922fb658d9d05113b4b1f4d05a0b6555c0
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '790'
 ht-degree: 2%
 
 ---
 
 # Använda bildförinställningar eller dynamiska återgivningar {#apply-image-presets-or-dynamic-renditions}
 
-Precis som ett makro är en bildförinställning en fördefinierad samling kommandon för storleksändring och formatering som sparats under ett namn. Med bildförinställningar kan Experience Manager Assets Brand Portal dynamiskt leverera bilder i olika storlekar, format och egenskaper.
+Precis som ett makro är en bildförinställning en fördefinierad samling kommandon för storleksändring och formatering som sparats under ett namn. Med bildförinställningar kan Experience Manager Assets Brand Portal leverera bilder i olika storlekar, format och egenskaper dynamiskt.
 
 En bildförinställning används för att generera dynamiska återgivningar av bilder som kan förhandsvisas och hämtas. När du förhandsgranskar bilder och deras återgivningar kan du välja en förinställning för att formatera om bilder enligt de specifikationer som angetts av administratören.
 
-(*Om Experience Manager Assets-författarinstansen körs i **Dynamic Media-hybridläge***) Om du vill visa dynamiska återgivningar av en resurs i Brand Portal kontrollerar du att dess Pyramid-återgivning finns i den Experience Manager Assets-författarinstans som du publicerar på Brand Portal. När du publicerar resursen publiceras även dess PTIFF-återgivning till Brand Portal.
+(*Om Experience Manager Assets-författarinstansen körs i **Dynamic Media-hybridläge***). Om du vill visa dynamiska återgivningar av en resurs i Brand Portal kontrollerar du att dess Pyramid TIFF-återgivning finns i Experience Manager Assets-författarinstansen som du publicerar på Brand Portal. När du publicerar resursen publiceras även dess PTIFF-återgivning till Brand Portal.
 
 >[!NOTE]
 >
@@ -38,13 +34,13 @@ Experience Manager Assets-administratörerna kan skapa bildförinställningar so
 
 >[!NOTE]
 >
->Dynamiska återgivningar av en bild skapas med TIFF i Pyramid. Om Pyramid TIFF inte är tillgänglig för någon resurs går det inte att hämta dynamiska återgivningar för den resursen i varumärkesportalen.
+>Dynamiska återgivningar av en bild skapas med TIFF i Pyramid. Om Pyramid TIFF inte är tillgänglig för någon resurs går det inte att hämta dynamiska återgivningar för den resursen i Brand Portal.
 >
->Om Experience Manager Assets författarinstans körs i **Dynamic Media-hybridläge** skapas Pyramid-TIFF-återgivningar av bildresurser och sparas i Experience Manager Assets-databasen.
+>Om Experience Manager Assets Author-instansen körs i **Dynamic Media-hybridläge** skapas Pyramid-TIFF-återgivningar av bildresurser och sparas i Experience Manager Assets-databasen.
 >
->Om Experience Manager Assets-författarinstans körs i **Dynamic Media Scene 7-läge** finns det Pyramid TIFF-återgivningar av bildresurser på Scene 7-servern.
+>Om Experience Manager Assets-författarinstans körs i **Dynamic Media Scene7-läge** finns det Pyramid TIFF-återgivningar av bildresurser på Scene7-servern.
 >
->När sådana resurser publiceras på varumärkesportalen används bildförinställningar och dynamiska återgivningar visas.
+>När sådana resurser publiceras till Brand Portal används bildförinställningar och dynamiska återgivningar visas.
 
 
 1. Klicka på Experience Manager-logotypen i verktygsfältet överst för att öppna administrationsverktygen.
@@ -68,7 +64,7 @@ Experience Manager Assets-administratörerna kan skapa bildförinställningar so
 1. Klicka på **[!UICONTROL Save]**. Bildförinställningen skapas och visas på sidan med bildförinställningar.
 1. Om du vill ta bort en bildförinställning markerar du den på sidan med bildförinställningar och klickar på **[!UICONTROL Delete]**. Bekräfta borttagningen genom att klicka på **[!UICONTROL Delete]** på bekräftelsesidan. Bildförinställningen tas bort från sidan med bildförinställningar.
 
-## Använda bildförinställningar vid förhandsvisning av bilder  {#apply-image-presets-when-previewing-images}
+## Använda bildförinställningar vid förhandsvisning av bilder {#apply-image-presets-when-previewing-images}
 
 När du förhandsgranskar bilder och deras återgivningar kan du välja bland de befintliga förinställningarna för att formatera om bilderna enligt de specifikationer som angetts av administratören.
 
@@ -99,8 +95,8 @@ När du hämtar bilder och deras återgivningar från Brand Portal kan du inte v
 
    ![](assets/donload-assets-dialog.png)
 
-1. Om du vill hämta dynamiska återgivningar av resursen väljer du alternativet **[!UICONTROL Dynamic Rendition(s)]**.
-1. Anpassa egenskaper för bildförinställningar utifrån vilka du vill formatera om bilden och dess återgivningar dynamiskt under hämtningen. Ange storlek, format, färgrymd, upplösning och bildmodifiering.
+1. Om du vill hämta dynamiska återgivningar av resursen väljer du alternativet **[!UICONTROL Dynamic Renditions]**.
+1. Anpassa egenskaper för bildförinställningar för att formatera om bilden och dess återgivningar dynamiskt under hämtningen. Ange storlek, format, färgrymd, upplösning och bildmodifiering.
 
    ![](assets/dynamicrenditions.png)
 
