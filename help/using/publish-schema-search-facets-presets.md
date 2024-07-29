@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
 exl-id: 9b585606-6538-459b-87a9-2e68df0087b3
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: 133ea1fc342e4460e7d0661205c7411a509143eb
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Så här publicerar du bildförinställningar till Brand Portal:
 
 Så här avpublicerar du en bildförinställning från Brand Portal:
 
-1. I AEM Author-instansen trycker/klickar du på den AEM logotypen för att komma åt den globala navigeringskonsolen, trycker/klickar på ikonen **[!UICONTROL Tools]** och navigerar till **[!UICONTROL Assets > Image Presets]**.
+1. I AEM Author-instansen trycker/klickar du på den AEM logotypen för att komma åt den globala navigeringskonsolen, klickar på ikonen **[!UICONTROL Tools]** och navigerar till **[!UICONTROL Assets > Image Presets]**.
 1. Välj en bildförinställning och välj **[!UICONTROL Remove from Brand Portal]** bland de tillgängliga alternativen högst upp.
 
 ## Publish metadatamatchema för Brand Portal  {#publish-metadata-schema-to-brand-portal}
@@ -71,7 +71,7 @@ Om användare har skapat ett anpassat schema AEM författarinstansen kan de publ
 
 Så här publicerar du ett metadataschema från AEM Author-instans till Brand Portal:
 
-1. I AEM Author, tryck/klicka på den AEM logotypen för att komma åt den globala navigeringskonsolen och tryck/klicka på verktygsikonen och navigera till **[!UICONTROL Assets > Metadata Schemas]**.
+1. I AEM Author-instansen trycker/klickar du på den AEM logotypen för att komma åt den globala navigeringskonsolen, klickar på verktygsikonen och går till **[!UICONTROL Assets > Metadata Schemas]**.
 1. Välj ett metadataschema och välj **[!UICONTROL Publish to Brand Portal]** bland de tillgängliga alternativen högst upp.
 
 >[!NOTE]
@@ -80,7 +80,7 @@ Så här publicerar du ett metadataschema från AEM Author-instans till Brand Po
 
 Så här avpublicerar du ett metadataschema från Brand Portal:
 
-1. I AEM Author, tryck/klicka på den AEM logotypen för att komma åt den globala navigeringskonsolen och tryck/klicka på verktygsikonen och navigera till **[!UICONTROL Assets > Metadata Schemas]**.
+1. I AEM Author-instansen trycker/klickar du på den AEM logotypen för att komma åt den globala navigeringskonsolen, klickar på verktygsikonen och går till **[!UICONTROL Assets > Metadata Schemas]**.
 1. Välj ett metadataschema och välj **[!UICONTROL Remove from Brand Portal]** bland de tillgängliga alternativen högst upp.
 
 ## Publish sökfack till Brand Portal {#publish-search-facets-to-brand-portal}
@@ -98,7 +98,7 @@ Om du vill använda det anpassade sökformuläret **[!UICONTROL Assets Admin Sea
 
 Så här publicerar du den redigerade sökaspekten från AEM Author-instansen till Brand Portal:
 
-1. Tryck/klicka på AEM logotyp och gå sedan till **[!UICONTROL Tools > General > Search Forms]**.
+1. Klicka på AEM logotyp och gå sedan till **[!UICONTROL Tools > General > Search Forms]**.
 1. Markera det redigerade sökformuläret och välj **[!UICONTROL Publish to Brand Portal]**.
 
    >[!NOTE]
@@ -107,7 +107,7 @@ Så här publicerar du den redigerade sökaspekten från AEM Author-instansen ti
 
 Så här avpublicerar du sökformulär från Brand Portal:
 
-1. I AEM Author, tryck/klicka på den AEM logotypen för att komma åt den globala navigeringskonsolen och tryck/klicka på verktygsikonen och navigera till **[!UICONTROL General > Search Forms]**.
+1. I AEM Author-instansen trycker/klickar du på den AEM logotypen för att komma åt den globala navigeringskonsolen, klickar på verktygsikonen och går till **[!UICONTROL General > Search Forms]**.
 1. Markera sökformuläret och välj **[!UICONTROL Remove from Brand Portal]** bland de tillgängliga alternativen överst.
 
 >[!NOTE]
