@@ -1,16 +1,12 @@
 ---
 title: Dynamiskt videostöd i Brand Portal
-seo-title: Dynamic video support on Brand Portal
 description: Dynamiskt videostöd i Brand Portal
-seo-description: Dynamic video support on Brand Portal
-uuid: a3502a4d-3971-4ea4-953c-44ba04446269
 contentOwner: mgulati
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: download-install
-discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: beabaa4e5cca4c2554111861b15902cac54ccd4c
+source-git-commit: ff51a49a958d43c98443d816a92276faae5e9569
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 0%

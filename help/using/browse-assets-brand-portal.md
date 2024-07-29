@@ -1,26 +1,22 @@
 ---
 title: Bläddra bland resurser på Brand Portal
-seo-title: Browse assets on Brand Portal
 description: Bläddra bland resurser, gå igenom resurshierarkier och söka efter resurser med olika visningsalternativ och gränssnittselement i Brand Portal.
-seo-description: Browse through assets, traverse asset hierarchies, and search assets, using different view options and UI elements on Brand Portal.
-uuid: 178ce217-0050-4922-a204-f4539d46f539
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
-discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: 133ea1fc342e4460e7d0661205c7411a509143eb
+source-git-commit: ff51a49a958d43c98443d816a92276faae5e9569
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
 
 # Bläddra bland resurser på Brand Portal {#browsing-assets-on-brand-portal}
 
-Experience Manager Assets Brand Portal har olika funktioner och användargränssnittselement som gör det enklare att bläddra bland resurser, gå igenom resurshierarkier och söka efter resurser med olika visningsalternativ.
+Experience Manager Assets Brand Portal har olika funktioner och element i användargränssnittet som gör det enkelt att bläddra bland resurser, navigera i resurshierarkier och söka efter resurser med olika visningsalternativ.
 
-Experience Manager logotyp i verktygsfältet längst upp gör det lättare för administratörsanvändare att komma åt panelen Administrationsverktyg.
+Experience Manager logotypen i verktygsfältet längst upp gör det lättare för administratörsanvändare att komma åt panelen Administrationsverktyg.
 
 ![](assets/aemlogo.png)
 
@@ -28,11 +24,11 @@ Experience Manager logotyp i verktygsfältet längst upp gör det lättare för 
 
 ![](assets/bp_subheader.png)
 
-Rälsväljaren längst upp till vänster i listrutan Brand Portal för att visa alternativ för att navigera i resurshierarkier, effektivisera sökningen och visa resurser.
+Rälsväljaren längst upp till vänster i listrutan Brand Portal visar alternativ för att navigera i resurshierarkier, effektivisera sökningar och visa resurser.
 
 ![](assets/siderail-1.png)
 
-Du kan visa, navigera genom och välja resurser med någon av de tillgängliga vyerna (kort, kolumn och lista) i vyväljaren längst upp till höger i Brand Portal.
+Du kan visa, navigera och välja resurser med någon av de tillgängliga vyerna (kort, kolumn och lista) i visningsväljaren för Brand Portal.
 
 ![](assets/viewselector.png)
 
@@ -60,27 +56,28 @@ I kortvyn visas informationskort för varje objekt på den aktuella nivån. Dess
 * Storlek
 * Dimensioner
 
-Du kan navigera nedåt i hierarkin genom att trycka på/klicka på kort (för att undvika snabbåtgärderna) eller uppåt igen genom att använda [vägbeskrivningarna i huvudet](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
+Du kan navigera nedåt i hierarkin genom att klicka på kort (var noga med att inte utföra snabbåtgärderna) eller uppåt igen genom att använda [vägbeskrivningarna i sidhuvudet](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
 
 ![](assets/cardquickactions.png)
 
 #### Kortvy för icke-adminanvändare
 
-Kort med mappar, i kortvyn, visar mapphierarkiinformation för icke-adminanvändare (Editor, Viewer och Guest User). Med den här funktionen kan användarna se var mapparna finns, de har åtkomst till dem, i förhållande till den överordnade hierarkin.
-Mapphierarkiinformation är särskilt användbar när du vill differentiera mappar som har namn som liknar andra mappar som delas från en annan mapphierarki. Om användare som inte är administratörer inte känner till mappstrukturen för de resurser som delas med dem verkar resurser/mappar med liknande namn förvirrande.
+Kort med mappar, i kortvyn, visar mapphierarkiinformation för icke-adminanvändare (Editor, Viewer och Guest User). Den här funktionen gör att användarna vet var mapparna de öppnar finns, i förhållande till den överordnade hierarkin.
 
-* De banor som visas på respektive kort trunkeras för att passa kortstorlekarna. Användarna kan dock se hela sökvägen som en funktionsbeskrivning när de hovrar över den trunkerade banan.
+Mapphierarkiinformation är särskilt användbar när du vill differentiera mappar som har namn som liknar andra mappar som delas från en annan mapphierarki. Om icke-adminanvändare inte känner till mappstrukturen för de resurser som delas med dem, verkar resurser/mappar med liknande namn förvirrande.
+
+* De banor som visas på respektive kort trunkeras för att passa kortstorlekarna. Användarna kan dock se den fullständiga sökvägen som ett verktygstips genom att hålla markören över den trunkerade banan.
 
 ![](assets/folder-hierarchy1.png)
 
 **Översiktsalternativ för att visa resursegenskaper**
 
-Alternativet Översikt är tillgängligt för användare som inte är administratörer (redigerare, visningsprogram, gästanvändare) för att visa resursegenskaper för valda resurser/mappar. Alternativet Översikt visas:
+Alternativet Översikt är tillgängligt för icke-adminanvändare (redigerare, visningsprogram, gästanvändare) om du vill visa resursegenskaper för valda resurser/mappar. Alternativet Översikt visas:
 
-* i verktygsfältet högst upp när du väljer en resurs/mapp.
-* i listrutan när du väljer järnvägsväljaren.
+* Överst i verktygsfältet när du väljer en resurs/mapp.
+* I listrutan när du väljer järnvägsväljaren.
 
-När du väljer alternativet **[!UICONTROL Overview]** när en resurs/mapp är markerad kan användarna se titeln, sökvägen och tidpunkten när resursen skapades. Om du väljer alternativet Översikt på sidan med tillgångsinformation kan användarna se metadata för resursen.
+När du väljer alternativet **[!UICONTROL Overview]** när en resurs/mapp är markerad kan användarna se titeln, sökvägen och tidpunkten när resursen skapades. På sidan med tillgångsinformation kan användarna se metadata för resursen genom att välja alternativet Översikt.
 
 ![](assets/overview-option.png)
 
@@ -88,7 +85,7 @@ När du väljer alternativet **[!UICONTROL Overview]** när en resurs/mapp är m
 
 #### Visa inställningar i kortvyn
 
-Dialogrutan **[!UICONTROL View Settings]** öppnas när du väljer **[!UICONTROL View Settings]** i vyväljaren. Du kan ändra storlek på miniatyrbilderna för resursen i kortvyn. På så sätt kan du anpassa visningen och styra antalet miniatyrbilder som visas.
+Dialogrutan **[!UICONTROL View Settings]** öppnas genom att du väljer **[!UICONTROL View Settings]** i vyväljaren. Du kan ändra storlek på miniatyrbilderna för resursen i kortvyn. På så sätt kan du anpassa visningen och styra antalet miniatyrbilder som visas.
 
 ![](assets/cardviewsettings.png)
 
@@ -109,7 +106,7 @@ I listvyn visas information för varje resurs på den aktuella nivån. I listvyn
 * Mappsökväg som visar resurshierarki
 * Datum för publicering av resursen på Brand Portal
 
-Med sökvägskolumnen är det enkelt att identifiera resursens plats i mapphierarkin. Du kan navigera nedåt i hierarkin genom att trycka/klicka på resursnamnet och sedan säkerhetskopiera genom att använda [breadcrumbs i rubriken](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
+Med sökvägskolumnen är det enkelt att identifiera resursplats i mapphierarkin. Du kan navigera nedåt i hierarkin genom att klicka på resursnamnet och säkerhetskopiera genom att använda [vägbeskrivningar i rubriken](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."
@@ -129,7 +126,7 @@ Använd kolumnvyn för att navigera i ett innehållsträd genom en serie överla
 
 Om du väljer en resurs i den första kolumnen (längst till vänster) visas underordnade resurser i den andra kolumnen till höger. Om du väljer en resurs i den andra kolumnen visas underordnade resurser i den tredje kolumnen till höger och så vidare.
 
-Du kan navigera uppåt och nedåt i trädet genom att trycka eller klicka på resursnamnet eller nedåt till höger om resursnamnet.
+Du kan navigera uppåt och nedåt i trädet. Klicka på resursnamnet eller nedtryckningen till höger om resursnamnet.
 
 * Resursnamnet och förvrängningen markeras när användaren knackar på eller klickar på den.
 * Om du trycker eller klickar på miniatyrbilden markeras resursen.
@@ -144,7 +141,7 @@ När en resurs är markerad i kolumnvyn visas en visuell representation av resur
 * Datum och tid när resursen publicerades till Brand Portal från AEM
 * Storlek
 * Typ
-* Alternativet Mer information, för att gå till detaljsidan för resursen
+* Alternativet Mer information som finns på sidan med information om resursen
 
 <!--
 Comment Type: draft
@@ -248,7 +245,7 @@ På sidan med tillgångsinformation kan du visa en resurs, hämta, dela resursen
 
 ![](assets/asset-detail.png)
 
-Om du vill visa resursens metadata, eller visa de olika återgivningarna, använder du spårväljaren på resursdetaljsidan.
+Om du vill visa resursens metadata, eller visa de olika återgivningarna, använder du spårväljaren på sidan med resursinformation.
 
 ![](assets/asset-overview.png)
 
