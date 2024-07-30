@@ -1,14 +1,12 @@
 ---
 title: Nyheter i Experience Manager Assets Brand Portal
 description: Läs om de nya funktionerna och förbättringarna i Experience Manager Assets Brand Portal version 2024.02.0.
-uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: introduction
-discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 0bcd251cd566c03cada5dad1c325845723579be7
+source-git-commit: 4d9d7afa2cd45ea68c2e15338c92aa29ecf09f91
 workflow-type: tm+mt
 source-wordcount: '6462'
 ht-degree: 0%
