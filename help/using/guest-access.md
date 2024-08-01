@@ -1,18 +1,14 @@
 ---
 title: Gäståtkomst till Brand Portal
-seo-title: Guest Access to Brand Portal
 description: Tillåt gäståtkomst och spara arbetet med att ta in flera användare utan autentisering.
-seo-description: Allow guest access and save the effort to onboard numerous users without authentication.
-uuid: edb4378d-1710-44a2-97a6-594d99f62fff
 contentOwner: VG
 topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: 0670b8d372fd2dc5bdb1d0a928601e3e09a6dcf9
+source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -21,8 +17,8 @@ ht-degree: 0%
 
 Experience Manager Assets Brand Portal ger gästerna åtkomst till portalen. En gästanvändare behöver inga autentiseringsuppgifter för att gå in i portalen och har tillgång till portalens offentliga resurser (och samlingar). Användare i gästsessionen kan lägga till resurser i ljuslådan (privat samling) och hämta samma tills deras session varar eller om inte gästanvändaren väljer att [[!UICONTROL End Session]](#exit-guest-session). En gästanvändarsession är aktiv i 15 minuter.
 
-Med gäståtkomstfunktionen kan organisationer [snabbt dela godkända resurser](../using/brand-portal-sharing-folders.md#how-to-share-folders) med den avsedda målgruppen i stor skala utan att behöva lägga in dem. Brand Portal 6.4.2 och senare är utrustat för flera samtidiga gästanvändare, vilket är 10 % av den totala användarkvoten per organisation. Genom att ge gäståtkomst sparar du tid för att hantera och lägga in poäng för användare med begränsade funktioner på Brand Portal.\
-Organisationer kan aktivera (eller inaktivera) gäståtkomst för organisationens Brand Portal-konto med hjälp av alternativet **[!UICONTROL Allow Guest Access]** från inställningarna för **[!UICONTROL Access]** på panelen Administrationsverktyg.
+Med gäståtkomstfunktionen kan organisationer [dela godkända resurser snabbt](../using/brand-portal-sharing-folders.md#how-to-share-folders) med den avsedda målgruppen i stor skala utan att behöva lägga in dem. Brand Portal 6.4.2 och senare är utrustat för flera samtidiga gästanvändare, vilket är 10 % av den totala användarkvoten per organisation. Genom att ge gäståtkomst sparar du tid för att hantera och lägga in poäng för användare med begränsade funktioner på Brand Portal.\
+Organisationer kan aktivera (eller inaktivera) gäståtkomst på organisationens Brand Portal-konto med alternativet **[!UICONTROL Allow Guest Access]** i inställningarna för **[!UICONTROL Access]** på panelen Administrationsverktyg.
 
 <!--
 Comment Type: annotation
@@ -35,20 +31,20 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ## Starta gästsession {#begin-guest-session}
 
-Om du vill ange Brand Portal anonymt väljer du **[!UICONTROL Click here]** som motsvarar **[!UICONTROL Guest Access?]** på Brand Portal välkomstskärm. Ange säkerhetskontrollen captcha för att ge åtkomst till Brand Portal.
+Om du vill ange Brand Portal anonymt väljer du **[!UICONTROL Click here]** som motsvarar **[!UICONTROL `Guest Access?`]** på Brand Portal välkomstskärm. Ange säkerhetskontrollen captcha för att ge åtkomst till Brand Portal.
 
 ![](assets/bp-login-screen.png)
 
 ## Gästsessionens varaktighet {#guest-session-duration}
 
 En gästanvändarsession är aktiv i 15 minuter.
-Det innebär att tillståndet för **[!UICONTROL Lightbox]** bevaras i 15 minuter från sessionens starttid, och efter det startas den aktuella gästsessionen om så att ljuslådans tillstånd försvinner.
+Den här processen bevarar tillståndet för **[!UICONTROL Lightbox]** i 15 minuter från sessionens starttid. Efter det startas den aktuella gästsessionen om, vilket gör att ljuslådeläget går förlorat.
 
-En gästanvändare loggar till exempel in på Brand Portal 1 500 timmar och lägger till resurser i **[!UICONTROL Lightbox]** för hämtning kl. 15:05 timmar. Om användaren inte hämtar samlingen **[!UICONTROL Lightbox]** (eller dess resurser) före 15:15 timmar (inom 15 minuter efter inloggningen) måste användaren starta om sessionen. **[!UICONTROL Lightbox]** är tom, vilket innebär att de överförda resurserna inte längre är tillgängliga om sessionen förlorades.
+En gästanvändare loggar till exempel in på Brand Portal 1 500 timmar och lägger till resurser i **[!UICONTROL Lightbox]** för hämtning kl. 15:05 timmar. Om användaren inte hämtar samlingen **[!UICONTROL Lightbox]** (eller dess resurser) före 15:15 timmar (inom 15 minuter efter inloggning) måste användaren starta om sessionen. **[!UICONTROL Lightbox]** är tom, vilket innebär att de överförda resurserna inte längre är tillgängliga om sessionen förlorades.
 
 ## Samtidiga gästsessioner tillåts {#concurrent-guest-sessions-allowed}
 
-Antalet samtidiga gästsessioner är begränsat till 10 % av den totala användarkvoten per organisation. Det innebär att högst 20 gästanvändare kan arbeta samtidigt i en organisation med en användarkvot på 200. Den 21:a användaren nekas åtkomst och kan bara komma åt som gäst om sessionen för någon av de 20 aktiva gästanvändarna avslutas.
+Antalet samtidiga gästsessioner är begränsat till 10 % av den totala användarkvoten per organisation. Det innebär att för en organisation med en användarkvot på 200 kan högst 20 gästanvändare arbeta samtidigt. Den 21:a användaren nekas åtkomst och kan bara komma åt som gäst om sessionen för någon av de 20 aktiva gästanvändarna avslutas.
 
 >[!NOTE]
 >
@@ -62,9 +58,10 @@ När användare anger Brand Portal som gäst kan de se alla [resurser och mappar
 
 ![](assets/disabled-folder-hierarchy1.png)
 
-Gästanvändarna ser dock mappträdet (från rotmappen) och de delade mapparna i sina respektive överordnade mappar när de loggar in på Brand Portal, om administratörerna har aktiverat konfigurationen [Aktivera mapphierarki](../using/brand-portal-general-configuration.md#main-pars-header-1621071021).
 
-De här överordnade mapparna är de virtuella mapparna och inga åtgärder kan utföras på dem. Du känner igen dessa virtuella mappar med en låsikon.
+Om administratörer aktiverar [Aktivera mapphierarki](../using/brand-portal-general-configuration.md#main-pars-header-1621071021) kan gästanvändare se mappträdet från rotmappen och delade mappar i sina överordnade mappar när de loggar in i Brand Portal.
+
+De här överordnade mapparna är virtuella mappar och inga åtgärder kan utföras på dem. Du känner igen dessa virtuella mappar med en låsikon.
 
 Inga åtgärder visas när du hovrar eller markerar dem i **[!UICONTROL Card View]**, till skillnad från delade mappar. Knappen **[!UICONTROL Overview]** visas när du väljer en virtuell mapp i **[!UICONTROL Column View]** och **[!UICONTROL List View]**.
 
@@ -82,12 +79,12 @@ Med **[!UICONTROL Content tree]** kan du gå igenom resurshierarkin.
 
 ![](assets/guest-login-ui.png)
 
-Brand Portal tillhandahåller alternativet **[!UICONTROL Overview]** för gästanvändare så att de kan visa **[!UICONTROL Asset Properties]** av valda resurser/mappar. Alternativet **[!UICONTROL Overview]** är synligt:
+Brand Portal tillhandahåller ett **[!UICONTROL Overview]**-alternativ för gästanvändare så att de kan visa **[!UICONTROL Asset Properties]** valda resurser/mappar. Alternativet **[!UICONTROL Overview]** är synligt:
 
-* I verktygsfältet högst upp när du väljer en resurs/mapp.
+* Överst i verktygsfältet när du väljer en resurs eller mapp.
 * I listrutan när du väljer Järnvägsväljaren.
 
-När du väljer alternativet **[!UICONTROL Overview]** när en resurs/mapp är markerad kan användarna se titeln, sökvägen och tidpunkten när resursen skapades. När användaren väljer alternativet **[!UICONTROL Overview]** på sidan med tillgångsinformation kan användaren se metadata för resursen.
+När du väljer alternativet **[!UICONTROL Overview]** när en resurs eller mapp är markerad kan användarna se titeln, sökvägen och tidpunkten när resursen skapades. Om du väljer alternativet **[!UICONTROL Overview]** på sidan med tillgångsinformation kan användarna se metadata för resursen.
 
 ![](assets/overview-option-1.png)
 
@@ -136,4 +133,4 @@ Om du vill avsluta en gästsession använder du **[!UICONTROL End Session]** bla
 
 ## Övervaka gästanvändaraktiviteter {#monitoring-guest-user-activities}
 
-Administratörer kan övervaka gästanvändarinteraktion med Brand Portal. Rapporter som genereras i Brand Portal kan ge viktiga insikter om gästanvändaraktiviteter. Rapporten **[!UICONTROL Download]** kan till exempel användas för att spåra antalet resurser som hämtats av gästanvändaren. **[!UICONTROL User Logins]**-rapporten kan informera om när gästanvändaren senast loggade in på portalen och hur många inloggningar som har gjorts under en viss tid.
+Administratörer kan övervaka gästanvändarinteraktion med Brand Portal. Rapporter som genereras i Brand Portal kan ge viktiga insikter om gästanvändaraktiviteter. Rapporten **[!UICONTROL Download]** kan till exempel användas för att spåra antalet resurser som hämtats av gästanvändaren. **[!UICONTROL User Logins]**-rapporten kan informera om när gästanvändaren senast loggade in på portalen och hur ofta inloggningar ska ske under en viss tid.

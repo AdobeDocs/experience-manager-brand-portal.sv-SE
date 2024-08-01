@@ -1,18 +1,14 @@
 ---
 title: Snabba upp nedladdningen av Brand Portal
-seo-title: Speed up the Brand Portal downloads
 description: Förbättra hämtningsprestanda från Brand Portal och de delade länkarna.
-seo-description: Enhance download performance from Brand Portal and the shared links.
-uuid: 2871137e-6471-49a7-872a-841bd92543d1
 contentOwner: Vishabh Gupta
 topic-tags: download-install, download assets
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: ce765700aaecba4bfff7b55effb05f981b94bdec
+source-git-commit: f931f6576c05d82cea61bda00322425abc9e8d43
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '965'
 ht-degree: 2%
 
 ---
@@ -21,11 +17,11 @@ ht-degree: 2%
 
 <!-- This topic is woefully out of date. It talks at length about using a third party application whose URLs have a variety of problems. Topic should either be deleted or updated entirely to not talk about a specific third party application that Adobe has no control over. It also appears that the third party app is NOT free anymore. -->
 
-Med Adobe Experience Manager Assets Brand Portal kan du förbättra hämtningsprestanda för stora filer genom att integrera med IBM® Aspera Connect, som är ett program som installeras vid behov. Programmet använder tillverkarspecifik teknik för att ta bort TCP-omkostnader och förbättrar överföringshastigheten för resursfilerna. Integreringen ger en förbättrad nedladdningsupplevelse.
+Med Adobe Experience Manager Assets Brand Portal kan du förbättra hämtningsprestanda för stora filer genom att integrera med IBM® Aspera Connect, som är ett program som installeras vid behov. Programmet använder tillverkarspecifik teknik för att ta bort TCP-omkostnader och förbättrar överföringshastigheten för resursfilerna. Integreringen ger en bättre nedladdningsupplevelse.
 
 >[!NOTE]
 >
->Nedladdningshastigheten varierar för användarna eftersom den beror på t.ex. nätverkets bandbredd, serverns latens och klienternas geografiska placering.
+>Nedladdningshastigheten varierar för användarna eftersom den beror på faktorer som nätverksbandbredd, serverfördröjning och klienternas geografiska placering.
 
 Konfigurationen **[!UICONTROL Fast Download]** är som standard aktiverad, vilket minskar hämtningstiden avsevärt från Brand Portal.
 
@@ -89,15 +85,15 @@ Så här hämtar du resurser snabbare från Brand Portal:
 
 1. Dialogrutan **[!UICONTROL Download]** där alla markerade resurser visas.
 
-   Markera kryssrutan **[!UICONTROL Create separate folder for each asset]** om du vill bevara mapphierarkin i Brand Portal när du hämtar resurser.
+   Markera kryssrutan **[!UICONTROL `Create separate folder for each asset`]** om du vill bevara mapphierarkin i Brand Portal när du hämtar resurser.
 
-   Nedladdningsknappen visar antalet markerade objekt. När du är klar med att tillämpa reglerna klickar du på **[!UICONTROL Download items]**. Mer information om hur du använder regler finns i [Hämta resurser](../using/brand-portal-download-assets.md#download-assets).
+   Nedladdningsknappen visar antalet markerade objekt. När du är klar med att tillämpa reglerna klickar du på **[!UICONTROL Download items]**. Mer information om hur du använder reglerna finns i [Hämta resurser](../using/brand-portal-download-assets.md#download-assets).
 
    ![download-dialog](assets/download-dialog-box-new.png)
 
 1. Som standard är inställningen **[!UICONTROL Fast Download]** aktiverad i **[!UICONTROL Download Settings]**. Därför visas en bekräftelseruta där du kan hämta resurser med IBM® Aspera Connect.
 
-   Om du hämtar resurserna för första gången och inte har IBM® Aspera Connect installerat i webbläsaren, eller om den befintliga versionen är inaktuell, uppmanas du att installera Aspera Download Accelerator (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
+   Om du hämtade resurser för första gången och inte har IBM® Aspera Connect installerat i webbläsaren uppmanas du att installera det. Om den befintliga versionen är inaktuell uppmanas du även att installera [Aspera Download Accelerator](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all).
 
    ![](assets/aspera-not-launched.png)
 
@@ -184,7 +180,7 @@ Microsoft® Edge körs i EPM (Enhanced Protected Mode) som förhindrar kommunika
 
 ![](assets/switchapps-msedge.png)
 
-Om du vill använda accelererade nedladdningsfunktioner i Microsoft® Edge tar du bort Brand Portal webbplats från listan över tillförlitliga webbplatser.
+Om du vill använda accelererade nedladdningsfunktioner i Microsoft® Edge tar du bort Brand Portal webbplats från listan över tillförlitliga platser.
 
 1. Öppna Kontrollpanelen (**[!UICONTROL Window key + X]** och välj sedan **[!UICONTROL Control Panel]**).
 1. Gå till **[!UICONTROL Network and Internet]** > **[!UICONTROL Internet Options]**. Klicka på fliken **[!UICONTROL Security]**.
@@ -193,7 +189,7 @@ Om du vill använda accelererade nedladdningsfunktioner i Microsoft® Edge tar d
 
 ## Inställningar för Aspera Connect-klient {#aspera-connect-client-preferences}
 
-Det finns några användbara inställningar som du kan ange i inställningarna för IBM® Aspera Connect Client genom att högerklicka på ikonen och välja **[!UICONTROL Preferences]**.
+Det finns några användbara inställningar som du kan ange i klientinställningarna för IBM® Aspera Connect genom att högerklicka på ikonen och välja **[!UICONTROL Preferences]**.
 
 ![](assets/download_assets_frombrandportalimg19.png)
 
@@ -201,7 +197,7 @@ Du kan ange standardplats för hämtning.
 
 ![](assets/aspera-preferences.png)
 
-Dessutom kan Aspera Connect-klienten markeras så att den startar automatiskt när datorn startas så att anslutningsklienten körs och kan ladda ned snabbare.
+Dessutom kan Aspera Connect-klienten markeras så att den startar automatiskt när datorn startas. Connect-klienten körs och kan ladda ned snabbare.
 
 ![](assets/aspera-automaticallylaunch.png)
 
