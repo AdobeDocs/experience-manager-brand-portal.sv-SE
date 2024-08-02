@@ -1,18 +1,14 @@
 ---
 title: Dela en samling
-seo-title: Share a collection
-description: Administratörer för Experience Manager Assets Brand Portal kan dela och ta bort delning av en samling eller en smart samling med behöriga användare. Redigerare kan bara visa och dela samlingar som de skapat, delat med dem och gemensamma samlingar.
-seo-description: Experience Manager Assets Brand Portal Administrators can share and unshare a collection or a smart collection with authorized users. Editors can view and share only the collections created by them, shared with them, and public collections.
-uuid: 965f39cd-1378-42c1-a58a-01e1bf825aa3
+description: Läs om hur Experience Manager Assets Brand Portal-administratörer kan dela och ta bort delning av en samling eller en smart samling med behöriga användare. Redigerare kan bara visa och dela samlingar som de skapat, delat med dem och gemensamma samlingar.
 contentOwner: Vishabh Gupta
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
-source-git-commit: 26c16668224d22f133419c13ea5fe4e24335a22f
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
@@ -23,13 +19,13 @@ En samling representerar en grupp relaterade resurser som lagras tillsammans i A
 
 <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-Samlingar delas som länkar via e-post. Alla som har åtkomst till länken för delning kan öppna samlingen, medan delade e-postmeddelanden kan vidarebefordras till alla. Dessutom är [delade länkar](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/share/brand-portal-link-share.html?lang=en) temporära och tillgängliga endast under en begränsad tid. Alternativt kan användare bjudas in som permanenta medlemmar i samlingar. Det finns följande typer av användare för samlingarna:
+Samlingar delas som länkar via e-post. Alla som har tillgång till länken för delning kan öppna samlingen. Delade e-postmeddelanden kan dock vidarebefordras till alla. Dessutom är [delade länkar](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/share/brand-portal-link-share) temporära och tillgängliga endast under en begränsad tid. Alternativt kan användare bjudas in som permanenta medlemmar i samlingar. Det finns följande typer av användare för samlingarna:
 
-* **Administratörer** kan dela eller ta bort delning av en samling med behöriga Brand Portal-användare. De kan bjuda in andra användare till en viss samling och definiera deras roll för den samlingen. Dessutom kan administratörer skapa offentliga samlingar.
+* **Administratörer** kan dela eller ta bort delning av en samling med behöriga Brand Portal-användare. De kan bjuda in andra användare till en viss samling och definiera deras roll i samlingen. Dessutom kan administratörer skapa offentliga samlingar.
 
-* **Redigerare** kan skapa och dela samlingar. De kan bjuda in andra användare till en viss samling och definiera deras roll för den samlingen. Dessutom kan de dela samlingar, om de har bjudits in till samlingen som redigerare eller ägare.
+* **Redigerare** kan skapa och dela samlingar. De kan bjuda in andra användare till en viss samling och definiera deras roll i samlingen. Dessutom kan de dela samlingar, om de har bjudits in till samlingen som redigerare eller ägare.
 
-* **Visare** kan bara skapa privata samlingar. De får inte dela en samling även när de har bjudits in som ägare.
+* **Visare** kan bara skapa privata samlingar. De kan inte dela en samling även när de har bjudits in som ägare.
 
 >[!NOTE]
 >
@@ -63,7 +59,7 @@ Så här delar du en samling med behöriga Brand Portal-användare:
 
    ![](assets/collection_sharingadduser.png)
 
-   Redigerarna kan inte ändra en offentlig samling till en icke-offentlig samling och har därför inte kryssrutan **[!UICONTROL Public Collection]** tillgänglig i dialogrutan **[!UICONTROL Collection Settings]**.
+   Redigerarna kan inte ändra en offentlig samling till en icke-offentlig samling och har därför ingen kryssruta av typen **[!UICONTROL Public Collection]** i dialogrutan **[!UICONTROL Collection Settings]**.
 
    ![](assets/collection-setting-editor.png)
 

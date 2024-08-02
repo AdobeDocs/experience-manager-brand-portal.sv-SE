@@ -7,9 +7,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1490'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Vanliga frågor och svar om Brand Portal fokuserar på frågor och problem som s
 
 **Fråga: Den befintliga gamla OAuth-slutpunkten (`https://legacy-oauth.cloud.adobe.io/login`) fungerar inte. Vad kan vara den möjliga orsaken?**
 
-**Svar:** Äldre OAuth-konfiguration är föråldrad. Uppgradera Experience Manager Assets-författarinstanser till det senaste Service Pack-paketet och konfigurera det via Adobe Developer Console. Mer information finns i [Konfigurera Experience Manager Assets med Brand Portal](configure-aem-assets-with-brand-portal.md). För att äldre OAuth-konfiguration ska fungera tills du uppgraderar måste du dock uppdatera den äldre OAuth-slutpunkten till `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+**Svar:** Äldre OAuth-konfiguration är föråldrad. Uppgradera Experience Manager Assets upphovsmansförekomster till det senaste Service Pack-paketet och konfigurera det med Adobe Developer Console. Mer information finns i [Konfigurera Experience Manager Assets med Brand Portal](configure-aem-assets-with-brand-portal.md). För att äldre OAuth-konfiguration ska fungera tills du uppgraderar måste du dock uppdatera den äldre OAuth-slutpunkten till `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
 
 **Fråga: Jag kan inte publicera resurserna i mappen för bidrag från Brand Portal till Experience Manager Assets efter uppgradering till Adobe Developer Console. Min författarinstans finns på Experience Manager Assets 6.5.4. Vad kan vara den möjliga orsaken?**
 

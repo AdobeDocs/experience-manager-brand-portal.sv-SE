@@ -5,9 +5,9 @@ topic-tags: publish
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 exl-id: 842656a6-1a2b-4b64-954d-1e663923a1a1
-source-git-commit: ff51a49a958d43c98443d816a92276faae5e9569
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ JCR-sökväg för taggen.
 
 ## Search Promote {#search-promote}
 
-Med AEM Assets Brand Portal kan du få specifika resurser att bli det bästa resultatet för sökningar som baseras på en nyckelordstagg.
+Med AEM Assets Brand Portal kan du få specifika resurser att bli det bästa resultatet för sökningar baserat på en nyckelordstagg.
 
 Så här utökar du en resurs för ett söknyckelord:
 

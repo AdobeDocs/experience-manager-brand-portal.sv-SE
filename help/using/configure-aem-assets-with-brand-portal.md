@@ -1,26 +1,22 @@
 ---
 title: Konfigurera Experience Manager Assets med Brand Portal
-seo-title: Configure Experience Manager Assets with Brand Portal
 description: Få insikt i hur du konfigurerar Experience Manager Assets med Brand Portal.
-seo-description: Get an insight into configuring Experience Manager Assets with Brand Portal.
-uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: null
 role: Admin
 exl-id: 261c0e84-6b3d-459c-b6b9-a9af106d6943
-source-git-commit: 454b05c05359a2068cc29124f826d5bd25a1bad1
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '362'
 ht-degree: 1%
 
 ---
 
 # Konfigurera Experience Manager Assets med Brand Portal {#configure-integration}
 
-Om du konfigurerar Adobe Experience Manager Assets med Brand Portal kan Brand Portal-användare publicera mediefiler, distribuera resurser och bidra med resurser. Med det kan Experience Manager Assets-användare publicera och distribuera mediefiler med Brand Portal-användare. Brand Portal-användare kan komma åt de delade resurserna och bidra genom att överföra nya resurser till resursavgiftsmapparna och publicera dem tillbaka till Experience Manager Assets.
+Om du konfigurerar Adobe Experience Manager Assets med Brand Portal kan Brand Portal-användare publicera mediefiler, distribuera resurser och bidra med resurser. Med det kan Experience Manager Assets-användare publicera och distribuera material med Brand Portal-användare. Brand Portal-användare kan komma åt de delade resurserna och bidra genom att överföra nya resurser till resursavgiftsmapparna och publicera dem tillbaka till Experience Manager Assets.
 
 Konfigurering av Experience Manager Assets med Brand Portal stöds i:
 
@@ -35,9 +31,9 @@ Experience Manager Assets (lokal och hanterad tjänst) konfigureras manuellt med
 >
 >***För Experience Manager Assets 6.5 och senare***
 >
->Tidigare konfigurerades Brand Portal i det klassiska gränssnittet via äldre OAuth Gateway, som använder JSON Web token-utbyte för att erhålla en IMS-token för auktorisering.
+>Tidigare konfigurerade det klassiska gränssnittet Brand Portal med den äldre OAuth-gatewayen, som använder JSON Web Token-växeln (JWT) för att erhålla en IMS-token för auktorisering.
 >
->Konfiguration via äldre OAuth stöds inte längre från 6 april 2020 och har ändrats till att konfigureras via Adobe Developer Console.
+>Konfiguration via äldre OAuth stöds inte längre från och med 6 april 2020 och har ändrats till att konfigureras via Adobe Developer Console.
 
 
 >[!TIP]
@@ -46,11 +42,11 @@ Experience Manager Assets (lokal och hanterad tjänst) konfigureras manuellt med
 >
 >Äldre OAuth Gateway-konfiguration fortsätter att fungera för befintliga kunder.
 >
->Om du får problem med äldre OAuth Gateway-konfiguration tar du bort den befintliga konfigurationen och skapar en ny konfiguration via Adobe Developer Console.
+>Om du får problem med den äldre OAuth Gateway-konfigurationen tar du bort den befintliga konfigurationen och skapar en ny konfiguration med Adobe Developer Console.
 
 Hur du konfigurerar AEM Assets med Brand Portal varierar beroende på vilken version du har av AEM, om du konfigurerar för första gången eller om du uppgraderar de befintliga konfigurationerna:
 
 | **AEM version** | **Ny konfiguration** | **Uppgraderingskonfiguration** |
 |---|---|---|
-| **AEM Assets as a Cloud Service** | [Aktivera Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
-| **AEM 6.5 (6.5.4.0 och senare)** | [Skapa konfiguration](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Uppgraderingskonfiguration](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
+| **AEM Assets as a Cloud Service** | [Aktivera Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal) | - |
+| **AEM 6.5 (6.5.4.0 och senare)** | [Skapa konfiguration](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) | [Uppgraderingskonfiguration](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) |

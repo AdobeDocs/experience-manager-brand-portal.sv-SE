@@ -1,18 +1,15 @@
 ---
 title: Dela resurser som en länk
-seo-title: Share assets as a link
-description: Adobe Experience Manager Assets Brand Portal-administratörer kan dela länkar till flera resurser med auktoriserade interna användare och externa enheter, inklusive partners och leverantörer. Redigerare kan bara visa och dela resurser som delas med dem.
-seo-description: Adobe Experience Manager Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
-uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
+description: Läs om hur Adobe Experience Manager Assets Brand Portal-administratörer kan dela länkar mellan olika resurser med auktoriserade interna användare och externa enheter, inklusive partners och leverantörer. Redigerare kan bara visa och dela resurser som delas med dem.
 contentOwner: bdhar
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: e3e35ad4be5c082ad7bac7bed8ea20a186d245ad
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1028'
 ht-degree: 0%
 
 ---
@@ -33,7 +30,7 @@ Så här delar du resurser som en länk:
 
 1. Logga in på din Brand Portal-klient. Som standard öppnas vyn **[!UICONTROL Files]** som innehåller alla publicerade resurser och mappar.
 
-1. Markera de resurser eller mappar som du vill dela, eller navigera till vyn **[!UICONTROL Collections]** för att dela de samlingar som du har skapat.
+1. Välj de resurser eller mappar som ska delas, eller navigera till vyn **[!UICONTROL Collections]** om du vill dela de samlingar du har skapat.
 
    ![select-multiple-assets](assets/select-assets-new.png)
 
@@ -50,9 +47,9 @@ Så här delar du resurser som en länk:
    * I rutan **[!UICONTROL Subject]** anger du ett ämne för resursen som du vill dela.
    * Skriv ett meddelande i rutan **[!UICONTROL Message]** om det behövs.
    * I fältet **[!UICONTROL Expiration]** använder du datumväljaren för att ange ett förfallodatum och en förfallotid för länken. Som standard är förfallodatumet 7 dagar från det datum då du delar länken.
-   * Aktivera kryssrutan **[!UICONTROL Allow downlod of original file]** om du vill tillåta mottagarna att hämta den ursprungliga återgivningen.
+   * Aktivera kryssrutan **[!UICONTROL Allow download of the original file]** om du vill tillåta mottagarna att hämta den ursprungliga återgivningen.
 
-   Resurserna som delas via länken går ut när det datum och den tid som anges i fältet **[!UICONTROL Expiration]** har passerats. Mer information om beteendet för utgångna resurser och ändringar i tillåtna aktiviteter baserat på användarroller i Brand Portal finns i [Hantera digitala rättigheter för resurser](../using/manage-digital-rights-of-assets.md#asset-expiration).
+   Resurserna som delas via länken går ut när det datum och den tid som anges i fältet **[!UICONTROL Expiration]** har passerats. Mer information om förfallna tillgångsbeteenden och rollbaserade aktivitetsändringar i Brand Portal finns i [Hantera digitala rättigheter för resurser](../using/manage-digital-rights-of-assets.md#asset-expiration).
 
    >[!NOTE]
    >
@@ -84,7 +81,7 @@ Så här hämtar du de delade resurserna:
 
    ![download-dialog](assets/download-dialog-box-new.png)
 
-1. Som standard är inställningen **[!UICONTROL Fast Download]** aktiverad i **[!UICONTROL Download Settings]**. Därför visas en bekräftelseruta där hämtningen med IBM Aspera Connect kan fortsätta.
+1. Som standard är inställningen **[!UICONTROL Fast Download]** aktiverad i **[!UICONTROL Download Settings]**. Därför visas en bekräftelseruta som gör att nedladdningen med IBM® Aspera Connect kan fortsätta.
 
    Klicka på **[!UICONTROL Allow]** om du vill fortsätta använda **[!UICONTROL Fast Download]**.
 
@@ -94,11 +91,11 @@ Så här hämtar du de delade resurserna:
    >
    >En separat mapp skapas för varje resurs när resurserna hämtas från en delad länk.
    >
-   >Om en mapp, en samling eller fler än 20 resurser har valts för hämtning hoppas dialogrutan **[!UICONTROL Download]** över och alla resursåtergivningar som är tillgängliga för användaren, förutom de dynamiska återgivningarna, hämtas i en ZIP-mapp som innehåller en separat mapp för varje resurs.
+   >Om en mapp, en samling eller fler än 20 resurser har valts hoppas dialogrutan **[!UICONTROL Download]** över. Dessutom hämtas alla tillgängliga resursåtergivningar (utom dynamiska) i en zip-mapp med separata mappar för varje resurs.
 
    >[!NOTE]
    >
-   >Originalåtergivningar hämtas inte med den delade länken om användaren som delade resurserna som en länk inte [har behörighet av administratören att ha åtkomst till de ursprungliga återgivningarna](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges).
+   >Om administratören inte har auktoriserat den användare som delade resurserna hämtas inte de ursprungliga återgivningarna via den delade länken. Se även [auktoriserad av administratören att ha åtkomst till de ursprungliga återgivningarna](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges).
 
 
 >[!NOTE]
@@ -204,7 +201,7 @@ Så här tar du bort delning av tidigare delade resurser som en länk:
 
 1. När du loggar in på Brand Portal öppnas vyn **[!UICONTROL File]** som standard. Om du vill visa de resurser du har delat som länkar går du till vyn **[!UICONTROL Shared Links]**.
 
-1. Granska länkarna som du delade från den lista som visas.
+1. Granska de länkar som du har delat i den lista som visas.
 
    ![](assets/shared-links.png)
 

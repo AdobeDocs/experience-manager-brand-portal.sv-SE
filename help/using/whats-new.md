@@ -6,9 +6,9 @@ content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 4d9d7afa2cd45ea68c2e15338c92aa29ecf09f91
+source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
 workflow-type: tm+mt
-source-wordcount: '6462'
+source-wordcount: '6466'
 ht-degree: 0%
 
 ---
@@ -361,7 +361,7 @@ Beroende på konfigurationen förblir hämtningsarbetsflödet konstant för fris
 
 ## Vad har ändrats i 6.4.6 {#what-changed-in-646}
 
-I Brand Portal 6.4.6 ändras behörighetskanalen mellan AEM Assets och Brand Portal. Brand Portal stöds nu på AEM Assets as a Cloud Service, AEM Assets 6.3 och senare. I AEM Assets 6.3 och senare konfigurerades Brand Portal tidigare i Classic UI via äldre OAuth Gateway, som använder JWT-tokenutbyte för att erhålla en IMS Access-token för auktorisering. AEM Assets är nu konfigurerat med Brand Portal via Adobe Developer Console, som köper en IMS-token för auktorisering av din Brand Portal-klient.
+I Brand Portal 6.4.6 ändras behörighetskanalen mellan AEM Assets och Brand Portal. Brand Portal stöds nu på AEM Assets as a Cloud Service, AEM Assets 6.3 och senare. I AEM Assets 6.3 och senare konfigurerades Brand Portal ursprungligen i Classic UI med den äldre OAuth-gatewayen. Den här gatewayen använder JWT-tokenutbyte för att erhålla en IMS Access-token för auktorisering. AEM Assets är nu konfigurerat med Brand Portal via Adobe Developer Console, som köper en IMS-token för auktorisering av din Brand Portal-klient.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -593,7 +593,7 @@ Versionen ger en förenklad nedladdningsupplevelse med ett reducerat antal klick
 
 ## Vad har ändrats i 6.4.2 {#what-changed-in-1}
 
-Brand Portal 6.4.2 innehåller nya funktioner för att tillgodose organisationens behov av mediedistribution, vilket ger global räckvidd via gäståtkomst och snabbare nedladdningar. Den ger också bättre kontroll med nya administratörskonfigurationer, en tillagd rapport och hanterar kundförfrågningar.
+Brand Portal 6.4.2 innehåller nya funktioner för att tillgodose organisationens behov av mediedistribution, vilket gör det möjligt att nå globalt via gäståtkomst och snabbare nedladdningar. Den ger också bättre kontroll med nya administratörskonfigurationer, en tillagd rapport och hanterar kundförfrågningar.
 
 ### Gäståtkomst
 

@@ -1,30 +1,26 @@
 ---
 title: Översikt över Experience Manager Assets Brand Portal
-seo-title: Overview of Experience Manager Assets Brand Portal
-description: Experience Manager Assets Brand Portal kan hjälpa er att enkelt skaffa, styra och på ett säkert sätt distribuera godkänt material till externa parter och interna användare på olika enheter.
-seo-description: Experience Manager Assets Brand Portal can help you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices.
-uuid: b1e54d03-eb2e-488e-af4d-bae817dd135a
+description: Se hur Experience Manager Assets Brand Portal kan hjälpa er att enkelt skaffa, styra och på ett säkert sätt distribuera godkända kreativa resurser till externa parter och interna företagsanvändare på olika enheter.
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
-discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: d84d138a2819ff293d0c808b0dcebe02e03da121
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1539'
 ht-degree: 0%
 
 ---
 
 # Översikt över Experience Manager Assets Brand Portal {#overview-of-aem-assets-brand-portal}
 
-Som marknadsförare behöver ni ibland samarbeta med kanalpartners och interna affärsanvändare för att snabbt skapa, hantera och leverera relevant digitalt innehåll till kunder. Snabb leverans av relevant innehåll under hela kundresan är avgörande för att öka efterfrågan, konvertering, engagemang och kundlojalitet.
+Som marknadsförare behöver ni ibland samarbeta med kanalpartners och interna affärsanvändare för att skapa, hantera och snabbt leverera relevant digitalt innehåll till kunder. Snabb leverans av relevant innehåll under hela kundresan är avgörande för att öka efterfrågan, konvertering, engagemang och kundlojalitet.
 
-Det är dock en utmaning att utveckla lösningar som stöder effektiv och säker delning av godkända varumärkeslogotyper, riktlinjer, kampanjresurser eller produktbilder med interna team, partners och återförsäljare.
+Men det är en utmaning att utveckla lösningar som stöder effektiv och säker delning av sådant som godkända varumärkeslogotyper, kampanjresurser eller produktbilder med team, partners och återförsäljare. För att säkerställa både effektivitet och säkerhet i den här processen krävs noggrann planering och genomförande.
 
-**Adobe Experience Manager (AEM) Assets Brand Portal** fokuserar på marknadsförarens behov av att samarbeta effektivt med globalt distribuerade Brand Portal-användare genom att tillhandahålla funktioner för resursdistribution och resursbidrag.
+**Adobe Experience Manager (AEM) Assets Brand Portal** fokuserar på marknadsförarens behov av att samarbeta effektivt med globala Brand Portal-användare genom att tillhandahålla funktioner för resursdistribution och resursbidrag.
 
-Med mediedistribution kan ni enkelt skaffa, kontrollera och på ett säkert sätt distribuera godkända kreativa resurser till externa parter och interna företagsanvändare på olika enheter. Asset-bidraget gör det möjligt för Brand Portal-användare att överföra mediefiler till Brand Portal och publicera till Experience Manager Assets, utan att de behöver ha tillgång till redigeringsmiljön. Avgiftsfunktionen anropas som **Assets-källa i Brand Portal**. Dessutom förbättrar det den övergripande Brand Portal-upplevelsen av resursdistribution och bidrag från Brand Portal-användare (externa byråer/team), snabbar upp time-to-market för mediefiler och minskar risken för bristande efterlevnad och obehörig åtkomst.
+Med mediedistribution kan ni skaffa, styra och säkert distribuera godkända kreativa resurser till externa parter och interna företagsanvändare på olika enheter. Med Assets-komponenten kan Brand Portal-användare dock överföra mediefiler till Brand Portal och publicera till Experience Manager Assets utan att behöva ha tillgång till redigeringsmiljön. Avgiftsfunktionen anropas som **Assets-källa i Brand Portal**. Dessutom förbättrar det den övergripande Brand Portal-upplevelsen av resursdistribution och bidrag från Brand Portal-användare (externa byråer/team), snabbar upp time-to-market för mediefiler och minskar risken för bristande efterlevnad och obehörig åtkomst.
 Se [Resurser i Brand Portal](brand-portal-asset-sourcing.md).
 
 I den webbläsarbaserade portalmiljön kan du enkelt överföra, bläddra bland, söka efter, förhandsgranska och exportera resurser i godkända format.
@@ -39,7 +35,7 @@ Om du konfigurerar Adobe Experience Manager Assets med Brand Portal kan Brand Po
 
 Experience Manager Assets as a Cloud Service konfigureras automatiskt med Brand Portal genom att Brand Portal aktiveras från Cloud Manager. Aktiveringsarbetsflödet skapar de nödvändiga konfigurationerna i bakänden och aktiverar Brand Portal i samma IMS-organisation som i Experience Manager Assets as a Cloud Service-instansen.
 
-Experience Manager Assets (lokal och hanterad tjänst) konfigureras manuellt med Brand Portal med Adobe Developer Console, som anskaffar en IMS-token (Adobe Identity Management Services) för godkännande av Brand Portal-klienten.
+Men Experience Manager Assets (lokal och hanterad tjänst) konfigureras manuellt med Brand Portal med Adobe Developer Console, som anskaffar en IMS-token (Adobe Identity Management Services) för auktorisering av Brand Portal-klienten.
 
 Mer information finns i [Konfigurera Experience Manager Assets med Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
@@ -75,7 +71,7 @@ I följande tabell visas de uppgifter som användare i dessa roller kan utföra:
 
 ### Gästanvändare {#guest-user}
 
-Experience Manager Assets Brand Portal tillåter [gäståtkomst](#request-access-to-brand-portal) till Brand Portal. En gästanvändare behöver inga autentiseringsuppgifter för att gå in på portalen och har åtkomst till gemensamma mappar och samlingar. Som gästanvändare kan du bläddra bland tillgångsinformation och ha en fullständig resursvy över medlemmar i gemensamma mappar och samlingar. Du kan söka efter, hämta och lägga till offentliga resurser i samlingen [!UICONTROL Lightbox].
+Experience Manager Assets Brand Portal tillåter [gäståtkomst](#request-access-to-brand-portal) till Brand Portal. En gästanvändare behöver inga autentiseringsuppgifter för att gå in på portalen och har åtkomst till gemensamma mappar och samlingar. Som gästanvändare kan du bläddra bland resursinformation och ha en fullständig resursvy över medlemmar i gemensamma mappar och samlingar. Du kan söka efter, hämta och lägga till offentliga resurser i samlingen [!UICONTROL Lightbox].
 
 Gästsessionen hindrar dig dock från att skapa samlingar och sparade sökningar och dela dem ytterligare. Användare i en gästsession har inte åtkomst till inställningar för mappar och samlingar och kan inte dela resurser som länkar. Här är en lista över uppgifter som en gästanvändare kan utföra:
 
@@ -87,11 +83,11 @@ Gästsessionen hindrar dig dock från att skapa samlingar och sparade sökningar
 
 * [Lägg till resurser i [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
-Mer information finns i [gäståtkomst till Brand Portal](../using/guest-access.md).
+Mer information finns på [Gäståtkomst till Brand Portal](../using/guest-access.md).
 
 ### Visningsprogram {#viewer}
 
-Brand Portal har definierats i [!DNL Admin Console] och har åtkomst till Brand Portal med rollen Viewer. En användare med den här rollen kan logga in på Brand Portal och få åtkomst till tillåtna mappar, samlingar och resurser. Användaren kan också bläddra bland, förhandsgranska, hämta och exportera resurser (ursprungliga eller specifika återgivningar), konfigurera kontoinställningar och söka efter resurser. Här är en lista över uppgifter som en visningsprogram kan utföra:
+Brand Portal har definierats i [!DNL Admin Console] som har åtkomst till Brand Portal med rollen Viewer. En användare med den här rollen kan logga in på Brand Portal och få åtkomst till tillåtna mappar, samlingar och resurser. Användaren kan också bläddra bland, förhandsgranska, hämta och exportera resurser (ursprungliga eller specifika återgivningar), konfigurera kontoinställningar och söka efter resurser. Här är en lista över uppgifter som en visningsprogram kan utföra:
 
 * [Bläddra bland resurser](browse-assets-brand-portal.md)
 
@@ -117,41 +113,34 @@ En administratör innehåller en användare som är markerad som systemadministr
 
 >[!NOTE]
 >
->I Brand Portal har en användare som är markerad med rollen som supportadministratör i [!UICONTROL Admin Console] samma behörigheter som en systemadministratör.
+>I Brand Portal har en användare som är markerad med rollen som supportadministratör i [!UICONTROL Admin Console] samma behörighet som en systemadministratör.
 
-En administratör kan utföra alla åtgärder som en redigerare kan utföra. Följande är ytterligare uppgifter som en administratör kan utföra:
+En administratör kan utföra alla åtgärder som en redigerare kan utföra. Nedan följer ytterligare uppgifter som en administratör kan utföra:
 
 * [Hantera användare, grupper och användarroller](brand-portal-adding-users.md)
-
 * [Anpassa skrivbordsunderlägg, sidhuvuden och e-postmeddelanden](brand-portal-branding.md)
-
 * [Använda anpassade sökfaktorer](brand-portal-search-facets.md)
-
-* [Använd metadatamatchformuläret](brand-portal-metadata-schemas.md)
-
+* [Använd metadatamodell](brand-portal-metadata-schemas.md)
 * [Använda bildförinställningar eller dynamiska återgivningar](brand-portal-image-presets.md)
-
 * [Arbeta med rapporter](brand-portal-reports.md)
 
 Förutom ovanstående uppgifter kan en författare i AEM Assets utföra följande uppgifter:
 
 * [Konfigurera AEM Assets med Brand Portal](../using/configure-aem-assets-with-brand-portal.md)
-
-* [Publicera mappar på varumärkesportalen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
-
-* [Publicera samlingar på varumärkesportalen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
+* [Publicera mappar på varumärkesportalen](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
+* [Publicera samlingar på varumärkesportalen](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
 
 ## Alternativt alias för Brand Portal-URL {#tenant-alias-for-portal-url}
 
-Från och med Brand Portal 6.4.3 kan organisationer ha en alternativ (alias) URL för sin Brand Portal-klient. Du kan skapa alias-URL:en genom att ha ett alternativt prefix i URL:en.\
+Från och med Brand Portal 6.4.3 kan organisationer ha en alternativ (alias) URL för varje befintlig URL för sin Brand Portal-klient. Du kan skapa alias-URL:en genom att ha ett alternativt prefix i URL:en.\
 Om innehavarnamnet är längre än 32 tecken måste ett innehavaralias skapas.
 Observera att endast prefixet för Brand Portal URL kan anpassas och inte hela URL:en. En organisation med den befintliga domänen `geomettrix.brand-portal.adobe.com` kan till exempel få `geomettrixinc.brand-portal.adobe.com` skapad på begäran.
 
-AEM Author-instansen kan bara vara [konfigurerad](../using/configure-aem-assets-with-brand-portal.md) med URL:en för klient-ID och inte med URL:en för klientalias (alternativ).
+AEM Author-instansen kan bara [konfigureras](../using/configure-aem-assets-with-brand-portal.md) med URL:en för klientens ID och inte med klientens alias (alternativ) URL.
 
 >[!NOTE]
 >
->För att få ett alias för innehavarens namn i den befintliga portalwebbadressen måste organisationen kontakta kundsupport med en ny begäran om att skapa klientalias. Denna begäran behandlas genom att först kontrollera om aliaset är tillgängligt och sedan skapa aliaset.
+>För att få ett alias för innehavarnamnet i en befintlig portal-URL måste organisationen kontakta kundsupport och be om att skapa ett nytt innehavaralias. Kontrollera först om aliaset är tillgängligt och skapa sedan aliaset för att behandla denna begäran.
 >
 >Om du vill ersätta det gamla aliaset eller ta bort det gamla måste samma process följas.
 
@@ -176,9 +165,9 @@ Så här begär du åtkomst:
    **Scenario 1**
 
    1. Om du har en [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] eller [!UICONTROL Federated ID] klickar du på **[!UICONTROL Sign In]**.
-Sidan [!UICONTROL Sign in] öppnas.
+Sidan [!UICONTROL Sign-in] öppnas.
 
-   1. Ange dina [!UICONTROL Adobe ID]-autentiseringsuppgifter och klicka på **[!UICONTROL Sign in]**.
+   1. Ange dina [!UICONTROL Adobe ID]-autentiseringsuppgifter och klicka på **[!UICONTROL Sign-in]**.
 
       ![Adobe-inloggning](assets/bplogin_request_access_3.png)
 
@@ -187,9 +176,9 @@ Sidan [!UICONTROL Sign in] öppnas.
    **Scenario 2**
 
    1. Om du inte har någon [!UICONTROL Adobe ID] skapar du en genom att klicka på **[!UICONTROL Get an Adobe ID]** på sidan [!UICONTROL Request Access].
-Sidan [!UICONTROL Sign in] öppnas.
+Sidan [!UICONTROL Sign-in] öppnas.
    1. Klicka på **[!UICONTROL Get an Adobe ID]**.
-Sidan [!UICONTROL Sign up] öppnas.
+Sidan [!UICONTROL Sign-up] öppnas.
    1. Ange för- och efternamn, e-post-ID och lösenord.
    1. Välj **[!UICONTROL Sign up]**.
 
@@ -214,7 +203,7 @@ Du omdirigeras till startsidan för [Adobe [!UICONTROL Admin Console]](https://a
 
 ## Brand Portal språk {#brand-portal-language}
 
-Du kan ändra Brand Portal från Adobe [!UICONTROL Experience Cloud Settings].
+Du kan ändra Brand Portal-språk från Adobe [!UICONTROL Experience Cloud Settings].
 
 ![Åtkomst begärd avisering](assets/BPLang.png)
 
@@ -224,7 +213,7 @@ Så här ändrar du språk:
 
    ![Redigera profil](assets/EditBPProfile.png)
 
-1. På sidan [!UICONTROL Experience Cloud Settings] väljer du ett språk i listrutan [!UICONTROL Language].
+1. Välj ett språk i listrutan [!UICONTROL Language] på sidan [!UICONTROL Experience Cloud Settings].
 
 ## Underhållsmeddelande för Brand Portal {#brand-portal-maintenance-notification}
 

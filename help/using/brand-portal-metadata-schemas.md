@@ -1,19 +1,15 @@
 ---
 title: Använd metadatamatchformuläret
-seo-title: Use the metadata schema form
 description: Ett metadatamatchema beskriver layouten på sidan Egenskaper och de metadataegenskaper som visas för resurser som använder det aktuella schemat. Schemat som du tillämpar på en resurs avgör vilka metadatafält som visas på sidan Egenskaper.
-seo-description: A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
-uuid: 1a944a3b-5152-425f-b1ea-bfe3331de928
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
-discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 2%
+source-wordcount: '1509'
+ht-degree: 0%
 
 ---
 
@@ -45,7 +41,7 @@ Så här skapar du ett nytt metadataschemaformulär:
 
 ## Redigera ett metadataschemaformulär {#edit-a-metadata-schema-form}
 
-Du kan redigera ett nyligen tillagt eller befintligt metadatchemaformulär. Metadatchemaformuläret innehåller innehåll som härletts från dess överordnade objekt, inklusive flikar och formulärobjekt på flikar. Du kan mappa eller konfigurera dessa formulärobjekt till ett fält i en metadatanod.
+Alla tillagda eller befintliga metadata-schemaformulär kan redigeras. Metadatchemaformuläret innehåller innehåll som härletts från dess överordnade objekt, inklusive flikar och formulärobjekt på flikar. Du kan mappa eller konfigurera dessa formulärobjekt till ett fält i en metadatanod.
 
 Du kan lägga till nya flikar eller formulärobjekt i metadatchemaformuläret. De härledda flikarna och formulärobjekten (från det överordnade objektet) är låsta. Du kan inte ändra dem på underordnad nivå.
 
@@ -66,9 +62,9 @@ Så här redigerar du ett metadatamatchemaformulär:
 
 1. Klicka på **[!UICONTROL Edit]** i verktygsfältet överst.
 
-   Sidan **[!UICONTROL Metadata Schema Editor]** öppnas med fliken **[!UICONTROL Basic]** öppen till vänster och fliken **[!UICONTROL Build Form]** öppen till höger.
+   Sidan **[!UICONTROL Metadata Schema Editor]** öppnas med fliken **[!UICONTROL Basic]** öppen till vänster. Till höger öppnas fliken **[!UICONTROL Build Form]**.
 
-1. Anpassa sidan **[!UICONTROL Properties]** för resursen på sidan **[!UICONTROL Metadata Schema Editor]** genom att dra en eller flera komponenter från en lista med komponenttyper på fliken **[!UICONTROL Build Form]** till fliken **[!UICONTROL Basic]**.
+1. Anpassa sidan **[!UICONTROL Properties]** för resursen på sidan **[!UICONTROL Metadata Schema Editor]**. Dra bara en eller flera komponenter från en lista med komponenttyper på fliken **[!UICONTROL Build Form]**. Dra dem till fliken **[!UICONTROL Basic]**.
 
    ![](assets/metadata-schemaeditor-page.png)
 
@@ -86,7 +82,7 @@ Fliken **[!UICONTROL Build Form]** visar objekt som du kan använda i schemaform
 | **[!UICONTROL Number]** | Lägg till en sifferkomponent. |
 | **[!UICONTROL Date]** | Lägg till en datumkomponent. |
 | **[!UICONTROL Dropdown]** | Lägg till en listruta. |
-| **[!UICONTROL Standard Tags]** | Lägg till en tagg. **Obs!** Administratörer kan behöva ändra sökvägsvärdet, till exempel `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, om de publicerar metadatamappningsformuläret från Experience Manager Assets, där sökvägen inte innehåller klientinformation, till exempel `/etc/tags/<custom_tag_namespace>`. |
+| **[!UICONTROL Standard Tags]** | Lägg till en tagg. Administratörer kan behöva ändra sökvägsvärdet. `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, om de publicerar metadatamatchemaformuläret från Experience Manager Assets, där sökvägen inte innehåller klientinformation, till exempel `/etc/tags/<custom_tag_namespace>`. |
 | **[!UICONTROL Smart Tags]** | Automatiskt identifierade taggar om du har köpt och konfigurerat tillägget Experience Manager Assets smarta taggar. |
 | **[!UICONTROL Hidden Field]** | Lägg till ett dolt fält. Den skickas som en POST-parameter när resursen sparas. |
 | **[!UICONTROL Asset Referenced By]** | Lägg till den här komponenten för att visa en lista över resurser som resursen refererar till. |
@@ -108,9 +104,9 @@ Om du vill redigera egenskaperna för en metadatakomponent i formuläret klickar
 
 Följande är giltiga värden för den här egenskapen:
 
-— `./jcr:content/metadata/dc:title`: Lagrar värdet på resursens metadatanod som egenskapen [!UICONTROL `dc:title`].
+— `./jcr:content/metadata/dc:title`: Lagrar värdet på resursens metadatanod som egenskapen `dc:title`.
 
-— `./jcr:created`: Visar jcr-egenskapen i resursens nod. Om du konfigurerar de här egenskaperna för visning bör du markera dem som Inaktivera redigering, eftersom de är skyddade. Annars inträffar felet ”Det gick inte att ändra resurserna” när du sparar resursens egenskaper.
+— `./jcr:created`: Visar jcr-egenskapen i resursens nod. Om du har konfigurerat dessa egenskaper för att visa egenskaper rekommenderar Adobe att du har markerat dem som Inaktivera redigering eftersom de är skyddade. I annat fall inträffar felet&quot;Det gick inte att ändra i Assets&quot; när du sparar resursens egenskaper.
 
 * **[!UICONTROL Placeholder]**: Använd den här egenskapen för att ge användaren relevant information om metadataegenskapen.
 * **[!UICONTROL Required]**: Använd den här egenskapen för att markera en metadataegenskap som obligatorisk på sidan Egenskaper.
@@ -153,15 +149,15 @@ Så här använder du ett metadatamatchemaformulär för en mapp:
 
    ![](assets/apply-metadata-schema-form-to-folder.png)
 
-1. Klicka på **[!UICONTROL Apply to Folder(s)]** i verktygsfältet överst.
+1. Klicka på **[!UICONTROL Apply to Folders]** i verktygsfältet överst.
 
-1. Navigera från sidan **[!UICONTROL Select Folder(s)]** till den mapp som du vill tillämpa metadataschemat för **[!UICONTROL clothing]**, till exempel **[!UICONTROL Gloves]**.
+1. Navigera från sidan **[!UICONTROL Select Folders]** till den mapp som du vill tillämpa metadataschemat för **[!UICONTROL clothing]**, till exempel **[!UICONTROL Gloves]**.
 
    ![](assets/apply_metadata_schemaformtofoldergloves.png)
 
 1. Klicka på **[!UICONTROL Apply]** om du vill använda metadataschemaformuläret för mappen.
 
-   De metadata som är tillgängliga i metadatamappsformuläret **[!UICONTROL clothing]** tillämpas på mappen **[!UICONTROL Gloves]** och visas på sidan **[!UICONTROL Properties]** i mappen.
+   De metadata som är tillgängliga i metadatamatchemaformuläret **[!UICONTROL clothing]** tillämpas på mappen **[!UICONTROL Gloves]** och visas på sidan **[!UICONTROL Properties]** i mappen.
 
    ![](assets/folder_metadata_properties.png)
 
@@ -196,10 +192,10 @@ I det här fallet skapar du en ny nod på [!UICONTROL `/etc/dam/metadataeditor/m
 | **Namn** | **Typ** | **Värde** |
 |---|---|---|
 | exponposedmimype | Sträng | image/jpeg |
-| mimetypes | Sträng[] | bild/png |
+| mime-typer | Sträng[] | bild/png |
 
 * **exponerad mimeType**: Namnet på det befintliga formulär som ska mappas
-* **mimypes**: Lista med MIME-typer som använder det formulär som definierats i attributet **exponedMIME**
+* **mime-typer**: Lista med MIME-typer som använder formuläret som definierats i attributet **exponerad mimeType**
 
 Brand Portal mappar följande MIME-typer och schemaformulär:
 
@@ -214,29 +210,29 @@ Brand Portal mappar följande MIME-typer och schemaformulär:
 | video/quicktime | video/x-quicktime |
 | video/mpeg4 | video/mp4 |
 | video/avi | video/avi, video/msvideo, video/x-msvideo |
-| video/wmv | video/x-ms-wmv |
+| video/wmv | `video/x-ms-wmv` |
 | video/flv | video/x-flv |
 
 Nedan följer en lista över standardmetadataegenskaper:
 
-* jcr:content/metadata/cq:taggar
-* jcr:content/metadata/dc:format
-* jcr:content/metadata/dam:status
-* jcr:content/metadata/videoCodec
-* jcr:content/metadata/audioCodec
-* jcr:content/metadata/dc:title
-* jcr:content/metadata/dc:description
-* jcr:content/metadata/xmpMM:InstanceID
-* jcr:content/metadata/xmpMM:DocumentID
-* jcr:content/metadata/dam:sha1
-* jcr:content/metadata/dam:solutionContext
-* jcr:content/metadata/videoBithastighet
-* jcr:content/metadata/audioBitrate
-* jcr:content/usages/usedBy
-* jcr:content/jcr:lastModified
-* jcr:content/metadata/prism:expirationDate
-* jcr:content/onTime
-* jcr:content/offTime
-* jcr:content/metadata/dam:size
-* jcr:content/metadata/tiff:ImageWidth
-* jcr:content/metadata/tiff:ImageLength
+* `jcr:content/metadata/cq:tags`
+* `jcr:content/metadata/dc:format`
+* `jcr:content/metadata/dam:status`
+* `jcr:content/metadata/videoCodec`
+* `jcr:content/metadata/audioCodec`
+* `jcr:content/metadata/dc:title`
+* `jcr:content/metadata/dc:description`
+* `jcr:content/metadata/xmpMM:InstanceID`
+* `jcr:content/metadata/xmpMM:DocumentID`
+* `jcr:content/metadata/dam:sha1`
+* `jcr:content/metadata/dam:solutionContext`
+* `jcr:content/metadata/videoBitrate`
+* `jcr:content/metadata/audioBitrate`
+* `jcr:content/usages/usedBy`
+* `jcr:content/jcr:lastModified`
+* `jcr:content/metadata/prism:expirationDate`
+* `jcr:content/onTime`
+* `jcr:content/offTime`
+* `jcr:content/metadata/dam:size`
+* `jcr:content/metadata/tiff:ImageWidth`
+* `jcr:content/metadata/tiff:ImageLength`

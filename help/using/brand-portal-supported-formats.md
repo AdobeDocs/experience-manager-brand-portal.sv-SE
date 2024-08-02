@@ -1,15 +1,11 @@
 ---
 title: Filformat som stöds
-seo-title: Supported file formats
 description: Varje Experience Manager Assets Brand Portal har stöd för särskilda filformat som anges i matrisen.
-seo-description: Each Experience Manager Assets Brand Portal supports specific file formats, as indicated in the matrix.
-uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
-discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
 exl-id: fa5d87a8-dc45-4c8a-8a96-ac7ec793952b
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 0%
@@ -60,7 +56,7 @@ Varje Experience Manager Assets Brand Portal har stöd för särskilda filformat
 | 3GP | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | MP3 | ✓ | NA | ✓ | NA | ✕ | ✓ | ✕ | ✕ |
 | MP4 | ✓ | NA | ✓ | NA | ✓ | ✓ | ✕ | ✕ |
-| Mpg | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
+| MPG | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | OGA | ✓ | NA | ✓ | NA | ✕ | ✓ | ✕ | ✕ |
 | OGG | ✓ | NA | ✓ | NA | ✓ | ✓ | ✕ | ✕ |
 | RA | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |

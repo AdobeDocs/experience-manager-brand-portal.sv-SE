@@ -1,18 +1,14 @@
 ---
 title: Versionsinformation
-seo-title: Release Notes
 description: Få en inblick i funktioner, förbättringar, åtgärdade kritiska problem och kända fel i Adobe Experience Manager Assets Brand Portal 2024.02.0.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2024.02.0 release.
-uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 3a5be1897b90b1d913a5eb86fb1442e702a1c89d
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1407'
 ht-degree: 1%
 
 ---
@@ -40,10 +36,10 @@ Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa
 
 Den här versionen innehåller följande felkorrigeringar:
 
-* Det går inte att hämta digitala resurser som skyddas av DRM på turkiska språk.
+* Det går inte att hämta digitala resurser som skyddas av DRM på den turkiska språkinställningen.
 * Det går inte att öppna och hämta befintliga rapporter som innehåller resurser med flerradsrubrik.
 * När du hämtar resurser med knappen [!UICONTROL Download] från åtgärdsfältet hämtas maximalt 1 000 resurser.
-* Felaktigt namn på resurser av PSD-typ vid visning i innehållsträdet.
+* Felaktigt namn på resurser av typen PSD när de visas i innehållsträdet.
 * Alternativet [!UICONTROL Delete Rendition] på sidan med resursinformation fungerar inte.
 * Feljusterad rubrik och storlek för resurser i hämtningsfönstret.
 * När du skapar en rapport lokaliseras inte etiketter.
@@ -142,7 +138,8 @@ Den här versionen innehåller korrigeringar av följande allvarliga problem:
 
 >[!IMPORTANT]
 >
->Pulsmeddelanden i AEM Assets Brand Portal upphör 1 december 2022. I stället för Pulse-meddelanden kommer du att fortsätta få e-postmeddelanden för följande händelser:
+>Pulsmeddelanden i AEM Assets Brand Portal upphör den 1 december 2022. I stället för Pulse-meddelanden får du även fler e-postmeddelanden om följande händelser:
+>
 >* Dela resurser via länk
 >* Begär åtkomstarbetsflöde
 >* Delning av bidragsmapp
@@ -158,8 +155,8 @@ Den här versionen innehåller korrigeringar av följande allvarliga problem:
 
 * När NUI inte kan bearbeta en resurs i Experience Manager visas en felaktig status för resursimportering i Brand Portal.
 * När förhandsgranskningsåtgärden misslyckas finns det inget meddelande om att meddela felet.
-* Felaktigt värde för egenskapen totalUploadedSize för varje resurs är fast.
-* När du klickar på **Hämta alla objekt** och det finns ett stort antal tillgängliga återgivningar för en resurs hämtar Brand Portal en ogiltig ZIP-fil.
+* Det felaktiga värdet för egenskapen `totalUploadedSize` för varje tillgång är fast.
+* När du klickar på **Hämta alla objekt** och det finns ett stort antal renderingar tillgängliga för en resurs hämtar Brand Portal en ogiltig ZIP-fil.
 * Översättningen av vissa strängar trunkeras i Brand Portal användargränssnitt.
 
 ### Version från maj 2022 {#may-2022}
@@ -174,7 +171,7 @@ Den här versionen innehåller korrigeringar av följande allvarliga problem:
 
 * När du hämtar en mapp eller en samling som innehåller resurser med färgtaggar hämtas även en XML-fil.
 * När du hämtar en video som innehåller återgivningar skapar Brand Portal en ogiltig ZIP-fil.
-* När du skapar förinställningar och resurser AEM författaren och publicerar dem på Brand Portal och sedan väljer dynamiska återgivningar medan resurserna hämtas, kan du inte extrahera den hämtade ZIP-filen.
+* När du skapar förinställningar och resurser AEM författaren och sedan publicerar dem på Brand Portal kan du välja dynamiska återgivningar medan du hämtar resurserna. Du kan dock inte extrahera den hämtade ZIP-filen. Detta förhindrar åtkomst till det hämtade innehållet.
 * Problem vid hämtning av videomaterial från vissa mappar som är tillgängliga på Brand Portal.
 * När du delar Contribute-mappens URL med hjälp av ett e-postmeddelande stöter rollerna Viewer och Editor på problem när de får åtkomst till den överordnade mappen med hjälp av paketet.
 * En publicerad rapport visar en felaktig jobbstarttid.
@@ -374,12 +371,12 @@ Brand Portal användargränssnitt finns på följande språk:
 
 ## Certifierade plattformar {#certified-platforms}
 
-Om du vill ta reda på vilka plattformar som är certifierade att köras med den här versionen av Brand Portal kan du läsa kolumnen **Stöd för pekoptimerat användargränssnitt** i tabellen i avsnittet **Webbläsare som stöds för redigeringsanvändargränssnittet** i [Tekniska krav](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html) .
+Om du vill se vilka plattformar som är certifierade för den här Brand Portal-versionen ska du kontrollera kolumnen **Stöd för pekoptimerat användargränssnitt** i avsnittet **Webbläsare som stöds för redigeringsanvändargränssnittet** i [Tekniska krav](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/introduction/technical-requirements) .
 
 ## Länkar {#links}
 
 * [Adobe Experience Manager produktsida på adobe.com](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
-* [Assets Brand Portal-dokumentation](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+* [Assets Brand Portal-dokumentation](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/home)
 
 ## Produktåtkomst och support (begränsade platser) {#product-access-and-support-restricted-sites}
 

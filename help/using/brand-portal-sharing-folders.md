@@ -1,17 +1,13 @@
 ---
 title: Dela mappar
-seo-title: Share folders
-description: Brand Portal stöder inte tillgångsintag, vilket innebär att resurser måste publiceras till Brand Portal från en förkonfigurerad Experience Manager Assets Author-instans. Publicerade resurser är inte tillgängliga för icke-adminanvändare av Brand Portal, såvida de inte konfigureras under konfigurationen av replikering med instansen Experience Manager, och måste delas med dem.
-seo-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured Experience Manager Assets Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with Experience Manager instance, and need to be shared with them.
-uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
+description: Brand Portal kräver att mediefiler publiceras från en förkonfigurerad Experience Manager Assets Author-instans. Användare som inte är administratörer har bara åtkomst till publicerade resurser om de har konfigurerats under replikeringsinställningarna med Experience Manager, och resurserna måste delas med dem.
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
@@ -32,17 +28,17 @@ Nedan beskrivs arbetsflödet för mappdelning och användaråtkomst:
 
 ### Dela mappar med användargrupper på Brand Portal {#sharing-folders-with-user-groups-on-brand-portal}
 
-Åtkomsträttigheter för resurser i en mapp är beroende av åtkomsträttigheterna för den överordnade mappen, oavsett inställningarna för de underordnade mapparna. Det här beteendet styrs av [ACL:er](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html) i AEM, eftersom underordnade mappar ärver ACL:er från sina överordnade mappar. Om till exempel en mapp A innehåller mappen B som innehåller mappen C, har en eller flera användargrupper som har behörighet till mappen A även samma åtkomstbehörighet till mappen B och mappen C. Mapp B är underordnad mappen till A ärver åtkomstkontrollistan och mapp C är underordnad mappen till B ärver åtkomstkontrollistan.
+Åtkomsträttigheter för resurser i en mapp är beroende av åtkomsträttigheterna för den överordnade mappen, oavsett inställningarna för de underordnade mapparna. [ACL:er](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security) i AEM styr det här beteendet, där underordnade mappar ärver ACL:er från sina överordnade mappar. Anta till exempel att mappen A innehåller mappen B, som innehåller mappen C. En användargrupp (eller användare) med åtkomsträttigheter för mappen A har samma åtkomsträttigheter för mappen B och C. Mapp B är undermappen till A ärver sina åtkomstkontrollistor och mapp C är undermappen till B ärver åtkomstkontrollistor.
 
-På samma sätt har användargrupper (eller användare) som bara har behörighet att komma åt mappen B samma åtkomstbehörighet i mappen C men inte i mappen A. Därför bör organisationer ordna sitt innehåll så att de flesta exponerade resurserna placeras i mappen med underordnade och så att åtkomsten från underordnade till rotmappen kan begränsas.
+På samma sätt har användargrupper (eller användare) som endast har åtkomst till mappen B samma åtkomstbehörighet till mappen C men inte till mappen A. Adobe rekommenderar att du ordnar innehåll så att de mest exponerade resurserna placeras i underordnade mappar, vilket tillåter åtkomst från de underordnade mapparna upp till rotmappen.
 
 ### Publicering av offentlig mapp {#public-folder-publish}
 
-Såvida inte alternativet **[!UICONTROL Public Folder Publish]** är markerat när du konfigurerar Brand Portal-replikering har icke-adminanvändare (som redigerare och visningsprogram) inte åtkomst till resurser som publicerats från AEM Assets till Brand Portal.
+Icke-adminanvändare (som redigerare och visningsprogram) kan bara komma åt resurser som publicerats från AEM Assets till Brand Portal om alternativet **[!UICONTROL Public Folder Publish]** väljs under Brand Portal-replikeringskonfigurationen.
 
 ![](assets/assetbpreplication.png)
 
-Om alternativet **[!UICONTROL Public Folder Publish]** är inaktiverat måste administratörer dela dessa resurser med icke-adminanvändare som använder delningsfunktioner.
+Om alternativet **[!UICONTROL Public Folder Publish]** är inaktiverat måste administratörer dela dessa resurser specifikt med icke-adminanvändare som använder delningsfunktionen.
 
 >[!NOTE]
 >
@@ -50,9 +46,9 @@ Om alternativet **[!UICONTROL Public Folder Publish]** är inaktiverat måste ad
 
 ## Åtkomst till delade mappar {#access-to-shared-folders}
 
-I följande matris beskrivs åtkomsträttigheter och rättigheter att dela/ta bort delning av resurser för olika användarroller:
+I följande matris beskrivs åtkomsträttigheter och rättigheter att dela eller ta bort delning av resurser för olika användarroller:
 
-|               | Åtkomst till alla mappar som publicerats från AEM Assets till Brand Portal | Åtkomst till delade mappar | Dela/ta bort mapprättigheter |
+|               | Åtkomst till alla mappar som publicerats från AEM Assets till Brand Portal | Åtkomst till delade mappar | Dela eller ta bort mapprättigheter |
 |---------------|-----------|-----------|------------|
 | Administratör | Ja | Ja | Ja |
 | Redigerare | Nej* | Ja, endast om det delas med dem eller med den grupp de tillhör | Ja, endast för de mappar som delas med dem eller med den grupp som de tillhör |
@@ -65,11 +61,11 @@ I följande matris beskrivs åtkomsträttigheter och rättigheter att dela/ta bo
 
 ### Åtkomst till delade mappar som inte är administratörsanvändare {#non-admin-user-access-to-shared-folders}
 
-Användare som inte är administratörer har bara åtkomst till de mappar som delas med dem på Brand Portal. Hur de här mapparna visas på portalen när de loggar in beror dock på inställningarna för konfigurationen **[!UICONTROL Enable Folder Hierarchy]**.
+Användare som inte är administratörer har bara åtkomst till de mappar som delas med dem på Brand Portal. Hur de här mapparna visas på portalen när de loggar in beror dock på inställningarna för **[!UICONTROL Enable Folder Hierarchy]**-konfigurationen.
 
 **Om konfigurationen är inaktiverad**
 
-Användare som inte är administratörer ser alla mappar som delas med dem på landningssidan när de loggar in på Brand Portal.
+Användare som inte är administratörer kan se alla mappar som delas med dem på landningssidan när de loggar in på Brand Portal.
 
 ![](assets/disabled-folder-hierarchy1-1.png)
 
@@ -77,7 +73,7 @@ Användare som inte är administratörer ser alla mappar som delas med dem på l
 
 Användare som inte är administratörer kan se mappträdet (från rotmappen) och de delade mapparna i sina respektive överordnade mappar när de loggar in på Brand Portal.
 
-De här överordnade mapparna är de virtuella mapparna och inga åtgärder kan utföras på dem. Du känner igen dessa virtuella mappar med en låsikon.
+De här överordnade mapparna är virtuella mappar och inga åtgärder kan utföras på dem. Du känner igen dessa virtuella mappar med en låsikon.
 
 Inga åtgärder visas när du hovrar eller markerar dem i **[!UICONTROL Card View]**, till skillnad från delade mappar. Knappen **[!UICONTROL Overview]** visas när du väljer en virtuell mapp i **[!UICONTROL Column View]** och **[!UICONTROL List View]**.
 
@@ -95,7 +91,7 @@ Så här delar du en mapp med användare på Brand Portal:
 
    ![](assets/selectorrail.png)
 
-1. Välj **[!UICONTROL Files]** i sidofältet till vänster.
+1. Välj **[!UICONTROL Files]** från sidospåret till vänster.
 
    ![](assets/access_files.png)
 

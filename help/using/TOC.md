@@ -8,10 +8,10 @@ breadcrumb-title: Användarhandbok om Brand Portal
 user-guide-description: Använd Experience Manager Assets Brand Portal för att tillgodose marknadsföringsbehoven genom att på ett säkert sätt distribuera godkänt varumärkes- och produktmaterial till externa byråer, partners, interna team och återförsäljare för nedladdning.
 feature: Brand Portal
 role: User
-source-git-commit: 3ef765c6b6127c1f3f19d27ee1fd74fbe2dc52af
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 22%
+source-wordcount: '252'
+ht-degree: 23%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 22%
    + [Vanliga frågor](/help/using/brand-portal-faqs.md)
    + [Filformat som stöds](/help/using/brand-portal-supported-formats.md)
    + [Gäståtkomst till Brand Portal](/help/using/guest-access.md)
-   + [Förstå Brand Portal med Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+   + [Förstå Brand Portal med Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/home)
    + [Bläddra bland resurser på Brand Portal](/help/using/browse-assets-brand-portal.md)
 + Publish från Experience Manager Assets till Brand Portal {#publish}
    + [Konfigurera Experience Manager Assets med Brand Portal](/help/using/configure-aem-assets-with-brand-portal.md)
-   + [Publicera resurser på varumärkesportalen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
-   + [Publicera mappar på varumärkesportalen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
-   + [Publicera samlingar på varumärkesportalen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
+   + [Publicera resurser på varumärkesportalen](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-assets)
+   + [Publicera mappar på varumärkesportalen](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
+   + [Publicera samlingar på varumärkesportalen](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
    + [Felsöka problem vid parallell publicering till Brand Portal](/help/using/troubleshoot-parallel-publishing.md)
    + [Publish-taggar till Brand Portal](/help/using/brand-portal-publish-tags.md)
    + [Publish-förinställningar, schema och ansikten för Brand Portal](/help/using/publish-schema-search-facets-presets.md)
@@ -59,7 +59,7 @@ ht-degree: 22%
    + [Första gången du loggar in](/help/using/brand-portal-onboarding.md)
    + [Hantera användare, grupper och användarroller](/help/using/brand-portal-adding-users.md)
    + [Anpassa skrivbordsunderlägg, sidhuvud och e-postmeddelanden](/help/using/brand-portal-branding.md)
-   + [Använd metadatamatchformuläret](/help/using/brand-portal-metadata-schemas.md)
+   + [Använd metadatamodell](/help/using/brand-portal-metadata-schemas.md)
    + [Använda bildförinställningar eller dynamiska återgivningar](/help/using/brand-portal-image-presets.md)
    + [Arbeta med rapporter](/help/using/brand-portal-reports.md)
 

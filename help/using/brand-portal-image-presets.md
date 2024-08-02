@@ -6,9 +6,9 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: 1a3e51922fb658d9d05113b4b1f4d05a0b6555c0
+source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '791'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ Experience Manager Assets-administratörerna kan skapa bildförinställningar so
 >
 >Om Experience Manager Assets Author-instansen körs i **Dynamic Media-hybridläge** skapas Pyramid-TIFF-återgivningar av bildresurser och sparas i Experience Manager Assets-databasen.
 >
->Om Experience Manager Assets-författarinstans körs i **Dynamic Media Scene7-läge** finns det Pyramid TIFF-återgivningar av bildresurser på Scene7-servern.
+>Om en instans av Experience Manager Assets-författaren körs i **Dynamic Media Scene7-läge** finns det Pyramid-TIFF återgivningar av bildresurser på Scene7-servern.
 >
 >När sådana resurser publiceras till Brand Portal används bildförinställningar och dynamiska återgivningar visas.
 

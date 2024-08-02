@@ -1,25 +1,21 @@
 ---
 title: Ladda upp material och publicera Contribute-mappen från Brand Portal till Experience Manager Assets
-seo-title: Upload assets and publish the Contribution folder from Brand Portal to Experience Manager Assets
 description: Få insikt i hur du överför nya resurser och publicerar bidragsmappen från Brand Portal till Experience Manager Assets.
-seo-description: Get an insight into uploading new assets and publishing the contribution folder from Brand Portal to Experience Manager Assets.
-uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 606f4389780025f5cf92b11bf8cac464e36be44a
+source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1430'
 ht-degree: 0%
 
 ---
 
 # Publish-mapp för bidrag till Experience Manager Assets {#using-asset-souring-in-bp}
 
-Brand Portal-användare med lämplig behörighet kan överföra flera resurser, eller mappar som innehåller flera resurser, till bidragsmappen. Brand Portal-användare kan dock bara överföra resurser till mappen **NEW**. Mappen **DELAD** är avsedd för distribution av baslinjeresurser (referensinnehåll) som kan användas av Brand Portal-användare när nya resurser skapas för bidrag.
+Brand Portal-användare med lämplig behörighet kan överföra flera resurser, eller mappar som innehåller flera resurser, till bidragsmappen. Brand Portal-användare kan dock bara överföra resurser till mappen **NEW**. Mappen **DELAD** är avsedd för distribution av baslinjeresurser (referensinnehåll) som används av Brand Portal-användare när nya resurser skapas för bidrag.
 
 Brand Portal-användare som har behörighet att komma åt mappen för bidrag kan utföra följande åtgärder:
 
@@ -29,19 +25,19 @@ Brand Portal-användare som har behörighet att komma åt mappen för bidrag kan
 
 ## Hämta resurskrav {#download-asset-requirements}
 
-Brand Portal-användare får automatiskt e-post-/pulsmeddelanden varje gång en avgiftsbelagda mapp delas av Experience Manager Assets-användare, så att de kan hämta det korta (resurskrav) dokumentet samt hämta baslinjeresurserna (referensinnehåll) från mappen **SHARED** för att vara säker på att de förstår vad som krävs för resursen.
+Brand Portal-användare får automatiskt e-post och pulsmeddelanden när en Experience Manager Assets-användare delar en avgiftsmapp. Med det här arbetsflödet kan de hämta det korta (resurskrav) dokumentet och baslinjeresurserna (referensinnehåll) från mappen **SHARED** för att förstå resurskraven.
 
 Brand Portal-användare utför följande åtgärder för att ladda ned mediefiler:
 
-* **Ladda ned i korthet**: Ladda ned översikten (dokument om krav på tillgång) som är bifogat till mappen för bidrag och som innehåller resursrelaterad information som typ av resurser, syfte, format som stöds, maximal storlek på mediefilen osv.
-* **Hämta baslinjeresurser**: Hämta baslinjeresurser som kan användas för att förstå vilka typer av resurser som krävs. Brand Portal-användare kan använda dessa resurser som referens för att skapa nya resurser som kan bidra.
+* **Ladda ned i korthet** - Ladda ned översikten (tillgångskravsdokument) som är bifogad till mappen för bidrag. Den innehåller tillgångsrelaterad information som typ av resurser, syfte, format som stöds, maximal storlek för mediefiler med mera.
+* **Hämta baslinjeresurser** - Hämta baslinjeresurser som kan användas för att förstå vilka typer av resurser som krävs. Brand Portal-användare kan använda dessa resurser som referens för att skapa nya resurser som kan bidra.
 
-Brand Portal Dashboard visar alla befintliga mappar som är tillåtna för Brand Portal-användaren tillsammans med den nyligen delade bidragsmappen. I det här exemplet har Brand Portal-användaren bara åtkomst till den nyligen skapade mappen för bidrag, ingen annan befintlig mapp delas med användaren.
+Brand Portal Dashboard visar alla befintliga mappar som är tillåtna för Brand Portal-användaren tillsammans med den nyligen delade bidragsmappen. I det här exemplet har Brand Portal-användaren bara åtkomst till den nyligen skapade mappen för bidrag. Ingen annan befintlig mapp delas med användaren.
 
 **Så här hämtar du resurskrav:**
 
 1. Logga in på din Brand Portal-instans.
-1. Välj mapp för bidrag från Brand Portal Dashboard.
+1. Välj en mapp för bidrag från Brand Portal Dashboard.
 1. Klicka på **[!UICONTROL Properties]**. Fönstret Egenskap som innehåller informationen om bidragsmappen öppnas.
 
    ![](assets/properties.png)
@@ -53,7 +49,7 @@ Brand Portal Dashboard visar alla befintliga mappar som är tillåtna för Brand
    ![](assets/download.png)
 
 1. Gå tillbaka till Brand Portal Dashboard.
-1. Klicka för att öppna mappen för bidrag, du kan se två undermappar - **[!UICONTROL SHARED]** och **[!UICONTROL NEW]** i mappen för bidrag. Mappen SHARED innehåller alla baslinjeresurser (referensinnehåll) som delas av administratörerna.
+1. Klicka på mappen för bidrag för att öppna den. Du kan se två undermappar: **[!UICONTROL SHARED]** och **[!UICONTROL NEW]** i bidragsmappen. Mappen SHARED innehåller alla baslinjeresurser (referensinnehåll) som delas av administratörerna.
 1. Du kan hämta mappen **[!UICONTROL SHARED]** som innehåller alla baslinjeresurser på den lokala datorn.
 Du kan också öppna mappen **[!UICONTROL SHARED]** och klicka på ikonen **Hämta** för att hämta enskilda filer/mappar.
 
@@ -63,22 +59,21 @@ Du kan också öppna mappen **[!UICONTROL SHARED]** och klicka på ikonen **Häm
 
 Gå igenom översikten (tillgångskravsdokument) och hänvisa till bastillgångarna för att förstå tillgångskraven. Nu kan du skapa nya resurser för bidrag och överföra dem till mappen för bidrag.
 
-
 ## Överför resurser till mappen för bidrag {#upload-new-assets-to-contribution-folder}
 
 Efter att ha gått igenom resurskraven kan Brand Portal-användare skapa nya resurser för bidrag och överföra dem till mappen NEW i mappen för bidrag. En användare kan överföra flera resurser till en resursavgiftsmapp. Det går dock bara att skapa en mapp åt gången.
 
 >[!NOTE]
 >
->Brand Portal-användare kan överföra resurser (maximalt **2** GB per filstorlek) till den NYA mappen.
+>Brand Portal-användare kan överföra resurser (högst två gigabyte per filstorlek) till mappen NEW.
 >
->Den maximala överföringsgränsen för alla Brand Portal-klientorganisationer är **10** GB, som tillämpas kumulativt på alla bidragsmappar.
+>Den maximala överföringsgränsen för alla Brand Portal-klientorganisationer är tio gigabyte, som kumulativt tillämpas på alla bidragsmappar.
 >
 >Resurserna som överförs till Brand Portal bearbetas inte för återgivningar och innehåller inte förhandsgranskningar.
 
 >[!NOTE]
 >
->Vi rekommenderar att du frigör överföringsutrymmet när du har publicerat avgiftsbelagda mappar till Experience Manager Assets så att de är tillgängliga för övriga Brand Portal-användare.
+>Adobe rekommenderar att du frigör överföringsutrymmet efter att du har publicerat avgiftsbelagda mappar till Experience Manager Assets så att de är tillgängliga för övriga Brand Portal-användare.
 >
 >Om du behöver utöka din Brand Portal-klientorganisations överföringsgräns mer än **10** GB kontaktar du kundsupport och anger kraven.
 
@@ -111,11 +106,11 @@ Brand Portal-användare kan publicera bidragsmappen till Experience Manager Asse
 
 Se till att du har gått igenom resurskraven och överfört de nyskapade resurserna i mappen **NEW** i mappen för bidrag.
 
-**Så här publicerar du bidragsmappen:**
+**Så här publicerar du en bidragsmapp:**
 
 1. Logga in på din Brand Portal-instans.
 
-1. Välj mapp för bidrag från Brand Portal Dashboard.
+1. Välj en mapp för bidrag från Brand Portal Dashboard.
 1. Klicka på **[!UICONTROL Publish to AEM]**.
 
    ![](assets/export.png)
@@ -128,13 +123,13 @@ Ett e-post-/pulsmeddelande skickas till Brand Portal-användare och -administrat
 
 1. **Fullständigt** - Ett meddelande skickas till Brand Portal-användare och Brand Portal-administratörer när bidragsmappen har publicerats till Experience Manager Assets.
 
-När de nyskapade resurserna har publicerats till Experience Manager Assets kan Brand Portal-användare ta bort dem från mappen NEW. Brand Portal-administratören kan ta bort resurserna från både NYTT och Delat.
+När de nyskapade resurserna har publicerats till Experience Manager Assets kan Brand Portal-användare ta bort dem från mappen NEW. Brand Portal-administratören kan dock ta bort resurserna från både NYTT och Delat.
 
 När målet att skapa bidragsmappen är uppfyllt kan Brand Portal-administratören ta bort bidragsmappen och frigöra överföringsutrymmet för andra användare.
 
 ## Status för publiceringsjobb {#publishing-job-status}
 
-Det finns två rapporter som administratörer kan använda för att visa statusen för resursavgiftsmapparna som publicerats från Brand Portal till Experience Manager Assets.
+Administratörer kan använda två rapporter för att visa status för resursavgiftsmappar som publicerats från Brand Portal till Experience Manager Assets.
 
 * I Brand Portal går du till **[!UICONTROL Tools]** > **[!UICONTROL Asset Contribution Status]**. Den här rapporten visar statusen för alla publiceringsjobb i olika faser av publiceringsarbetsflödet.
 
@@ -202,7 +197,7 @@ Så här visar och hämtar du rapporter för ett borttagningsjobb:
 
 ### Ta bort en rapport
 
-I Brand Portal kan du även välja en eller flera rapporter och ta bort dem manuellt.
+I Brand Portal kan du också markera en eller flera rapporter och ta bort dem manuellt.
 
 Ta bort en rapport:
 

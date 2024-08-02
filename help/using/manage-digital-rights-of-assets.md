@@ -1,26 +1,22 @@
 ---
 title: Hantera digitala rättigheter för resurser
-seo-title: Manage digital rights of assets
 description: Genom att licensiera resurser och ange förfallodatum för resurser och delade länkar kan du kontrollera användningen av dessa resurser och skydda dem.
-seo-description: Licensing assets and setting expiration for assets and shared links ensure controlled usage of these assets and safeguard them.
-uuid: ce30e398-0109-41bf-a4d2-2fcca476f499
 contentOwner: bdhar
 topic-tags: download-install
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
-discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 role: Admin
 exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
-source-git-commit: d1487434b10b01eaf55f34672267490fd8fd907e
+source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
 
 # Hantera digitala rättigheter för resurser {#manage-digital-rights-of-assets}
 
-För att skydda ert varumärke är det viktigt att säkerställa säker distribution och användning av kreativa tillgångar och varumärkesmaterial. Detta kan framtvingas i hela organisationen och utanför genom att ett förfallodatum (och en förfallotid) kopplas till godkända mediefiler som publiceras från AEM till Brand Portal, eller genom att dessa mediefiler licensieras för villkorlig användning. I Brand Portal kan du också ange ett förfallodatum för länkar till resurser som delas från Brand Portal.
+För att skydda ert varumärke är det viktigt att säkerställa säker distribution och användning av kreativa tillgångar och varumärkesmaterial. Den här processen kan genomföras genom att ett förfallodatum (och en förfallotid) kopplas till godkända mediefiler som publiceras från AEM till Brand Portal, eller genom att dessa mediefiler licensieras för villkorlig användning. I Brand Portal kan du också ange ett förfallodatum för länkar till resurser som delas från Brand Portal.
 
 Läs vidare för att lära dig hur materialet skyddas på Brand Portal och förstå de tillhörande användningsbehörigheterna.
 
@@ -30,9 +26,9 @@ Att mediefiler förfaller är ett effektivt sätt att kontrollera användningen 
 
 ### Användningsbehörigheter för resurser som gått ut {#usage-permissions-expired-assets}
 
-I Brand Portal kan administratörer visa, ladda ned och lägga till material som gått ut i samlingar. Redigerare och visningsprogram kan bara visa och lägga till utgångna resurser i samlingar.
+I Brand Portal kan administratörer visa, ladda ned och lägga till material som gått ut i samlingar. Redigerare och visningsprogram kan dock bara visa och lägga till utgångna resurser i samlingar.
 
-Administratörer kan publicera material som gått ut från AEM Assets till Brand Portal. Utgångna mediefiler kan dock inte delas via bläck från Brand Portal. Om du väljer en resurs som har gått ut från en mapp som innehåller resurser som har gått ut och som inte har gått ut, är åtgärden **[!UICONTROL Share Link]** inte tillgänglig. Men om du väljer en mapp som innehåller resurser som har gått ut och som inte gått ut är åtgärderna [!UICONTROL Share] och **[!UICONTROL Share Link]** tillgängliga.
+Administratörer kan publicera material som gått ut från AEM Assets till Brand Portal. Utgångna resurser kan dock inte delas via en länk från Brand Portal. Om du väljer en resurs som har gått ut från en mapp som innehåller resurser som har gått ut och som inte har gått ut, är åtgärden **[!UICONTROL Share Link]** inte tillgänglig. Men om du väljer en mapp som innehåller resurser som har gått ut och som inte gått ut är åtgärderna [!UICONTROL Share] och **[!UICONTROL Share Link]** tillgängliga.
 
 >[!NOTE]
 >
@@ -67,15 +63,15 @@ När du delar resurser via länkar kan administratörer och redigerare ange ett 
 
 ![](assets/asset-link-sharing.png)
 
-Det ser till att resurser som delas som länkar förfaller det datum och den tid som anges av Brand Portal administratörer och redigerare och inte längre kan visas och hämtas efter förfallodatumet. Eftersom resurser som delas via länkar också kan visas av externa användare som inte är en del av organisationen, kan du genom att ange förfallodatum se till att dina godkända resurser är skyddade och inte exponerade för okända enheter längre än en angiven tid.
+Det ser till att resurser som delas som länkar förfaller vid det datum och den tidpunkt som anges av Brand Portal administratörer och redigerare. Och resurserna kan inte längre visas och laddas ned efter förfallodatumet. För att skydda dina godkända resurser från externa användare anger du ett förfallodatum för delade länkar för att säkerställa att de inte exponeras för okända enheter efter en viss tid.
 
 Mer information om länkdelning finns i [Dela resurser som en länk](../using/brand-portal-link-share.md).
 
 ## Licensierad Assets {#licensed-assets}
 
-För licensierade mediefiler krävs att ett licensavtal godkänns innan du laddar ned dem från Brand Portal. Det här avtalet för licensierade mediefiler levereras när du hämtar mediefilen direkt från Brand Portal eller via en delad länk. Licensskyddade resurser kan visas av alla användare, oavsett om de har gått ut eller inte. Hämtningen och användningen av licensierade mediefiler som upphört att gälla är dock begränsad. Om du vill veta mer om beteendet hos utgångna licensierade resurser och tillåtna aktiviteter baserat på användarroller kan du läsa [användningsbehörigheter för utgångna resurser](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
+För licensierade mediefiler krävs att ett licensavtal godkänns innan du laddar ned dem från Brand Portal. Det här avtalet för licensierade mediefiler levereras när du hämtar mediefilen direkt från Brand Portal eller via en delad länk. Oavsett om avtalet har gått ut eller inte kan alla användare visa licensskyddade resurser. Hämtningen och användningen av licensierade mediefiler som upphört att gälla är dock begränsad. Om du vill veta mer om beteendet hos utgångna licensierade resurser och tillåtna aktiviteter baserat på användarroller kan du läsa [användningsbehörigheter för utgångna resurser](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-Licensskyddade resurser har [licensavtal kopplat](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) till sig, vilket görs genom att resursens metadataegenskap ställs in i [!DNL Experience Manager Assets].
+Licensskyddade resurser har ett [licensavtal kopplat](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) till sig, vilket görs genom att resursens metadataegenskap ställs in i [!DNL Experience Manager Assets].
 
 En resurs betraktas som skyddad om den innehåller någon av följande (eller båda) metadataegenskaper:
 
@@ -90,7 +86,7 @@ Om du väljer att hämta licensskyddade resurser omdirigeras du till sidan **[!U
 | Ja | - | Gränssnittet visas i både Assets och Brand Portal |
 | - | Ja (ogiltig sökväg) | Inget gränssnitt |
 | Ja | Ja (ogiltig sökväg) | Inget gränssnitt |
-| Ja | Ja (giltig sökväg) | Gränssnittet visas i Assets eller Brand Portal </br> beroende på om sökvägen är giltig för Assets eller Brand Portal (eller båda). |
+| Ja | Ja (giltig sökväg) | Gränssnittet visas i Assets eller Brand Portal</br>Beroende på om sökvägen är giltig för Assets eller Brand Portal (eller båda). |
 
 ![](assets/asset-copyright-mgmt.png)
 
@@ -106,4 +102,4 @@ Administratörer kan generera och ladda ned en rapport med en lista över alla m
 
 ![](assets/assets-expired.png)
 
-Mer information om rapportfunktionen finns i [Arbeta med rapporter](../using/brand-portal-reports.md#work-with-reports).
+Mer information om rapportfunktionen finns på [Arbeta med rapporter](../using/brand-portal-reports.md#work-with-reports).
