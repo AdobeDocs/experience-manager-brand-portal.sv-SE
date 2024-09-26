@@ -6,9 +6,9 @@ content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
+source-git-commit: 436ade72b12e66f2b2015874c0115ee3cfd709e6
 workflow-type: tm+mt
-source-wordcount: '6466'
+source-wordcount: '6467'
 ht-degree: 0%
 
 ---
@@ -232,7 +232,7 @@ Den nya dialogrutan **[!UICONTROL Download]** generaliserar resursmarkerings- oc
 
 >[!NOTE]
 >
->Alla användare har nu **[!UICONTROL Fast Download]** aktiverat som standard och kräver att IBM® Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) är installerat i webbläsartillägget innan resurserna hämtas från Brand Portal.
+>Alla användare har nu **[!UICONTROL Fast Download]** aktiverat som standard och kräver att IBM® [ Aspera Connect 3.9.9](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm~Other%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all) är installerat i webbläsartillägget innan de hämtar resurserna från Brand Portal.
 
 <!--
 If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog box appears with all the renditions of the selected assets or folders containing assets in a List View. 
