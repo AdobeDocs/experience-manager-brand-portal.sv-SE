@@ -6,9 +6,9 @@ contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 623d78ee5bd82d1cd6c271962e29c6b71192bcfd
+source-git-commit: 3f3065de994f5c38e604b52848b0a538c9efd7d1
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1508'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa
 Den här versionen innehåller följande felkorrigeringar:
 
 * E-postmeddelanden om källhändelser för import skickas inte.
-* När du använder sökfiltret visas dubblettmappar i sökfilterfönstret i Brand Portal.
+* När sökfiltret används visas dubblettmappar i fönstret för sökfilter i [!DNL Brand Portal].
 * Det går inte att hämta samlingar som innehåller icke-licensierade resurser med specialtecken i namnen.
 * När du navigerar till [!UICONTROL Search Form Editor] lokaliseras inte etiketter.
 * Etiketter är inte lokaliserade i länkdelningsfönstret.
