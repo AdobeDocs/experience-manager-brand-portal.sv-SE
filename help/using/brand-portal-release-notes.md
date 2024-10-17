@@ -1,38 +1,55 @@
 ---
 title: Versionsinformation
-description: Få en inblick i funktioner, förbättringar, åtgärdade kritiska problem och kända fel i Adobe Experience Manager Assets Brand Portal 2024.02.0.
+description: Få en inblick i funktioner, förbättringar, åtgärdade kritiska problem och kända fel i Adobe Experience Manager Assets Brand Portal 2024.10.0.
 content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+source-git-commit: 623d78ee5bd82d1cd6c271962e29c6b71192bcfd
 workflow-type: tm+mt
-source-wordcount: '1407'
-ht-degree: 1%
+source-wordcount: '1510'
+ht-degree: 0%
 
 ---
 
 # Versionsinformation {#release-notes}
 
-Få en inblick i de nya funktionerna, förbättringarna, de allvarliga problemen och de kända problemen i Adobe Experience Manager Assets Brand Portal 2024.02.0.
+Få en inblick i de nya funktionerna, förbättringarna, de allvarliga problemen och de kända problemen i Adobe Experience Manager Assets Brand Portal 2024.10.0.
 
 ## Versionsinformation {#release-information}
 
 | Produkt | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2024.02.0 |
-| Datum | Februari 2024 |
+| Version | 2024.10.0 |
+| Datum | Oktober 2024 |
 
 ## Ökning {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa, styra och på ett säkert sätt distribuera godkänt material till externa parter och interna användare på olika enheter. Det bidrar till att effektivisera delning av tillgångar, kortar time-to-market för tillgångar och minskar risken för bristande efterlevnad och obehörig åtkomst. Med Brand Portal kan man bläddra bland, söka, förhandsgranska, ladda ned och exportera material i företagsgodkända format - när som helst, var som helst.
 
-## Nyheter i 2024.02.0 {#whats-new-in-2024.02.0}
+## Nyheter 2024.10.0 {#whats-new-in-2024.10.0}
 
 ### Allvarliga problem har åtgärdats {#critical-issues-fixed}
 
 #### Felkorrigeringar {#bug-fixes}
+
+Den här versionen innehåller följande felkorrigeringar:
+
+* E-postmeddelanden om källhändelser för import skickas inte.
+* När du använder sökfiltret visas dubblettmappar i sökfilterfönstret i Brand Portal.
+* Det går inte att hämta samlingar som innehåller icke-licensierade resurser med specialtecken i namnen.
+* När du navigerar till [!UICONTROL Search Form Editor] lokaliseras inte etiketter.
+* Etiketter är inte lokaliserade i länkdelningsfönstret.
+* Det går inte att hämta video med specialtecken i namnet.
+* Publicering och avpublicering av resurser från [!DNL Adobe Experience Manager Assets] till Brand Portal fungerar inte korrekt.
+* Det går inte att spela upp videofilmer som hämtats från Brand Portal.
+
+## Tidigare versioner
+
+### Februari 2024-utgåvan {#feb-2024}
+
+**Felkorrigeringar och förbättringar**
 
 Den här versionen innehåller följande felkorrigeringar:
 
@@ -44,8 +61,6 @@ Den här versionen innehåller följande felkorrigeringar:
 * Feljusterad rubrik och storlek för resurser i hämtningsfönstret.
 * När du skapar en rapport lokaliseras inte etiketter.
 * Supportadministratörer kallades administratörer i Brand Portal.
-
-## Tidigare versioner
 
 ### Oktober 2023-versionen {#oct-2023}
 
