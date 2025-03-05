@@ -6,9 +6,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+source-git-commit: e01be07e7e791c6d406744148a77fd44d2479734
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1492'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Sidan **[!UICONTROL Properties]** för varje resurs innehåller standardmetadata
 
 Så här skapar du ett nytt metadataschemaformulär:
 
-1. Klicka på Experience Manager-logotypen i verktygsfältet överst för att öppna administrationsverktygen.
+1. Klicka på Experience Manager logotyp i verktygsfältet överst för att öppna administrationsverktygen.
 
    ![](assets/aemlogo.png)
 
@@ -47,7 +47,7 @@ Du kan lägga till nya flikar eller formulärobjekt i metadatchemaformuläret. D
 
 Så här redigerar du ett metadatamatchemaformulär:
 
-1. Klicka på Experience Manager-logotypen i verktygsfältet överst för att öppna administrationsverktygen.
+1. Klicka på Experience Manager logotyp i verktygsfältet överst för att öppna administrationsverktygen.
 
    ![](assets/aemlogo.png)
 
@@ -75,7 +75,7 @@ Så här redigerar du ett metadatamatchemaformulär:
 Fliken **[!UICONTROL Build Form]** visar objekt som du kan använda i schemaformuläret. Fliken **[!UICONTROL Settings]** innehåller attributen för varje objekt som du väljer på fliken **[!UICONTROL Build Form]**. I följande tabell visas de formulärobjekt som är tillgängliga på fliken **[!UICONTROL Build Form]**:
 
 | Komponentnamn | Beskrivning |
-|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|----|----|
 | **[!UICONTROL Section Header]** | Lägg till en avsnittsrubrik för en lista med gemensamma komponenter. |
 | **[!UICONTROL Single Line Text]** | Lägg till en textegenskap för en rad. Den lagras som en sträng. |
 | **[!UICONTROL Multi ValueText]** | Lägg till en textegenskap med flera värden. Den lagras som en strängarray. |
@@ -87,8 +87,9 @@ Fliken **[!UICONTROL Build Form]** visar objekt som du kan använda i schemaform
 | **[!UICONTROL Hidden Field]** | Lägg till ett dolt fält. Den skickas som en POST-parameter när resursen sparas. |
 | **[!UICONTROL Asset Referenced By]** | Lägg till den här komponenten för att visa en lista över resurser som resursen refererar till. |
 | **[!UICONTROL Asset Referencing]** | Lägg till om du vill visa en lista med resurser som refererar till resursen. |
-| **[!UICONTROL Asset Rating]** | Genomsnittlig värdering av en tillgång som lagts till från Experience Manager Assets innan den publiceras till Brand Portal. |
 | **[!UICONTROL Contextual Metadata]** | Lägg till för att styra visningen av andra metadataflikar på egenskapssidan för resurser. |
+
+<!--| **[!UICONTROL Asset Rating]** |  Average rating of an asset added from Experience Manager Assets before it is published to Brand Portal. |-->
 
 >[!NOTE]
 >
@@ -115,7 +116,7 @@ Följande är giltiga värden för den här egenskapen:
 * **[!UICONTROL Description]**: Använd den här egenskapen om du vill lägga till en kort beskrivning för metadatakomponenten.
 * **[!UICONTROL Delete icon]**: Klicka på den här ikonen om du vill ta bort en komponent från schemaformuläret.
 
-![](assets/delete_icon_editmetadataschemaform.png)
+  ![](assets/delete_icon_editmetadataschemaform.png)
 
 >[!NOTE]
 >
@@ -129,7 +130,7 @@ Standardschemaformuläret innehåller flikarna **[!UICONTROL Basic]** och **[!UI
 
 * Om du vill lägga till en ny flik i ett schemaformulär klickar du på **[!UICONTROL +]**. Som standard har den nya fliken namnet &quot;Namnlös-1&quot;. Du kan ändra namnet på fliken **[!UICONTROL Settings]**.
 
-![](assets/add-tab-metadata-form.png)
+  ![](assets/add-tab-metadata-form.png)
 
 * Klicka på **[!UICONTROL x]** om du vill ta bort en flik. Klicka på **[!UICONTROL Save]** om du vill spara ändringarna.
 
@@ -139,7 +140,7 @@ Med Brand Portal kan du anpassa och styra metadataschemat så att sidan **[!UICO
 
 Så här använder du ett metadatamatchemaformulär för en mapp:
 
-1. Klicka på Experience Manager-logotypen i verktygsfältet överst för att öppna administrationsverktygen.
+1. Klicka på Experience Manager logotyp i verktygsfältet överst för att öppna administrationsverktygen.
 
    ![](assets/aemlogo.png)
 
