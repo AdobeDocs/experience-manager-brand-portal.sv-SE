@@ -13,7 +13,7 @@ audience: author, marketer
 version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: aea49037eddb1558f85e567cd35eb434eee617ba
+source-git-commit: aea8becdf9493b1d465f1b1cb818c85f8943bedb
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 0%
@@ -122,7 +122,6 @@ Bläddra från den lokala datorn och överför en **konfigurationsfil (.csv)** s
 1. Klicka på **[!UICONTROL Save]**.
 
    ![](assets/upload-user-list2.png)
-
 
 Administratörer kan ge åtkomst till specifika användare från den här användarlistan när de konfigurerar en mapp för bidrag. Endast de användare som är tilldelade till en mapp för bidrag har tillgång till mappen för bidrag och kan publicera resurser från Brand Portal till Experience Manager Assets.
 
