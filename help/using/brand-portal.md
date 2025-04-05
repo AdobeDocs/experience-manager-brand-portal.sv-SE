@@ -5,7 +5,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+source-git-commit: 86585e7e04a19f59f9594409e6d7704f457ab8e2
 workflow-type: tm+mt
 source-wordcount: '1539'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Som marknadsförare behöver ni ibland samarbeta med kanalpartners och interna a
 
 Men det är en utmaning att utveckla lösningar som stöder effektiv och säker delning av sådant som godkända varumärkeslogotyper, kampanjresurser eller produktbilder med team, partners och återförsäljare. För att säkerställa både effektivitet och säkerhet i den här processen krävs noggrann planering och genomförande.
 
-**Adobe Experience Manager (AEM) Assets Brand Portal** fokuserar på marknadsförarens behov av att samarbeta effektivt med globala Brand Portal-användare genom att tillhandahålla funktioner för resursdistribution och resursbidrag.
+**Adobe Experience Manager (AEM) Assets Brand Portal** fokuserar på marknadsförarens behov av att samarbeta effektivt med globalt distribuerade Brand Portal-användare genom att tillhandahålla funktioner för resursdistribution och resursbidrag.
 
 Med mediedistribution kan ni skaffa, styra och säkert distribuera godkända kreativa resurser till externa parter och interna företagsanvändare på olika enheter. Med Assets-komponenten kan Brand Portal-användare dock överföra mediefiler till Brand Portal och publicera till Experience Manager Assets utan att behöva ha tillgång till redigeringsmiljön. Avgiftsfunktionen anropas som **Assets-källa i Brand Portal**. Dessutom förbättrar det den övergripande Brand Portal-upplevelsen av resursdistribution och bidrag från Brand Portal-användare (externa byråer/team), snabbar upp time-to-market för mediefiler och minskar risken för bristande efterlevnad och obehörig åtkomst.
 Se [Resurser i Brand Portal](brand-portal-asset-sourcing.md).
@@ -35,7 +35,7 @@ Om du konfigurerar Adobe Experience Manager Assets med Brand Portal kan Brand Po
 
 Experience Manager Assets as a Cloud Service konfigureras automatiskt med Brand Portal genom att Brand Portal aktiveras från Cloud Manager. Aktiveringsarbetsflödet skapar de nödvändiga konfigurationerna i bakänden och aktiverar Brand Portal i samma IMS-organisation som i Experience Manager Assets as a Cloud Service-instansen.
 
-Men Experience Manager Assets (lokal och hanterad tjänst) konfigureras manuellt med Brand Portal med Adobe Developer Console, som anskaffar en IMS-token (Adobe Identity Management Services) för auktorisering av Brand Portal-klienten.
+Men Experience Manager Assets (lokal och hanterad tjänst) konfigureras manuellt med Brand Portal med Adobe Developer Console, som anskaffar en Adobe Identity Management Services-token (IMS) för auktorisering av Brand Portal-klienten.
 
 Mer information finns i [Konfigurera Experience Manager Assets med Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
@@ -97,7 +97,7 @@ Brand Portal har definierats i [!DNL Admin Console] som har åtkomst till Brand 
 
 ### Redigerare {#editor}
 
-En användare med rollen Redigerare kan utföra alla uppgifter som en visningsprogram kan utföra. Dessutom kan redigeraren visa de filer och mappar som en administratör delar. Användaren som har rollen som redigerare kan även dela innehåll (filer, mappar, samlingar) med andra.
+En användare med rollen Redigerare kan utföra alla uppgifter som en visningsprogram kan utföra. Dessutom kan en redigerare visa de filer och mappar som en administratör delar. Användaren som har rollen som redigerare kan även dela innehåll (filer, mappar, samlingar) med andra.
 
 Förutom de uppgifter som en visningsprogram kan utföra kan en redigerare utföra följande ytterligare uppgifter:
 
@@ -136,7 +136,7 @@ Från och med Brand Portal 6.4.3 kan organisationer ha en alternativ (alias) URL
 Om innehavarnamnet är längre än 32 tecken måste ett innehavaralias skapas.
 Observera att endast prefixet för Brand Portal URL kan anpassas och inte hela URL:en. En organisation med den befintliga domänen `geomettrix.brand-portal.adobe.com` kan till exempel få `geomettrixinc.brand-portal.adobe.com` skapad på begäran.
 
-AEM Author-instansen kan bara [konfigureras](../using/configure-aem-assets-with-brand-portal.md) med URL:en för klientens ID och inte med klientens alias (alternativ) URL.
+AEM Author-instansen kan dock bara [konfigureras](../using/configure-aem-assets-with-brand-portal.md) med URL:en för klient-ID och inte med URL:en för klientalias (alternativ).
 
 >[!NOTE]
 >
@@ -235,4 +235,4 @@ Du kan stänga meddelandet och fortsätta använda Brand Portal. Det här meddel
 * [Adobe Customer Support]()
 -->
 
-* [AEM forum](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
+* [AEM-forum](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
