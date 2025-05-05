@@ -156,7 +156,7 @@ Så här hämtar du resurser eller mappar som innehåller resurser från Brand P
      >
      >Om de hämtade resurserna även innehåller licensierade resurser omdirigeras du till sidan **[!UICONTROL Copyright Management]**. På den här sidan markerar du resurserna, klickar på **[!UICONTROL Agree]** och sedan på **[!UICONTROL Download]**. Om du inte håller med hämtas inte licensierade mediefiler.
      > 
-     >Licensskyddade resurser har ett [licensavtal kopplat](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) till sig, vilket görs genom att resursens [metadataegenskap ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) ställs in i Experience Manager Assets.
+     >Licensskyddade resurser har ett [licensavtal kopplat](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/assets/administer/drm) till sig, vilket görs genom att resursens [metadataegenskap ](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/assets/administer/drm) ställs in i Experience Manager Assets.
 
 
      ![licensed-asset](assets/licensed-asset-new.png)

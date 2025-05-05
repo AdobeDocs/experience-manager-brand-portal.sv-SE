@@ -170,7 +170,7 @@ Om du vill lägga till användare i en Brand Portal-grupp lägger du till dem i 
 
 ## Ge användarna administratörsbehörighet {#provide-administrator-privileges-to-users}
 
-Du kan ge en Brand Portal-användare behörighet som systemadministratör eller produktadministratör. Undvik dock att tilldela andra administrativa roller som är tillgängliga i [!UICONTROL Admin Console]. Exempel: produktprofiladministratör, användargruppsadministratör och supportadministratör. Se [Administrativa roller](https://helpx.adobe.com/enterprise/using/admin-roles.html).
+Du kan ge en Brand Portal-användare behörighet som systemadministratör eller produktadministratör. Undvik dock att tilldela andra administrativa roller som är tillgängliga i [!UICONTROL Admin Console]. Exempel: produktprofiladministratör, användargruppsadministratör och supportadministratör. Se [Administrativa roller](https://helpx.adobe.com/se/enterprise/using/admin-roles.html).
 
 >[!NOTE]
 >

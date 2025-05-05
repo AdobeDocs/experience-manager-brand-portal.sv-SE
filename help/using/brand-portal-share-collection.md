@@ -19,7 +19,7 @@ En samling representerar en grupp relaterade resurser som lagras tillsammans i A
 
 <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-Samlingar delas som länkar via e-post. Alla som har tillgång till länken för delning kan öppna samlingen. Delade e-postmeddelanden kan dock vidarebefordras till alla. Dessutom är [delade länkar](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/share/brand-portal-link-share) temporära och tillgängliga endast under en begränsad tid. Alternativt kan användare bjudas in som permanenta medlemmar i samlingar. Det finns följande typer av användare för samlingarna:
+Samlingar delas som länkar via e-post. Alla som har tillgång till länken för delning kan öppna samlingen. Delade e-postmeddelanden kan dock vidarebefordras till alla. Dessutom är [delade länkar](https://experienceleague.adobe.com/sv/docs/experience-manager-brand-portal/using/share/brand-portal-link-share) temporära och tillgängliga endast under en begränsad tid. Alternativt kan användare bjudas in som permanenta medlemmar i samlingar. Det finns följande typer av användare för samlingarna:
 
 * **Administratörer** kan dela eller ta bort delning av en samling med behöriga Brand Portal-användare. De kan bjuda in andra användare till en viss samling och definiera deras roll i samlingen. Dessutom kan administratörer skapa offentliga samlingar.
 

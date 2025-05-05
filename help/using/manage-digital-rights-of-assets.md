@@ -71,7 +71,7 @@ Mer information om länkdelning finns i [Dela resurser som en länk](../using/br
 
 För licensierade mediefiler krävs att ett licensavtal godkänns innan du laddar ned dem från Brand Portal. Det här avtalet för licensierade mediefiler levereras när du hämtar mediefilen direkt från Brand Portal eller via en delad länk. Oavsett om avtalet har gått ut eller inte kan alla användare visa licensskyddade resurser. Hämtningen och användningen av licensierade mediefiler som upphört att gälla är dock begränsad. Om du vill veta mer om beteendet hos utgångna licensierade resurser och tillåtna aktiviteter baserat på användarroller kan du läsa [användningsbehörigheter för utgångna resurser](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-Licensskyddade resurser har ett [licensavtal kopplat](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) till sig, vilket görs genom att resursens metadataegenskap ställs in i [!DNL Experience Manager Assets].
+Licensskyddade resurser har ett [licensavtal kopplat](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/assets/administer/drm) till sig, vilket görs genom att resursens metadataegenskap ställs in i [!DNL Experience Manager Assets].
 
 En resurs betraktas som skyddad om den innehåller någon av följande (eller båda) metadataegenskaper:
 

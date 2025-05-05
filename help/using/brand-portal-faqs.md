@@ -29,7 +29,7 @@ Vanliga frågor och svar om Brand Portal fokuserar på frågor och problem som s
 
 **Svar:** Ja, det finns ett känt fel när du publicerar resurser i mappen för bidrag till Experience Manager Assets 6.5.4 via Adobe Developer Console.
 
-Problemet har åtgärdats i Experience Manager Assets 6.5.5. Du kan uppgradera din Experience Manager Assets-instans till den senaste Service Pack-versionen och [uppgradera dina konfigurationer](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) på Adobe Developer Console.
+Problemet har åtgärdats i Experience Manager Assets 6.5.5. Du kan uppgradera din Experience Manager Assets-instans till den senaste Service Pack-versionen och [uppgradera dina konfigurationer](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) på Adobe Developer Console.
 
 
 **Fråga: Jag ser inte innehåll i mappen för bidrag som publiceras från Brand Portal i Experience Manager Assets. Vad kan vara den möjliga orsaken?**

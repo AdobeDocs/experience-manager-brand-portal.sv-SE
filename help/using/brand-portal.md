@@ -127,8 +127,8 @@ En administratör kan utföra alla åtgärder som en redigerare kan utföra. Ned
 Förutom ovanstående uppgifter kan en författare i AEM Assets utföra följande uppgifter:
 
 * [Konfigurera AEM Assets med Brand Portal](../using/configure-aem-assets-with-brand-portal.md)
-* [Publicera mappar på varumärkesportalen](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
-* [Publicera samlingar på varumärkesportalen](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
+* [Publicera mappar på varumärkesportalen](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
+* [Publicera samlingar på varumärkesportalen](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
 
 ## Alternativt alias för Brand Portal-URL {#tenant-alias-for-portal-url}
 

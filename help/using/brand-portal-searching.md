@@ -46,7 +46,7 @@ Så här söker du efter resurser på Brand Portal:
 
    *Resurssökning med Omnissearch*
 
-Om du vill veta mer om sökbeteenden med smarta taggade resurser går du till [Mer information om sökresultat och sökbeteenden](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/search-assets).
+Om du vill veta mer om sökbeteenden med smarta taggade resurser går du till [Mer information om sökresultat och sökbeteenden](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/assets/using/search-assets).
 
 ## Söka med ansikten på panelen Filter {#search-using-facets-in-filters-panel}
 

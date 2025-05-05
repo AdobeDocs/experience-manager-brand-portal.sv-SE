@@ -24,7 +24,7 @@ Avsaknaden av en säker lösning för resursdelning kan leda till:
 
 Brand Portal säkerställer varumärkeskommunikation genom att marknadsförarna kan samarbeta med partners och interna användare för att skapa, hantera och leverera riktlinjer, logotyper och kampanjresurser till intressenter.
 
-Brand Portal är ett molnbaserat SAAS-erbjudande. Det finns som ett tillägg till Adobe Experience Manager Assets-produkten (lokal eller hanterad tjänst). Du kan använda Brand Portal med [!DNL Adobe Experience Manager Assets] som [!DNL Cloud Service]. När [har konfigurerats](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal) kan du publicera godkända resurser från [!DNL Adobe Experience Manager Assets] som en [!DNL Cloud Service]-instans till [!DNL Brand Portal] och distribuera dem till Brand Portal-användare.
+Brand Portal är ett molnbaserat SAAS-erbjudande. Det finns som ett tillägg till Adobe Experience Manager Assets-produkten (lokal eller hanterad tjänst). Du kan använda Brand Portal med [!DNL Adobe Experience Manager Assets] som [!DNL Cloud Service]. När [har konfigurerats](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal) kan du publicera godkända resurser från [!DNL Adobe Experience Manager Assets] som en [!DNL Cloud Service]-instans till [!DNL Brand Portal] och distribuera dem till Brand Portal-användare.
 
 Brand Portal arbetsflöde illustreras i följande bild.
 
@@ -45,8 +45,8 @@ Den här användarhandboken ger information om Brand Portal-erbjudanden och vikt
 | [Filformat som stöds](brand-portal-supported-formats.md) | Filformat som stöds i Brand Portal för förhandsgranskning och nedladdning. |
 | [Publish Assets till Brand Portal](brand-portal-sharing-folders.md) | Publicera mappar, samlingar, länkar, förinställningar, schema, ansikten och taggar i Brand Portal. |
 | [Resurshantering i Brand Portal](brand-portal-asset-sourcing.md) | Så här konfigurerar du Resurser i AEM Assets, överför resurser i Brand Portal och publicerar bidragsmappen tillbaka till AEM Assets. |
-| [Brand Portal funktionsvideor](https://experienceleague.adobe.com/?lang=en&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | Lär dig använda Experience Manager Assets Brand Portal med hjälp av videokurser. |
+| [Brand Portal funktionsvideor](https://experienceleague.adobe.com/sv?lang=en&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | Lär dig använda Experience Manager Assets Brand Portal med hjälp av videokurser. |
 
 ### Användbara resurser
 
-* [Förstå Brand Portal med AEM Assets](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/home)
+* [Förstå Brand Portal med AEM Assets](https://experienceleague.adobe.com/sv/docs/experience-manager-brand-portal/using/home)

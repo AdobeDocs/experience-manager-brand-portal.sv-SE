@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Lär dig publicera taggar från Experience Manager Assets till Brand Portal.
 
-Taggar är användbara när du vill ordna resurser och förbättra sökbarheten för resurser som de är kopplade till. Taggar kan ses som nyckelord eller etiketter (metadata) som bifogas med resurser, och gör att resurser snabbt kan hittas som ett resultat av en sökning. Om du vill veta hur du tilldelar taggar till resurser i Experience Manager Assets läser du [använd taggar för att ordna resurser](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/organize-assets).
+Taggar är användbara när du vill ordna resurser och förbättra sökbarheten för resurser som de är kopplade till. Taggar kan ses som nyckelord eller etiketter (metadata) som bifogas med resurser, och gör att resurser snabbt kan hittas som ett resultat av en sökning. Om du vill veta hur du tilldelar taggar till resurser i Experience Manager Assets läser du [använd taggar för att ordna resurser](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/assets/managing/organize-assets).
 
 Taggar (som är kopplade till resurser och samlingar i AEM) publiceras automatiskt till Brand Portal när resurser (och samlingar) med associerade taggar publiceras till Brand Portal. De publicerade taggarna är användbara när du vill göra det möjligt att söka efter associerade resurser.
 
@@ -47,7 +47,7 @@ Logga in på en AEM Author-instans med administratörsbehörighet och gå till *
      *(obligatoriskt)* En visningsrubrik för taggen.
    * **[!UICONTROL Name]**
 
-     *(obligatoriskt)* Ett namn för taggen. Om inget anges skapas ett giltigt nodnamn från titeln. Se [TaggID](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework).
+     *(obligatoriskt)* Ett namn för taggen. Om inget anges skapas ett giltigt nodnamn från titeln. Se [TaggID](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework).
    * **Beskrivning**
 
      *(valfritt)* En beskrivning av taggen.
@@ -64,7 +64,7 @@ JCR-sökväg för taggen.
 
 1. **Koppla taggen till en resurs (eller samling)**.
 
-   Markera en resurs (eller samling) och bifoga den önskade taggen med egenskapssektionen eller avsnittet Hantera taggar för den resursen. Om du vill veta mer om hur du tilldelar taggar till resurser i AEM Assets går du till [använd taggar för att ordna resurser](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/organize-assets).
+   Markera en resurs (eller samling) och bifoga den önskade taggen med egenskapssektionen eller avsnittet Hantera taggar för den resursen. Om du vill veta mer om hur du tilldelar taggar till resurser i AEM Assets går du till [använd taggar för att ordna resurser](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/assets/managing/organize-assets).
 
 1. **Publish-resurser (eller samlingar) till Brand Portal**.\
    När du publicerar en resurs (eller samling) till Brand Portal är den bifogade taggen även tillgänglig i Brand Portal.

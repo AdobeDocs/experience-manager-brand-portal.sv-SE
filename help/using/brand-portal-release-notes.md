@@ -386,12 +386,12 @@ Brand Portal användargränssnitt finns på följande språk:
 
 ## Certifierade plattformar {#certified-platforms}
 
-Om du vill se vilka plattformar som är certifierade för den här Brand Portal-versionen ska du kontrollera kolumnen **Stöd för pekoptimerat användargränssnitt** i avsnittet **Webbläsare som stöds för redigeringsanvändargränssnittet** i [Tekniska krav](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/introduction/technical-requirements) .
+Om du vill se vilka plattformar som är certifierade för den här Brand Portal-versionen ska du kontrollera kolumnen **Stöd för pekoptimerat användargränssnitt** i avsnittet **Webbläsare som stöds för redigeringsanvändargränssnittet** i [Tekniska krav](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/implementing/deploying/introduction/technical-requirements) .
 
 ## Länkar {#links}
 
 * [Adobe Experience Manager produktsida på adobe.com](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
-* [Assets Brand Portal-dokumentation](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/home)
+* [Assets Brand Portal-dokumentation](https://experienceleague.adobe.com/sv/docs/experience-manager-brand-portal/using/home)
 
 ## Produktåtkomst och support (begränsade platser) {#product-access-and-support-restricted-sites}
 

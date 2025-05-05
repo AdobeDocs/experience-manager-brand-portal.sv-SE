@@ -81,7 +81,7 @@ Så här avpublicerar du ett metadataschema från Brand Portal:
 
 ## Publish sökfack till Brand Portal {#publish-search-facets-to-brand-portal}
 
-Sökformulär kan användas för [fasetterad sökning](../using/brand-portal-search-facets.md) för användare på Brand Portal. Sökfacets ger större granularitet åt sökningar i Brand Portal. Alla [predikat som läggs till](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/search-facets) i sökformuläret är tillgängliga för användare som sökfaktorer i sökfilter.
+Sökformulär kan användas för [fasetterad sökning](../using/brand-portal-search-facets.md) för användare på Brand Portal. Sökfacets ger större granularitet åt sökningar i Brand Portal. Alla [predikat som läggs till](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/assets/administer/search-facets) i sökformuläret är tillgängliga för användare som sökfaktorer i sökfilter.
 
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)
