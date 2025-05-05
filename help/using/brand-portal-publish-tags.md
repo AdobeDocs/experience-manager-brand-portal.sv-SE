@@ -43,10 +43,13 @@ Logga in på en AEM Author-instans med administratörsbehörighet och gå till *
 1. Ange:
 
    * **[!UICONTROL Title]**
+
      *(obligatoriskt)* En visningsrubrik för taggen.
    * **[!UICONTROL Name]**
+
      *(obligatoriskt)* Ett namn för taggen. Om inget anges skapas ett giltigt nodnamn från titeln. Se [TaggID](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework).
    * **Beskrivning**
+
      *(valfritt)* En beskrivning av taggen.
    * **Taggsökväg**
 JCR-sökväg för taggen.
