@@ -35,9 +35,9 @@ Om du konfigurerar Adobe Experience Manager Assets med Brand Portal kan Brand Po
 
 >[!IMPORTANT]
 >
-> * Brand Portal är i underhållsläge. Alla nya produktinnovationer är tillgängliga på [Content Hub](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview).
+> * Brand Portal är i underhållsläge. Alla nya produktinnovationer är tillgängliga på [Content Hub](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview).
 > * Om du fortfarande behöver aktivera Brand Portal kontaktar du Adobe representant med information om ditt användningsfall och andra specifika krav.
-> * Brand Portal är inte tillgängligt med [Assets Prime](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-prime) eller [Assets Ultimate](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). Befintliga Assets as a Cloud Service-kunder som redan har tillgång till Brand Portal kan dock fortsätta att använda programmet när de går över till Assets Ultimate.
+> * Brand Portal är inte tillgängligt med [Assets Prime](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/assets-prime) eller [Assets Ultimate](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). Befintliga Assets as a Cloud Service-kunder som redan har tillgång till Brand Portal kan dock fortsätta att använda programmet när de går över till Assets Ultimate.
 
 <!--Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.-->
 
@@ -133,8 +133,8 @@ En administratör kan utföra alla åtgärder som en redigerare kan utföra. Ned
 Förutom ovanstående uppgifter kan en författare i AEM Assets utföra följande uppgifter:
 
 * [Konfigurera AEM Assets med Brand Portal](../using/configure-aem-assets-with-brand-portal.md)
-* [Publicera mappar på varumärkesportalen](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
-* [Publicera samlingar på varumärkesportalen](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
+* [Publicera mappar på varumärkesportalen](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
+* [Publicera samlingar på varumärkesportalen](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
 
 ## Alternativt alias för Brand Portal-URL {#tenant-alias-for-portal-url}
 
