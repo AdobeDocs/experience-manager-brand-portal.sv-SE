@@ -45,7 +45,7 @@ Den här användarhandboken ger information om Brand Portal-erbjudanden och vikt
 | [Filformat som stöds](brand-portal-supported-formats.md) | Filformat som stöds i Brand Portal för förhandsgranskning och nedladdning. |
 | [Publish Assets till Brand Portal](brand-portal-sharing-folders.md) | Publicera mappar, samlingar, länkar, förinställningar, schema, ansikten och taggar i Brand Portal. |
 | [Resurshantering i Brand Portal](brand-portal-asset-sourcing.md) | Så här konfigurerar du Resurser i AEM Assets, överför resurser i Brand Portal och publicerar bidragsmappen tillbaka till AEM Assets. |
-| [Brand Portal funktionsvideor](https://experienceleague.adobe.com/sv?lang=en&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | Lär dig använda Experience Manager Assets Brand Portal med hjälp av videokurser. |
+| [Brand Portal funktionsvideor](https://experienceleague.adobe.com/sv?lang=en&tag=Brand+Portal#recommended/solutions/experience-manager) | Lär dig använda Experience Manager Assets Brand Portal med hjälp av videokurser. |
 
 ### Användbara resurser
 

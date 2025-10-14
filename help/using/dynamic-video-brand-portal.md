@@ -75,7 +75,7 @@ Om du vill arbeta med dynamiska videoklipp på Brand Portal måste du se till at
 
 * **Tillåtslista IP-adresser i SPS om säker förhandsvisning är aktiverat**
 
-  Om du använder Dynamic Media-**[!DNL Scene7]** (med [säker förhandsgranskning aktiverad](https://experienceleague.adobe.com/sv/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public) för ett företag) rekommenderar vi att **[!DNL Scene7]** företagsadministratör [tillåtslista IP-adresserna för den offentliga utgången ](https://experienceleague.adobe.com/sv/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service) för respektive region med hjälp av SPS-gränssnittet (**[!UICONTROL Scene7]** Publishing System).
+  Om du använder Dynamic Media-**[!DNL Scene7]** (med [säker förhandsgranskning aktiverad](https://experienceleague.adobe.com/sv/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public) för ett företag) rekommenderar vi att **[!DNL Scene7]** företagsadministratör [tillåtslista IP-adresserna för den offentliga utgången &#x200B;](https://experienceleague.adobe.com/sv/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service) för respektive region med hjälp av SPS-gränssnittet (**[!UICONTROL Scene7]** Publishing System).
 
   IP-adresserna för Egress är följande:
 

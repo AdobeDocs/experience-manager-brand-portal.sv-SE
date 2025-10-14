@@ -33,7 +33,7 @@ Om du vill hämta filerna snabbare bör du göra följande:
 
 * Navigera till **[!UICONTROL Tools]** > **[!UICONTROL Download]** och verifiera att konfigurationen **[!UICONTROL Fast Download]** är aktiverad i **[!UICONTROL Download Settings]**.
 * Kontrollera att port 33001 (både TCP och UDP) är öppen i brandväggen.
-* **Installera IBM® Aspera Connect 3.9.9** i webbläsartillägget med administratörsbehörighet ([IBM® Aspera Connect Downloads](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all)).
+* **Installera IBM® Aspera Connect 3.9.9** i webbläsartillägget med administratörsbehörighet ([IBM® Aspera Connect Downloads](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all)).
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ Så här hämtar du resurser snabbare från Brand Portal:
 
 1. Som standard är inställningen **[!UICONTROL Fast Download]** aktiverad i **[!UICONTROL Download Settings]**. Därför visas en bekräftelseruta där du kan hämta resurser med IBM® Aspera Connect.
 
-   Om du hämtade resurser för första gången och inte har IBM® Aspera Connect installerat i webbläsaren uppmanas du att installera det. Om den befintliga versionen är inaktuell uppmanas du även att installera [Aspera Download Accelerator](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all).
+   Om du hämtade resurser för första gången och inte har IBM® Aspera Connect installerat i webbläsaren uppmanas du att installera det. Om den befintliga versionen är inaktuell uppmanas du även att installera [Aspera Download Accelerator](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all).
 
    ![](assets/aspera-not-launched.png)
 
