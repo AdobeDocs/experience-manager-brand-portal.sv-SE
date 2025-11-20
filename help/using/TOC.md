@@ -26,34 +26,34 @@ ht-degree: 23%
    + [Vanliga frågor](/help/using/brand-portal-faqs.md)
    + [Filformat som stöds](/help/using/brand-portal-supported-formats.md)
    + [Gäståtkomst till Brand Portal](/help/using/guest-access.md)
-   + [Förstå Brand Portal med Experience Manager Assets](https://experienceleague.adobe.com/sv/docs/experience-manager-brand-portal/using/home)
+   + [Förstå Brand Portal med Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/home)
    + [Bläddra bland resurser på Brand Portal](/help/using/browse-assets-brand-portal.md)
-+ Publish från Experience Manager Assets till Brand Portal {#publish}
++ Publicera från Experience Manager Assets till Brand Portal {#publish}
    + [Konfigurera Experience Manager Assets med Brand Portal](/help/using/configure-aem-assets-with-brand-portal.md)
-   + [Publicera resurser på varumärkesportalen](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-assets)
-   + [Publicera mappar på varumärkesportalen](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
-   + [Publicera samlingar på varumärkesportalen](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
+   + [Publicera resurser på varumärkesportalen](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-assets)
+   + [Publicera mappar på varumärkesportalen](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
+   + [Publicera samlingar på varumärkesportalen](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
    + [Felsöka problem vid parallell publicering till Brand Portal](/help/using/troubleshoot-parallel-publishing.md)
-   + [Publish-taggar till Brand Portal](/help/using/brand-portal-publish-tags.md)
-   + [Publish-förinställningar, schema och ansikten för Brand Portal](/help/using/publish-schema-search-facets-presets.md)
+   + [Publicera taggar i Brand Portal](/help/using/brand-portal-publish-tags.md)
+   + [Publicera förinställningar, scheman och ansikten till Brand Portal](/help/using/publish-schema-search-facets-presets.md)
 + Resurshantering i Brand Portal {#asset-sourcing-in-brand-portal}
    + [Översikt över resurskälla](/help/using/brand-portal-asset-sourcing.md)
    + [Konfigurera bidragsmappen i Experience Manager Assets](/help/using/brand-portal-publish-contribution-folder-to-brand-portal.md)
-   + [Publish-mapp för bidrag till Experience Manager Assets](/help/using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+   + [Publicera bidragsmapp till Experience Manager Assets](/help/using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Dela resurser med användare {#share}
    + [Dela en samling](/help/using/brand-portal-share-collection.md)
    + [Dela mappar](/help/using/brand-portal-sharing-folders.md)
    + [Dela resurser som en länk](/help/using/brand-portal-link-share.md)
-+ Använd sökfunktionerna {#search-capabilities}
++ Använd sökfunktioner {#search-capabilities}
    + [Söka efter resurser i Brand Portal](/help/using/brand-portal-searching.md)
    + [Använda anpassade sökfaktorer](/help/using/brand-portal-search-facets.md)
-+ Använd hämtningsfunktioner {#download}
++ Använd nedladdningsfunktioner {#download}
    + [Hämta resurser](/help/using/brand-portal-download-assets.md)
    + [Dynamiskt videostöd i Brand Portal](/help/using/dynamic-video-brand-portal.md)
    + [Hantera ljuslådesamlingen](/help/using/brand-portal-light-box.md)
    + [Hantera digitala rättigheter för resurser](/help/using/manage-digital-rights-of-assets.md)
    + [Guide to Accelerate Downloads from Brand Portal](/help/using/accelerated-download.md)
-+ Använd administrationsverktyg {#admin-tools}
++ Använda administrationsverktyg {#admin-tools}
    + [Administrera användaråtkomst på Brand Portal](/help/using/access-configurations-brand-portal.md)
    + [Administrera allmänna klientkonfigurationer](/help/using/brand-portal-general-configuration.md)
    + [Första gången du loggar in](/help/using/brand-portal-onboarding.md)
