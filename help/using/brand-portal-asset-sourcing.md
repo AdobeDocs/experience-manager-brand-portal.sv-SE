@@ -12,7 +12,7 @@ audience: author, marketer
 version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: 9b8a415fa3a19e462ea797cfc9c3ea9b9323723e
+source-git-commit: 2865a95e52679e853c6b125e8b1de1c23e84d30d
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Dessutom ändras inte alla befintliga funktioner. Brand Portal-användare kan vi
 >
 >Det finns ett känt fel i Experience Manager Assets 6.5.4. Brand Portal-användare kan inte publicera resurser i mappen för bidrag till Experience Manager Assets när de uppgraderar till Adobe Developer Console.
 >
->Problemet har åtgärdats i Experience Manager Assets 6.5.5. Du kan uppgradera din Experience Manager Assets-instans till den senaste Service Pack-versionen och [uppgradera dina konfigurationer](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) på Adobe Developer Console.
+>Problemet har åtgärdats i Experience Manager Assets 6.5.5. Du kan uppgradera din Experience Manager Assets-instans till den senaste Service Pack-versionen och [uppgradera dina konfigurationer](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) på Adobe Developer Console.
 
 <!--
 
