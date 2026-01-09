@@ -6,9 +6,9 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: 9e51048d21c5b4a34696e668309657d2091a8b04
+source-git-commit: 8cde9e84262e25ff22d5b2d06e3c5df9cc2ae557
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Experience Manager Assets-användare utför följande åtgärder när de konfigu
 * [Skapa en avgiftsmapp](#create-contribution-folder)
 * [Överför tillgångskrav och tilldela medverkande](#configure-contribution-folder-properties)
 * [Överför baslinjeresurser](#uplad-new-assets-to-contribution-folder)
-* [Publish avgiftsmapp från Experience Manager Assets till Brand Portal](#publish-contribution-folder-to-brand-portal)
+* [Publicera en mapp för bidrag från Experience Manager Assets till Brand Portal](#publish-contribution-folder-to-brand-portal)
 
 ## Skapa avgiftsmapp {#create-contribution-folder}
 
@@ -59,7 +59,8 @@ Adobe rekommenderar att du använder gemener utan mellanslag för att ge mappen 
 
    >[!NOTE]
    >
-   >En icke-admin-användare kan skapa och dela en resursavgiftsmapp, men kan inte ändra eller ta bort den.
+   > * En källmapp kan inte vara tom och måste innehålla minst en resurs, eftersom tomma mappar inte kan publiceras från Brand Portal till AEM.
+   > * En icke-admin-användare kan skapa och dela en resursavgiftsmapp, men kan inte ändra eller ta bort den.
 
 
    ![](assets/create-contribution-folder.png)
@@ -136,7 +137,7 @@ Experience Manager Assets-användare överför en uppsättning baslinjeresurser 
 När du har överfört alla resurser eller mappar till mappen NEW publicerar du mappen för bidrag till Experience Manager Assets.
 
 
-## Publish-mapp för bidrag till Brand Portal {#publish-contribution-folder-to-brand-portal}
+## Publicera bidragsmapp till Brand Portal {#publish-contribution-folder-to-brand-portal}
 
 När bidragsmappen har konfigurerats kan Experience Manager Assets-användare (administratör/icke-admin-användare) publicera bidragsmappen från Experience Manager Assets till Brand Portal. Brand Portal-användare som har behörighet att komma åt bidragsmappen, får ett e-postmeddelande eller ett pulsmeddelande när publiceringsåtgärden har slutförts.
 
