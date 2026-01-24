@@ -241,4 +241,4 @@ Du kan stänga meddelandet och fortsätta använda Brand Portal. Det här meddel
 * [Adobe Customer Support]()
 -->
 
-* [AEM-forum](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
+* [AEM-forum](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=sv)
