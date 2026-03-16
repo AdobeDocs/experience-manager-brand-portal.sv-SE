@@ -6,9 +6,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: e01be07e7e791c6d406744148a77fd44d2479734
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1506'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Om du vill redigera egenskaperna för en metadatakomponent i formuläret klickar
 
 * **[!UICONTROL Field Label]**: Namnet på metadataegenskapen som visas på objektets egenskapssida.
 
-* **[!UICONTROL Map to Property]**: Värdet för den här egenskapen anger den relativa sökvägen/namnet till objektnoden där den sparas i CRX-databasen. Det börjar med **./**&quot; eftersom den anger att sökvägen finns under objektets nod.
+* **[!UICONTROL Map to Property]**: Värdet för den här egenskapen anger den relativa sökvägen/namnet till objektnoden där den sparas i CRX-databasen. Den börjar med **./** eftersom den anger att sökvägen finns under resursens nod.
 
 Följande är giltiga värden för den här egenskapen:
 
@@ -182,7 +182,7 @@ Om du vill ta bort ett formulär markerar du det och klickar på ikonen **[!UICO
 
 ### Lägga till nya formulär för MIME-typer {#adding-new-forms-for-mime-types}
 
-Förutom standardformulären kan du lägga till anpassade formulär för resurser av olika MIME-typer eller skapa ett nytt formulär under en lämplig formulärtyp. Om du till exempel vill lägga till en ny mall för undertypen **[!UICONTROL image/png]** skapar du formuläret under bildformulären. Schemaformulärets titel är undertypsnamnet. I det här fallet är rubriken&quot;png&quot;.
+Förutom standardformulären kan du lägga till anpassade formulär för resurser av olika MIME-typer eller skapa ett nytt formulär under en lämplig formulärtyp. Om du till exempel vill lägga till en ny mall för undertypen **[!UICONTROL image/png]** skapar du formuläret under bildformulären. Schemaformulärets rubrik är undertypsnamnet. I det här fallet är rubriken&quot;png&quot;.
 
 #### Använda en befintlig schemamall för olika MIME-typer {#using-an-existing-schema-template-for-various-mime-types}
 

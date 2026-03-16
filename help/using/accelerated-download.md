@@ -6,9 +6,9 @@ topic-tags: download-install, download assets
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: f931f6576c05d82cea61bda00322425abc9e8d43
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '1034'
 ht-degree: 2%
 
 ---
@@ -62,7 +62,7 @@ I följande tabell visas hämtningsprestanda för en fil som är 2 GB med filhä
 | Västra USA (Oregon) | 42 | 36 | 57 |
 | USA (N. Virginia) | 85 | 35 | 58 |
 | APAC (Tokyo) | 124 | 36 | 57 |
-| Noida (Indien) | 275 | 13,36 | 153 |
+| Noida (Indien) | 275 | 13.36 | 153 |
 | Sydney | 175 | 29 | 70 |
 | London | 179 | 35 | 58 |
 | Singapore | 196 | 34 | 60 |
@@ -213,7 +213,9 @@ Om det inte går att hämta acceleration kan du prova med följande förslag:
 
    Om bandbredden är några få (1-10 Mbit/s) eller i kbit/s använder du inställningarna för Aspera och försöker begränsa bandbredden till den tillgängliga bandbredden.
 
-   <!-- The URL in this step is giving a 404 error. 1. To confirm whether the downloads from Aspera demo server are working, use [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user).  
-   (login:  asperaweb , password:  demoaspera ) -->
+   <!-- 
+   The URL in this step is giving a 404 error. 1. To confirm whether the downloads from Aspera demo server are working, use [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user).  
+   (login:  asperaweb , password:  demoaspera ) 
+   -->
 
 1. Om ingen av ovanstående felsökningssteg fungerar avmarkerar du alternativet Aktivera acceleration för hämtning och använder den normala nedladdningen.

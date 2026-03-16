@@ -7,9 +7,9 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,8 @@ Adobe Experience Manager Assets Brand Portal-administratörer kan dela länkar m
 
 Att dela resurser via en länk är ett bekvämt sätt att göra dem tillgängliga för externa parter eftersom mottagarna inte behöver logga in på Brand Portal för att få tillgång till resurserna.
 
-<!-- Link sharing access is restricted to editors and administrators. 
+<!-- 
+Link sharing access is restricted to editors and administrators. 
 -->
 
 Mer information finns i [Hantera användare, grupper och användarroller](../using/brand-portal-adding-users.md#manage-user-roles).
@@ -65,7 +66,7 @@ Så här delar du resurser som en länk:
 
 ## Hämta resurser från delade länkar {#download-assets-from-shared-links}
 
-Klicka på länken i e-postmeddelandet för att komma åt den delade resursen. Sidan AEM länkdelning öppnas.
+Klicka på länken i e-postmeddelandet för att komma åt den delade resursen. Sidan AEM Link Share (Dela) öppnas.
 
 Så här hämtar du de delade resurserna:
 
@@ -193,7 +194,7 @@ I följande förklaring förklaras symbolerna som används i matrisen:
 | ✓ | Det här filformatet stöder den här funktionen |
 | ✕ | Det här filformatet stöder inte den här funktionen |
 | NA | Den här funktionen gäller inte för det här filformatet |
-| &#42; | Den här funktionen kräver tilläggsstöd för det här filformatet AEM författarinstansen men inte på Brand Portal efter att resurserna har publicerats i Brand Portal |
+| &#42; | Den här funktionen kräver tilläggsstöd för det här filformatet på AEM författarinstans men inte på Brand Portal efter att resurser har publicerats till Brand Portal |
 
 ## Dela inte resurser som delas som en länk {#unshare-assets-shared-as-a-link}
 

@@ -6,9 +6,9 @@ contentOwner: Vishabh Gupta
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download, download-install, download assets
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: f483ac280a5e89ca25305eae09380d70ad661752
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '1823'
+source-wordcount: '1871'
 ht-degree: 0%
 
 ---
@@ -156,7 +156,7 @@ Så här hämtar du resurser eller mappar som innehåller resurser från Brand P
      >
      >Om de hämtade resurserna även innehåller licensierade resurser omdirigeras du till sidan **[!UICONTROL Copyright Management]**. På den här sidan markerar du resurserna, klickar på **[!UICONTROL Agree]** och sedan på **[!UICONTROL Download]**. Om du inte håller med hämtas inte licensierade mediefiler.
      > 
-     >Licensskyddade resurser har ett [licensavtal kopplat](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/assets/administer/drm) till sig, vilket görs genom att resursens [metadataegenskap &#x200B;](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/assets/administer/drm) ställs in i Experience Manager Assets.
+     >Licensskyddade resurser har ett [licensavtal kopplat](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) till sig, vilket görs genom att resursens [metadataegenskap ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) ställs in i Experience Manager Assets.
 
 
      ![licensed-asset](assets/licensed-asset-new.png)
@@ -185,7 +185,8 @@ Så här hämtar du resurser eller mappar som innehåller resurser från Brand P
 
    Om du inte vill använda IBM® Aspera Connect klickar du på **[!UICONTROL Deny]**. Om **[!UICONTROL Fast Download]** nekas eller misslyckas fyller systemet i ett felmeddelande. Klicka på knappen **[!UICONTROL Normal Download]** om du vill fortsätta hämta resurserna.
 
-<!-- removed the known issue from step 2 as it is fixed in 2022.02.0 release.
+<!-- 
+   removed the known issue from step 2 as it is fixed in 2022.02.0 release.
    >[!CAUTION]
    >
    >(**Experience Manager Assets as a Cloud Service** only) The following known issue will be fixed in the upcoming release:
@@ -207,9 +208,9 @@ Så här hämtar du resurser eller mappar som innehåller resurser från Brand P
 
 >[!NOTE]
 >
->Brand Portal stöder konfigurering av Dynamic Media i både läget Hybrid och Scene7.
+>Brand Portal stöder konfiguration av dynamiska media i både hybridläge och Scene7-läge.
 >
->(*Om Experience Manager Assets-författarinstansen körs i **Dynamic Media-hybridläge***)
+>(*Om Experience Manager Assets-författarinstansen körs i **Dynamiskt hybrid-läge för media***)
 >
 >Aktivera dynamiska medier om du vill förhandsgranska eller hämta dynamiska återgivningar. Kontrollera att resursens Pyramid-återgivning finns i den Experience Manager Assets-författarinstans där resurserna publicerades. När en resurs publiceras från Experience Manager Assets till Brand Portal publiceras även dess Pyramid-återgivning.
 
@@ -217,7 +218,8 @@ Om [administratören inte har gett dig behörighet att komma åt de ursprungliga
 
 ![no-access-message](assets/no-access-message.png)
 
-<!-- This issue has been resolved, check with engineering.
+<!-- 
+This issue has been resolved, check with engineering.
 >[!NOTE]
 >
 >Once you have downloaded the asset renditions, the **[!UICONTROL Download]** button is disabled to avoid creating duplicate copies of the renditions. To download more (missing or another copy of renditions), refresh the browser to re-enable the download button.
@@ -250,7 +252,8 @@ Så här hämtar du resursåtergivningar från sidan med resursinformation:
 
    Om du nekar med hjälp av **[!UICONTROL Fast Download]** fyller systemet i ett felmeddelande. Klicka på knappen **[!UICONTROL Normal Download]** om du vill fortsätta hämta resurserna.
 
-<!-- removed the known issue from step 3 as it is fixed in 2022.02.0 release.
+<!-- 
+removed the known issue from step 3 as it is fixed in 2022.02.0 release.
    >[!CAUTION]
    >
    >(**Experience Manager Assets as a Cloud Service** only) The following known issues will be fixed in the upcoming release:
@@ -275,7 +278,8 @@ Så här hämtar du resursåtergivningar från sidan med resursinformation:
 >Assets that are individually downloaded are visible in the assets download report. However, if a folder containing assets is downloaded, the folder and assets are not displayed in the assets download report.
 -->
 
-<!-- Backup of content before updating the new feature docs.
+<!-- 
+Backup of content before updating the new feature docs.
 ## Configure asset download {#configure-download}
 
 The download configuration allows the Brand Portal administrators to define the set of renditions available to the Brand Portal users for downloading the assets. The administrator can configure the asset **[!UICONTROL Download]** settings from the Brand Portal interface. 

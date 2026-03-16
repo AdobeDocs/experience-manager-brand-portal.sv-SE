@@ -5,10 +5,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: 4d9d7afa2cd45ea68c2e15338c92aa29ecf09f91
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 0%
+source-wordcount: '1025'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Experience Manager Assets Brand Portal har olika funktioner och element i användargränssnittet som gör det enkelt att bläddra bland resurser, navigera i resurshierarkier och söka efter resurser med olika visningsalternativ.
 
-Experience Manager logotypen i verktygsfältet längst upp gör det lättare för administratörsanvändare att komma åt panelen Administrationsverktyg.
+Experience Manager logotyp överst i verktygsfältet gör det lättare för administratörsanvändare att komma åt panelen Administrationsverktyg.
 
 ![](assets/aemlogo.png)
 
@@ -56,7 +56,7 @@ I kortvyn visas informationskort för varje objekt på den aktuella nivån. Dess
 * Storlek
 * Dimensioner
 
-Du kan navigera nedåt i hierarkin genom att klicka på kort (var noga med att inte utföra snabbåtgärderna) eller uppåt igen genom att använda [vägbeskrivningarna i sidhuvudet](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
+Du kan navigera nedåt i hierarkin genom att klicka på kort (var noga med att inte utföra snabbåtgärderna) eller uppåt igen genom att använda [vägbeskrivningarna i sidhuvudet](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
 
 ![](assets/cardquickactions.png)
 
@@ -106,7 +106,7 @@ I listvyn visas information för varje resurs på den aktuella nivån. I listvyn
 * Mappsökväg som visar resurshierarki
 * Datum för publicering av resursen på Brand Portal
 
-Med sökvägskolumnen är det enkelt att identifiera resursplats i mapphierarkin. Du kan navigera nedåt i hierarkin genom att klicka på resursnamnet och säkerhetskopiera genom att använda [vägbeskrivningar i rubriken](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
+Med sökvägskolumnen är det enkelt att identifiera resursplats i mapphierarkin. Du kan navigera nedåt i hierarkin genom att klicka på resursnamnet och säkerhetskopiera genom att använda [vägbeskrivningar i rubriken](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click the checkbox. When only some items are selected, it appears with a minus sign. To select all, click the checkbox. To deselect all, click the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."
@@ -253,7 +253,8 @@ Du kan visa alla tillgängliga återgivningar av resursen på sidan med resursin
 
 ![](assets/renditions.png)
 
-<!-- removed as it is fixed in 2022.02.0 release
+<!-- 
+removed as it is fixed in 2022.02.0 release
 >[!CAUTION]
 >
 >(**Experience Manager Assets as a Cloud Service** only) The following known issues will be fixed in the upcoming release:
@@ -267,4 +268,4 @@ Om du vill öppna sidan med resursegenskaper använder du alternativet **[!UICON
 
 ![](assets/asset-properties.png)
 
-Du kan också visa en lista över alla dess relaterade resurser (källresurser eller härledda resurser på AEM) på egenskapssidan för en resurs, eftersom resursrelationen också publiceras från AEM till Brand Portal.
+Du kan också visa en lista över alla relaterade resurser (källresurser eller härledda resurser på AEM) på en tillgångs egenskapssida, eftersom resursrelationen också publiceras från AEM till Brand Portal.

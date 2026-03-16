@@ -7,10 +7,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 261c0e84-6b3d-459c-b6b9-a9af106d6943
-source-git-commit: f4add370fd3242f5506e5cc4d921362e2b14141a
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 1%
+source-wordcount: '413'
+ht-degree: 0%
 
 ---
 
@@ -48,5 +48,5 @@ Hur du konfigurerar AEM Assets med Brand Portal varierar beroende på vilken ver
 
 | **AEM-version** | **Ny konfiguration** | **Uppgraderingskonfiguration** |
 |---|---|---|
-| **AEM Assets as a Cloud Service** | [Aktivera Brand Portal](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal) | - |
-| **AEM 6.5 (6.5.4.0 och senare)** | [Skapa konfiguration](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) | [Uppgraderingskonfiguration](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) |
+| **AEM Assets as a Cloud Service** | [Aktivera Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal) | - |
+| **AEM 6.5 (6.5.4.0 och senare)** | [Skapa konfiguration](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) | [Uppgraderingskonfiguration](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) |
