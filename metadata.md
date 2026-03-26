@@ -1,12 +1,14 @@
 ---
 cloud: Experience Cloud
-git-repo: https://github.com/AdobeDocs/experience-manager-brand-portal.sv-SE
+git-repo: https://github.com/AdobeDocs/experience-manager-brand-portal.en
 solution: Experience Manager, Experience Manager Assets
 feature-set: Experience Manager Assets
+landing-page-name: experience-manager
+landing-page-breadcrumb-title: AEM
 type: Documentation
 index: true
 recommendations: noDisplay
-source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
+source-git-commit: 30985e5880bae72339b3e4730655b9d6880abc47
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%

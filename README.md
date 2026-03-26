@@ -1,16 +1,10 @@
 ---
-source-git-commit: 1a3e51922fb658d9d05113b4b1f4d05a0b6555c0
+source-git-commit: 30985e5880bae72339b3e4730655b9d6880abc47
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '6'
 ht-degree: 0%
 
 ---
-# Adobe Experience Manager Brand Portal Documentation
+# ARKIVERAD
 
-Databasen för Adobe Experience Manager Brand Portal-dokumentation.
-
-Dina bidrag till dokumentationen är välkomna. Se följande resurser:
-
-* [contribute.md](contributing.md) En översikt över hur du kan bidra till dokumentationen.
-* [guidelines.md](guidelines.md) En översikt över vad som förväntas i bidragen och hur du komponerar dokumentationsbidragen.
-* [code-of-behavior.md](code-of-conduct.md) En översikt över beteendestandarder som Adobe förväntar sig när du bidrar till det här dokumentationsprojektet.
+Den här rapporten har migrerats till <https://github.com/Adobe-Enterprise-Docs/experience-manager-brand-portal.en>
